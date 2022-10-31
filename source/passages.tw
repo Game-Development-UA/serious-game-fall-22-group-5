@@ -1,0 +1,5 @@
+:: Start
+This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
+
+:: Passage 2
+And here we are!

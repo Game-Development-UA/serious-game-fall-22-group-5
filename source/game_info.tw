@@ -1,0 +1,13 @@
+:: StoryData
+{
+"ifid": "1F012455-6A83-4CCB-BCB1-49B9D77D4E03",
+"format": "SugarCube",
+"format-version": "2.30.0",
+"start": "Start"
+}
+
+:: StoryTitle
+My Twine Game
+
+:: StoryInit
+<<set $myVariable to 1>>

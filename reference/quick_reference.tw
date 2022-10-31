@@ -1,0 +1,81 @@
+:: PassageHeader
+This is text that will always appear at the top of every page
+
+
+:: PassageFooter
+This is text that will always appear at the bottom of every page.
+
+
+:: StoryMenu
+Any links that appear in this passage will be added to the sidebar
+<<link [[Go back to Start|Start]]>><</link>>
+
+
+:: TaggedPassage [forest]
+This passage has a tag called "forest" that can be used by the stylesheet to override its normal styling.
+
+
+:: Line breaks
+<<nobr>>
+Sometimes you want
+two or more lines to run
+together
+<</nobr>>
+
+For quick one-off joins, you can use a backslash \
+to escape the end of line.
+
+
+:: Conditionals
+This passage shows the use of boolean logic:
+The bouncer holds out an impatient hand.
+<<if $coins > 20>> Looks like he'd accept a bribe.
+<<else>> His hand is bigger than you'd like.
+<</if>>
+
+
+:: Arrays
+This passage shows the use of a collection of flat data:
+<<set $inventory to ["a sword", "a shield", "a duck", "a loaf of bread"]>>
+
+If I want to add an item to it:
+<<run $inventory.push( "spicy salami" )>>
+
+If I want to check its length and display the first item from it:
+<<if $inventory.length > 0>>The first item in my inventory is $inventory[0]<</if>>
+
+
+:: Get a passage's tags as an array
+<<nobr>
+<<if tags().includes("outside")>>
+<<if $raining is true>>
+Rain spatters the dirt.
+<</if>>
+<</nobr>>
+
+:: Loops usage example
+If you want to cycle through a collection of things:
+<<for _index to 0; _index < $inventory.length; _index++>>
+You have $inventory[_index], \
+<</for>>
+
+
+:: Data maps usage example
+This passage shows the use of a collection where information is stored about each element:
+
+<<set $inventory to { "coins": { quantity: 100, unit_value: 1 }, "shoes": { quantity: 2, unit_value: 20 } }>>
+I have $inventory["coins"].quantity coins in my inventory.
+
+
+:: Save a passage as a variable
+<<set $lastPassage to passage()>> \
+[[Keep going|Use a passage variable]]
+
+:: Use a passage variable
+Go [[back|$lastPassage]]?
+
+
+:: Embed media from a local file path
+<img src="media/trophy.png" width="256" height="256">
+<<cacheaudio "cheer" "media/cheer.mp3">> <!--Probably best to put this in StoryInit-->
+<<audio "cheer" play>>
