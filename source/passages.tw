@@ -1,8 +1,42 @@
 :: Start
+You are a fortune teller who moved to San Francisco and just set up a fortune telling shop.
 This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
 
 :: Passage 2
-And here we are!
+You finish setting up the shop and get your [[first customer.|First Tarot Reading]]
 
-:: Tarot Reading
-Include a system where it randomized the tarot cards drawn that could determine the outcome of the narrative.
+:: First Tarot Reading
+The first customer is looking for a [[soulmate.|Fortune for First Customer]]
+If a player picks the "correct" fortune, there is a chance that you can set up this customer with your friend.
+
+:: Fortune for First Customer
+You pull three tarot cards, Lovers, Judgment, idk, and tell them their fortune.
+[[Correct reading|Correct Reading 1]]
+[[Lie 1|First Lie 1]]
+[[Lie 2|First Lie 2]]
+
+:: Correct Reading 1
+The player choose the correct reading that will affect the story later on.
+Assign a variable that tracks this $LoversVariable = True
+[[Proceed with Story|Second Tarot Reading]]
+
+:: First Lie 1
+This options will trigger a different dialouge tree and not affect the story that much
+[[Proceed with Story|Second Tarot Reading]]
+
+:: First Lie 2
+This options will trigger a different dialouge tree and not affect the story that much
+[[Proceed with Story|Second Tarot Reading]]
+
+:: Second Tarot Reading
+The second customer has [[anger management issues.|Anecdote]]
+
+:: Anecdote
+You remeber seeing this customer at the park throwing rocks at wildlife there.
+[[Back to Reading|Second Part 2]]
+
+:: Second Part 2
+You proceed to read this person's fortune, you draw Judgment. 
+[[Correct reading|Correct Reading]]
+[[Lie 1|Second Lie 1]]
+[[Lie 2|Second Lie 2]]
