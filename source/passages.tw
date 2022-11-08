@@ -3,3 +3,6 @@ This is the first passage in your game with just one variable called myVariable 
 
 :: Passage 2
 And here we are!
+
+:: Tarot Reading
+Include a system where it randomized the tarot cards drawn that could determine the outcome of the narrative.
