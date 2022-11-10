@@ -1,6 +1,7 @@
 :: Start
 You are a fortune teller who moved to San Francisco and just set up a fortune telling shop.
 This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
+<<set $money to 0>>
 
 :: Passage 2
 You finish setting up the shop and get your [[first customer.|First Tarot Reading]]
@@ -10,18 +11,30 @@ The first customer is looking for a [[soulmate.|Fortune for First Customer]]
 If a player picks the "correct" fortune, there is a chance that you can set up this customer with your friend.
 
 :: Fortune for First Customer
-You pull three tarot cards, Lovers, Judgment, idk, and tell them their fortune.
+You pull three tarot cards, the Lovers, Judgment, Temperance, and tell them their fortune.
 [[Correct reading|Correct Reading 1]]
 [[Lie 1|First Lie 1]]
 [[Lie 2|First Lie 2]]
 
 :: Correct Reading 1
-The player choose the correct reading that will affect the story later on.
-Assign a variable that tracks this $LoversVariable = True
+"These are the Lovers, Judgment, and Temperance cards, respectively," you say.
+"I see happiness and romance in your future, all you need is patience.
+Wait a bit. Who knows how long? It might be tomorrow, it might be a year.
+Just know that soon, your soulmate will surely come to you."
+
+"Wow, you really think so?" she bounds. "Thank you!"
+
+She puts a dollar in your tip jar, and walks away, clearly content with your answer.
+<<set $loversVariable to true>> <<set $money to $money + 1>>
 [[Proceed with Story|Second Tarot Reading]]
 
 :: First Lie 1
-This options will trigger a different dialouge tree and not affect the story that much
+"Hmmm..." you say, "The Lovers, Temperance, and Judgment... that combination usually
+doesn't bode well romantically. It might signify a lack of love in the near future, maybe"
+
+"Oh... really?" the customer says. "That sucks."
+
+She walks away.
 [[Proceed with Story|Second Tarot Reading]]
 
 :: First Lie 2
@@ -36,7 +49,41 @@ You remeber seeing this customer at the park throwing rocks at wildlife there.
 [[Back to Reading|Second Part 2]]
 
 :: Second Part 2
-You proceed to read this person's fortune, you draw Judgment. 
-[[Correct reading|Correct Reading]]
+You proceed to read this person's fortune, you draw Judgment, Moon, World. 
+[[Correct reading|Correct Reading 2]]
 [[Lie 1|Second Lie 1]]
 [[Lie 2|Second Lie 2]]
+
+:: Correct Reading 2
+The player choose the correct reading that will affect the story later on.
+Assign a variable that tracks this $AngerVariable = True
+[[Proceed with Story|Friend Encounter]]
+
+:: Friend Encounter
+You then notice a familiar face you had not seen in years at the door. Hi
+"Hey" friend says.
+"What are you doing here?" you say
+"I heard you were starting a business, I thought it would be good to see you"
+[[...you hesitantly tell him to come inside|Friend Tarot Reading]]
+
+:: Friend Tarot Reading
+There is an uncomfortable [[akwardness|Friend Anecdote]] in the air.
+You can tell your friend also notices this.
+You begin the tarot reading and draw...
+You slowly relaize that these cards indicate that there is [[death|Uneasy Friend]] in your friend's future
+
+:: Friend Anecdote
+You rememeber how the last time you had talked to each other played out.
+It did not end well, you both said some nasty things to each other before you left.
+You remember how your friend did not take the news of your move well.
+[[Back to reading|Friend Tarot Reading]]
+
+
+:: Uneasy Friend
+"What's wrong?" your friend seems to have noticed your silence
+[[Lie 1|Second Lie 1]]
+[[Lie 2|Second Lie 2]]
+[[Avoid the question|Avoided Question]]
+[[Remain silent|Long Silence]]
+
+:: Avoided Question 
