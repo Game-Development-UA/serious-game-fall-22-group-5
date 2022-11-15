@@ -18,6 +18,10 @@ You pull three tarot cards, Lovers, Judgment, idk, and tell them their fortune.
 :: Correct Reading 1
 The player choose the correct reading that will affect the story later on.
 Assign a variable that tracks this $LoversVariable = True
+<<set $loversVariable to true>>
+<<if $loversVariable is true>>If-statement test
+<<else>>Failed conditional
+<</if>>
 [[Proceed with Story|Second Tarot Reading]]
 
 :: First Lie 1
@@ -40,3 +44,7 @@ You proceed to read this person's fortune, you draw Judgment.
 [[Correct reading|Correct Reading]]
 [[Lie 1|Second Lie 1]]
 [[Lie 2|Second Lie 2]]
+
+:: Second Lie 1
+This options will trigger a different dialouge tree and not affect the story that much
+[[Proceed with Story|Second Tarot Reading]]
