@@ -1,9 +1,17 @@
 :: Start
-You are a fortune teller who moved to San Francisco and just set up a fortune telling shop.
-This is the first passage in your game with just one variable called myVariable that has a value of $myVariable.  There are two passages in this template, and the other can be found [[here|Passage 2]]
+At a moments notice, you gain consciousness over your surroundings and you immediately realize 
+something unusally about your situation.
+The air feels thick and heavy. You legs feels numb and disfunctional. A state of panic is brewing.
+Suddenly, you hear a voice calling for your name. You turn toward the direction of the sound and noticed an odd site.
+A man that has a familiar look towards you with a saddened expression. 
+"I'm sorry Hans." the man says guiltily.
+Right after, images of grotesque scene start to rapidly visualize in your head.
+Feels of shock and pain overwhelms you. Not being able to take the pain anymore, you realized a loud shriek.
+A shriek so loud that your neighboors can hear. You open your eyes, realizing your sleeping on a chair in your
+new [[fortune telling shop|New Beginnings]].
 <<set $money to 0>>
 
-:: Passage 2
+:: New Beginnings
 You finish setting up the shop and get your [[first customer.|First Tarot Reading]]
 
 :: First Tarot Reading
@@ -13,8 +21,8 @@ If a player picks the "correct" fortune, there is a chance that you can set up t
 :: Fortune for First Customer
 You pull three tarot cards, the Lovers, Judgment, Temperance, and tell them their fortune.
 [[Correct reading|Correct Reading 1]]
-[[Lie 1|First Lie 1]]
-[[Lie 2|First Lie 2]]
+[[Lie slightly|First Lie 1]]
+[[Lie completely|First Lie 2]]
 
 :: Correct Reading 1
 "These are the Lovers, Judgment, and Temperance cards, respectively," you say.
@@ -30,7 +38,8 @@ She puts a dollar in your tip jar, and walks away, clearly content with your ans
 
 :: First Lie 1
 "Hmmm..." you say, "The Lovers, Temperance, and Judgment... that combination usually
-doesn't bode well romantically. It might signify a lack of love in the near future, maybe"
+doesn't bode well romantically. It might signify a lack of love in the near future, maybe.
+It's hard to tell."
 
 "Oh... really?" the customer says. "That sucks."
 
@@ -38,26 +47,86 @@ She walks away.
 [[Proceed with Story|Second Tarot Reading]]
 
 :: First Lie 2
-This options will trigger a different dialouge tree and not affect the story that much
+"Oh wow," you say, on a whim. "These cards being pulled specifically are rare. Love for
+you is very fleeting. Within the next few days you must confess your love to the
+person you love most, or you'll stay single for the rest of your life!"
+
+"Oh, what? That's uhhh...."
+
+She looks concerned at first, but then flashes a peppy smile.
+
+"Alright, tarot person I just met. That sounds completely insane, but I've never
+felt so much pent-up energy in my LIFE! I'm going for it right now!"
+
+She sprints out with romance-fueled energy you've never seen before. A part of
+you is glad she finally has the drive to ask that person out. Then you remember
+you lied to her about the fortune.
+
+Ah, to hell with it. It's not your problem anyway. <<set $passion to true>>
+
 [[Proceed with Story|Second Tarot Reading]]
 
 :: Second Tarot Reading
-The second customer has [[anger management issues.|Anecdote]]
+A few minutes go by, and already your second customer walks in.
+Already you can tell he has [[anger management issues.|Anecdote]]
 
 :: Anecdote
-You remeber seeing this customer at the park throwing rocks at wildlife there.
+You remeber seeing this customer at the park throwing rocks at various animals
+at the park. And then another instance shouting various obscenities at
+someone over the phone. 
+
+He didn't really strike you as someone with sociopathic tendencies, moreso
+just some random guy who got angry at way too many things.
+
 [[Back to Reading|Second Part 2]]
 
 :: Second Part 2
-You proceed to read this person's fortune, you draw Judgment, Moon, World. 
+"Yeah, skippy. I need my fortune read. I need to prove to my wife that this
+'hokey pokey witchcraft BULL.' Do you have a wife? Or like any spouse or
+anything? Oh my GOD. ALWAYS NAGGING about something. I spend ALL DAY working,
+PROVIDING, and she NEVER-"
+
+You tune him out. You really really don't want to hear this guy going
+"wife bad" the next 10 minutes.
+
+You proceed to read this person's fortune, you draw Judgement, Moon, World. 
 [[Correct reading|Correct Reading 2]]
-[[Lie 1|Second Lie 1]]
-[[Lie 2|Second Lie 2]]
+[[Half-ass it|Second Lie 1]]
+[[Be nice|Second Lie 2]]
 
 :: Correct Reading 2
-The player choose the correct reading that will affect the story later on.
-Assign a variable that tracks this $AngerVariable = True
+"Wow," you say. "Judgement, Moon, and World."
+
+He scoffs. You continue.
+
+"Big things are coming your way. BIIIIIG changes. It's not very clear
+what's going to happen. All I know is that very soon, you're going to find
+the one thing in your life that's gone wrong, and that's going to change.
+Expect big things. Your life is never going to be the same ever again."
+
+"Yeah right," he says back to you. "Oh what, you know all this because the STARS
+were aligned in the perfect way? Your voodoo magic bullcrap whisper in your 
+ear? I'm FINE just the way I am. It's everybody else that's the problem. It's
+the SYSTEM. It's my WIFE!"
+
+He storms off, clearly not content with his answer. 
+
 [[Proceed with Story|Friend Encounter]]
+
+:: Second Lie 1
+"This combination of cards... I think in your case it's best we take them a
+bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
+maybe even study up on some atlases. Just you wait. Good things will come
+to you if you do."
+
+"...What?" He's less angry, more confused. He walks out scratching his head,
+either because he's questioning the complete nonsense you just made up, or
+due to the large welt on his head.
+
+[[Proceed With Story|Friend Encounter]]
+
+:: Second Lie 2
+"These cards together signify change. Something around you 
 
 :: Friend Encounter
 You then notice a familiar face you had not seen in years at the door. Hi
