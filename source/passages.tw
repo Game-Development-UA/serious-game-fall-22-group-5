@@ -1,4 +1,31 @@
 :: Start
+
+<h1 class="title">XIII</h1>
+
+Before starting the game, please enter the name of an important character:
+<br>
+''First name:''
+<<textbox "$friendFirstName" "">>
+
+''Last name:''
+<<textbox "$friendLastName" "">>
+
+<<button "Start Game">>
+	<<set $friendFirstName to $friendFirstName.trim()>>
+	<<set $friendLastName  to $friendLastName.trim()>>
+
+	<<if $friendFirstName is "">>
+		<<replace "#input-error">>Please enter a first name.<</replace>>
+	<<elseif $friendLastName is "">>
+		<<replace "#input-error">>Please enter a last name.<</replace>>
+	<<else>>
+		<<goto "Introduction">>
+	<</if>>
+<</button>>@@#input-error;@@
+
+[[Start Game | Introduction]]
+
+:: Introduction
 At a moments notice, you gain consciousness over your surroundings and you immediately realize 
 something unusally about your situation.
 The air feels thick and heavy. You legs feels numb and disfunctional. A state of panic is brewing.
@@ -7,12 +34,12 @@ A man that has a familiar look towards you with a saddened expression.
 "I'm sorry Hans." the man says guiltily.
 Right after, images of grotesque scene start to rapidly visualize in your head.
 Feels of shock and pain overwhelms you. Not being able to take the pain anymore, you realized a loud shriek.
-A shriek so loud that your neighboors can hear. You open your eyes, realizing your sleeping on a chair in your
-new [[fortune telling shop|New Beginnings]].
-<<set $money to 0>>
+A shriek so loud that your neighboors can hear. You open your eyes, realizing your sleeping on a chair in your new [[fortune telling shop | New Beginnings]].
 
 :: New Beginnings
-You finish setting up the shop and get your [[first customer.|First Tarot Reading]]
+Years ago, you oddly took an interest in the unatural world of the supernatural and fortunes.
+Due to this hobby, you've always wanted to open your own store and after years of saving money, this dream became a reality. Yesterday, you finished setting up the shop. 
+Shortly after your troublesome slumber, you hear the bell by the door ring, signifying the entrance of your[[first customer.|First Tarot Reading]]
 
 :: First Tarot Reading
 The first customer is looking for a [[soulmate.|Fortune for First Customer]]
@@ -130,8 +157,8 @@ due to the large welt on his head.
 
 :: Friend Encounter
 You then notice a familiar face you had not seen in years at the door. Hi
-"Hey" friend says.
-"What are you doing here?" you say
+"Hey" $friendFirstName says.
+"What are you doing here $friendFirstName?" you say
 "I heard you were starting a business, I thought it would be good to see you"
 [[...you hesitantly tell him to come inside|Friend Tarot Reading]]
 
@@ -150,9 +177,24 @@ You remember how your friend did not take the news of your move well.
 
 :: Uneasy Friend
 "What's wrong?" your friend seems to have noticed your silence
-[[Lie 1|Second Lie 1]]
-[[Lie 2|Second Lie 2]]
+[[Lie|Specical Lie]]
 [[Avoid the question|Avoided Question]]
 [[Remain silent|Long Silence]]
 
-:: Avoided Question 
+:: Special Lie 
+"This combination of cards... I think in your case it's best we take them a
+bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
+maybe even study up on some atlases. Just you wait. Good things will come-[[! | Strange Visions]]"
+
+
+:: Strange Visions
+
+Afterwards to read out the fortunes for $friendFirstName, a sharp pain splinters your head. 
+The pain feels as sharp as nails being jammed into your head, but yet to not lose your composure, you pushed through the pain, 
+showing no expression.
+
+As vast drips of sweaty rolls down your face from the pain, 
+you started to see visions. Visions of a gruesome scene where someone of similar body compassion 
+and clothes of [[$friendFirstName | startCurious]], however the visions feels so blurred that the person is 
+[[not immediately recognizable | startIgnore]]. 
+This scene shows the person reaching for something on the street when suddenly a tumbling car squashed this person in gruesome fashion.
