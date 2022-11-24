@@ -1,4 +1,31 @@
 :: Start
+
+<h1 class="title">XIII</h1>
+
+Before starting the game, please enter the name of an important character:
+<br>
+''First name:''
+<<textbox "$friendFirstName" "">>
+
+''Last name:''
+<<textbox "$friendLastName" "">>
+
+<<button "Start Game">>
+	<<set $friendFirstName to $friendFirstName.trim()>>
+	<<set $friendLastName  to $friendLastName.trim()>>
+
+	<<if $friendFirstName is "">>
+		<<replace "#input-error">>Please enter a first name.<</replace>>
+	<<elseif $friendLastName is "">>
+		<<replace "#input-error">>Please enter a last name.<</replace>>
+	<<else>>
+		<<goto "Introduction">>
+	<</if>>
+<</button>>@@#input-error;@@
+
+[[Start Game | Introduction]]
+
+:: Introduction
 At a moments notice, you gain consciousness over your surroundings and you immediately realize 
 something unusally about your situation.
 The air feels thick and heavy. You legs feels numb and disfunctional. A state of panic is brewing.
@@ -12,11 +39,41 @@ new [[fortune telling shop|New Beginnings]].
 <<set $money to 0>>
 
 :: New Beginnings
-You finish setting up the shop and get your [[first customer.|First Tarot Reading]]
+Years ago, you oddly took an interest in the unatural world of the supernatural and fortunes, probably due to your aunt.
+Due to this hobby, you've always wanted to open your own store and after years of saving money, this dream became a reality. Yesterday, you finished setting up the shop. 
+You finish setting up the shop and start to reminisce about your training to become a fortune teller.
+Well, it wasn't really training it was more like asking your aunt about what each card meant and looking things up in the library.
+You recall some [[information|Reading Tips]] you read in the book you had borrowed from the library.
+As you were lost in you own thoughts, you hear light footsteps approaching you.
+It's your [[first customer?|First Tarot Reading]]
+
+:: Reading Tips
+You recall that orientation played a huge part in how a card is interpreted when drawn.
+A card can have vastly different meanings depending on the orientation of the card.
+Upright cards usually signify positive concepts meanwhile Reversed cards signified negative things.
+Though, there were some excpetions to this.
+[[Enough reminiscing|New Beginnings]]
 
 :: First Tarot Reading
-The first customer is looking for a [[soulmate.|Fortune for First Customer]]
-If a player picks the "correct" fortune, there is a chance that you can set up this customer with your friend.
+You notice a woman nervously making her way to you.
+"Is this a fortune telling shop?" she asks
+You can barely hear what she said, if she weren't standing directly in front of you you probably wouldn't have heard her speak.
+You notice her fidgeting conststantly, she reminds you of someone you knew, or perhaps an animal?
+"Yes" you respond
+She stays silent for a few seconds before mustering enough courage to speak again.
+"I would like to have my fortune read in regards to my love life...you see my parents worry I'll get too old for anyone to want to marry me."
+"Well, you have come to the right place!" you spread your arms in a T postion.
+The woman stares at you not really acknowledging the silly gesture you just performed.
+You feel your face get hot.
+"Sorry, it's my first day and you're my first customer and-" you suddenly feel nervous
+"Have a seat." You gesture to the chair across from you
+"I didn't catch your name."
+"That's because I haven't told you yet." She says, chuckling a little.
+She seems a little more open and comfortable now, maybe it was because she saw you make a fool of yourself.
+"My name is Lotta Hart" her voice loud and clear
+"Like I said before, I'm looking for a lover, a soulmate."
+
+The first customer is looking for a [[soulmate.|Tarot Minigame Customer 1]]
 
 :: Fortune for First Customer
 You pull three tarot cards, the Lovers, Judgment, Temperance, and tell them their fortune.
@@ -89,10 +146,7 @@ PROVIDING, and she NEVER-"
 You tune him out. You really really don't want to hear this guy going
 "wife bad" the next 10 minutes.
 
-You proceed to read this person's fortune, you draw Judgement, Moon, World. 
-[[Correct reading|Correct Reading 2]]
-[[Half-ass it|Second Lie 1]]
-[[Be nice|Second Lie 2]]
+You proceed to read this person's fortune, you [[draw...|Tarot Minigame Customer 2]]
 
 :: Correct Reading 2
 "Wow," you say. "Judgement, Moon, and World."
@@ -129,17 +183,18 @@ due to the large welt on his head.
 "These cards together signify change. Something around you 
 
 :: Friend Encounter
-You then notice a familiar face you had not seen in years at the door. Hi
-"Hey" friend says.
-"What are you doing here?" you say
+You then notice a familiar face you had not seen in years at the door.
+"Hey" $friendFirstName says.
+"What are you doing here $friendFirstName?" you say
 "I heard you were starting a business, I thought it would be good to see you"
-[[...you hesitantly tell him to come inside|Friend Tarot Reading]]
+[[...you hesitantly tell them to come inside|Friend Tarot Reading]]
 
 :: Friend Tarot Reading
-There is an uncomfortable [[akwardness|Friend Anecdote]] in the air.
+There is an uncomfortable [[awkwardness|Friend Anecdote]] in the air.
 You can tell your friend also notices this.
 You begin the tarot reading and draw...
-You slowly relaize that these cards indicate that there is [[death|Uneasy Friend]] in your friend's future
+<img src="media/death.png" style="width: 30%;" alt="Death Tarot">
+You slowly realize that this reading indicates that there is [[death|Uneasy Friend]] in your friend's future.
 
 :: Friend Anecdote
 You rememeber how the last time you had talked to each other played out.
@@ -150,9 +205,61 @@ You remember how your friend did not take the news of your move well.
 
 :: Uneasy Friend
 "What's wrong?" your friend seems to have noticed your silence
-[[Lie 1|Second Lie 1]]
-[[Lie 2|Second Lie 2]]
+[[Lie|Special Lie]]
 [[Avoid the question|Avoided Question]]
 [[Remain silent|Long Silence]]
 
-:: Avoided Question 
+:: Special Lie 
+"This reading... I think in your case it's best we take them a
+bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
+maybe even study up on some atlases. Just you wait. Good things will come-[[!!! | Strange Visions]]"
+
+
+:: Strange Visions
+
+Afterwards to read out the fortunes for $friendFirstName, a sharp pain splinters your head. 
+The pain feels as sharp as nails being jammed into your head, but yet to not lose your composure, you pushed through the pain, 
+showing no expression.
+
+As vast drips of sweaty rolls down your face from the pain, 
+you started to see visions. Visions of a gruesome scene where someone of similar body compassion 
+and clothes of [[$friendFirstName | startCurious]], however the visions feels so blurred that the person is 
+[[not immediately recognizable | startIgnore]]. 
+This scene shows the person reaching for something on the street when suddenly a tumbling car squashed this person in gruesome fashion.
+
+:: Long Silence
+
+You decide to remain silent as to not show any sign that something is wrong.
+$friendFirstName seems to grow restless at your stilness.
+"What is it?" $friendFirstName yelps.
+After what seems like an eternity, you answer.
+"I think it's best if you leave" you mutter silently.
+$friendFirstName doesn't question this, they were used to your mysterious requests.
+$friendFirstName gets up and leaves without saying another word.
+
+Unbeknownst to your friend, your brain was having a full on meltdown after what you had just seen.
+DEATH, DEATH, WHAT AM I SUPPOSED TO DO?!?!?!?!?!?
+[[I MUST SAVE THEM I MUST.| Stalk]]
+
+:: Avoided Question
+Quickly, you decide to change the topic to avoid telling the truth just yet.
+
+"Well actua-" $friendFirstName interrupts you.
+"Hey, I know this is strange. Me showing up after being absent for such a long time."
+<i>That is true</i> you think to yourself
+"Well, I'm glad you're here now." you say genuinely.
+"How about I close shop and we go somewhere to catch up?" you offer
+"I would really appreaciate that" $friendFirstName says
+"Actually, before we head out I need to [[stop by my house|Stop by Home]] really quick."
+
+:: Stop by Home
+Friend either waits outside ur house or meets up with you later?
+You go home and feed your dog cause why not.
+Have option to interact with your dog, pet dog,
+Also give player decision to grab a knife or a gift.
+[[Next|Park Bar Decision]]
+
+:: Park Bar Decision
+Decide to go hangout with friend at...
+[[Park|Park]]
+[[Bar|Bar]]

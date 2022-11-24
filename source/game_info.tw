@@ -10,4 +10,43 @@
 XIII
 
 :: StoryInit
-<<set $myVariable to 1>>
+<<set $lovers to false>>
+<<set $anger to false>>
+
+<<set $tarotCards1 = ["Empress", "Lovers", "Judgement", "Star", "Tower"]>>
+<<set $tarotCards2 = ["Fool", "Moon", "World", "Sun", "Chariot"]>>
+
+<<set $cardDrawn1 = $tarotCards1.pluck()>>
+<<set $cardDrawn2 = $tarotCards2.pluck()>>
+
+<<set $wrongList = ["Temptation", "Gamer Tendencies", "Funkiness", "Shit", "Rizz", "TikTok", "your addiction to League of Legends", "Procrastination", "ISTA 251", "playing Overwatch instead of doing homework"]>>
+
+<<set $loversList = ["Love", "Passion", "Union"]>>
+<<set $loversListReversed = ["Suffering", "Obedience", "Conflict"]>>
+
+<<set $empressList = ["Growth", "Fertility", "Beauty"]>>
+<<set $empressListReversed = ["Selfishness", "Impatience", "Overwhelmingness"]>>
+
+<<set $judgementList = ["Liberation", "Redemption", "Awakening"]>>
+<<set $judgementListReversed = ["Doubt", "Punishment", "Destruction"]>>
+
+<<set $starList = ["Faith", "Hope", "Fortune"]>>
+<<set $starListReversed = ["Insecurity", "Discouragement", "Faithlessness"]>>
+
+<<set $towerList = ["Disruption", "Change of Life", "Awakening"]>>
+<<set $towerListReversed = ["Collapse", "Stormy Times", "Restlessness"]>>
+
+<<set $moonList = ["Mysteries", "Dreams", "Foreboding"]>>
+<<set $moonListReversed = ["Darkness", "Fears", "Insecurities"]>>
+
+<<set $worldList = ["Arriving", "Life", "Spontaneity"]>>
+<<set $worldListReversed = ["Incompletion", "Emptiness", "Lack of Closure"]>>
+
+<<set $sunList = ["Pleasure", "Rebirth", "Light"]>>
+<<set $sunListReversed = ["Negativity", "Arrogance", "Carelessness"]>>
+
+<<set $chariotList = ["Departure", "Discipline", "Courage"]>>
+<<set $chariotListReversed = ["Carelessness", "Arrogance", "Wanderlust"]>>
+
+<<set $foolList = ["New Beginning", "Innocence", "Spontaneity"]>>
+<<set $foolListReversed = ["Recklessness", "Fearlessness", "Risks"]>>
