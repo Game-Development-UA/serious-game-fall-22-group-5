@@ -210,9 +210,11 @@ You remember how your friend did not take the news of your move well.
 [[Remain silent|Long Silence]]
 
 :: Special Lie 
+You then draw the rest of the two cards and pulled the following cards, luck and destiny. 
 "This reading... I think in your case it's best we take them a
 bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
-maybe even study up on some atlases. Just you wait. Good things will come-[[!!! | Strange Visions]]"
+maybe even study up on some atlases. Just you wait. Despite the intimidating  
+look on some of these cards, good things will come-[[!!! | Strange Visions]]"
 
 
 :: Strange Visions
@@ -223,8 +225,8 @@ showing no expression.
 
 As vast drips of sweaty rolls down your face from the pain, 
 you started to see visions. Visions of a gruesome scene where someone of similar body compassion 
-and clothes of [[$friendFirstName | startCurious]], however the visions feels so blurred that the person is 
-[[not immediately recognizable | startIgnore]]. 
+and clothes of $friendFirstName, however the visions feels so blurred that the person is 
+[[not immediately recognizable | Ignore]]. 
 This scene shows the person reaching for something on the street when suddenly a tumbling car squashed this person in gruesome fashion.
 
 :: Long Silence

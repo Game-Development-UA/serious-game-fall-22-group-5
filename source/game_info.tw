@@ -19,6 +19,7 @@ XIII
 <<set $cardDrawn1 = $tarotCards1.pluck()>>
 <<set $cardDrawn2 = $tarotCards2.pluck()>>
 
+<!-- LOL -->
 <<set $wrongList = ["Temptation", "Gamer Tendencies", "Funkiness", "Shit", "Rizz", "TikTok", "your addiction to League of Legends", "Procrastination", "ISTA 251", "playing Overwatch instead of doing homework"]>>
 
 <<set $loversList = ["Love", "Passion", "Union"]>>
