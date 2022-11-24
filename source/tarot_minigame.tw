@@ -1,0 +1,150 @@
+:: Tarot Minigame Customer 1
+You begin your reading of the customer...
+
+You draw the $cardDrawn1 tarot card in the <u>upright</u> position!
+
+<<if $cardDrawn1 == "Lovers">>\
+    <img src="media/lovers.png" style="width: 30%;" alt="Lovers Tarot">
+
+    [["I draw the Lovers card, this could signify " + $loversList.pluck() + "."|Correct]]
+    [["I draw the Lovers card, this could signify " + $loversListReversed.pluck() + "."|Partially]]
+    [["I draw the Lovers card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+<<elseif $cardDrawn1 == "Empress">>\
+    <img src="media/empress.png" style="width: 30%;" alt="Empress Tarot">
+
+    [["I draw the Empress card, this could signify " + $empressList.pluck() + "."|Correct]]
+    [["I draw the Empress card, this could signify " + $empressListReversed.pluck() + "."|Partially]]
+    [["I draw the Empress card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+<<elseif $cardDrawn1 == "Judgement">>\
+    <img src="media/judgement.png" style="width: 30%;" alt="Judgement Tarot">
+
+    [["I draw the Judgement card, this could signify " + $judgementList.pluck() + "."|Correct]]
+    [["I draw the Judgement card, this could signify " + $judgementListReversed.pluck() + "."|Partially]]
+    [["I draw the Judgement card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+<<elseif $cardDrawn1 == "Star">>\
+    <img src="media/star.png" style="width: 30%;" alt="Star Tarot">
+
+    [["I draw the Star card, this could signify " + $starList.pluck() + "."|Correct]]
+    [["I draw the Star card, this could signify " + $starListReversed.pluck() + "."|Partially]]
+    [["I draw the Star card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+<<elseif $cardDrawn1 == "Tower">>\
+    <img src="media/tower.png" style="width: 30%;" alt="Tower Tarot">
+    
+    [["I draw the Tower card, this could signify " + $towerList.pluck() + "."|Correct]]
+    [["I draw the Tower card, this could signify " + $towerListReversed.pluck() + "."|Partially]]
+    [["I draw the Tower card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+<</if>>\
+
+:: Correct
+<<set $lovers to true>>
+"I see happiness and romance in your future, all you need is patience.
+Wait a bit. Who knows how long? It might be tomorrow, it might be a year.
+Just know that soon, your soulmate will surely come to you."
+
+"Wow, you really think so?" she bounds. "Thank you!"
+[[Next|Second Tarot Reading]]
+
+:: Partially
+"Oh wow," you say, on a whim. "These cards being pulled specifically are rare. Love for
+you is very fleeting. Within the next few days you must confess your love to the
+person you love most, or you'll stay single for the rest of your life!"
+
+"Oh, what? That's uhhh...."
+
+She looks concerned at first, but then flashes a peppy smile.
+
+"Alright, tarot person I just met. That sounds completely insane, but I've never
+felt so much pent-up energy in my LIFE! I'm going for it right now!"
+
+She sprints out with romance-fueled energy you've never seen before. A part of
+you is glad she finally has the drive to ask that person out. Then you remember
+you lied to her about the fortune.
+
+Ah, to hell with it. It's not your problem anyway. <<set $passion to true>>
+[[Next|Second Tarot Reading]]
+
+:: Incorrect
+"Hmmm..." you say, "That card usually doesn't bode well romantically. It might signify a lack of love in the near future, maybe.
+It's hard to tell."
+
+"Oh... really?" the customer says. "That sucks."
+
+She walks away.
+[[Next|Second Tarot Reading]]
+
+:: Tarot Minigame Customer 2
+You begin your reading of the customer...
+
+You draw the $cardDrawn2 tarot card in the <u>upright</u> position!
+
+<<if $cardDrawn2 == "Moon">>\
+    <img src="media/moon.png" style="width: 30%;" alt="Lovers Tarot">
+
+    [["I draw the Moon card, this could signify " + $loversList.pluck() + "."|Correct 2]]
+    [["I draw the Moon card, this could signify " + $loversListReversed.pluck() + "."|Partially 2]]
+    [["I draw the Moon card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+<<elseif $cardDrawn2 == "World">>\
+    <img src="media/world.png" style="width: 30%;" alt="Empress Tarot">
+
+    [["I draw the World card, this could signify " + $worldList.pluck() + "."|Correct 2]]
+    [["I draw the World card, this could signify " + $worldListReversed.pluck() + "."|Partially 2]]
+    [["I draw the World card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+<<elseif $cardDrawn2 == "Fool">>\
+    <img src="media/fool.png" style="width: 30%;" alt="Fool Tarot">
+
+    [["I draw the Fool card, this could signify " + $foolList.pluck() + "."|Correct 2]]
+    [["I draw the Fool card, this could signify " + $foolListReversed.pluck() + "."|Partially 2]]
+    [["I draw the Fool card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+<<elseif $cardDrawn2 == "Sun">>\
+    <img src="media/sun.png" style="width: 30%;" alt="Star Tarot">
+
+    [["I draw the Sun card, this could signify " + $sunList.pluck() + "."|Correct 2]]
+    [["I draw the Sun card, this could signify " + $sunListReversed.pluck() + "."|Partially 2]]
+    [["I draw the Sun card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+<<elseif $cardDrawn2 == "Chariot">>\
+    <img src="media/chariot.png" style="width: 30%;" alt="Tower Tarot">
+    
+    [["I draw the Chariot card, this could signify " + $chariotList.pluck() + "."|Correct 2]]
+    [["I draw the Chariot card, this could signify " + $chariotListReversed.pluck() + "."|Partially 2]]
+    [["I draw the Chariot card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+<</if>>\
+
+:: Correct 2
+<<set $anger to true>>
+He scoffs. You continue.
+
+"Big things are coming your way. BIIIIIG changes. It's not very clear
+what's going to happen. All I know is that very soon, you're going to find
+the one thing in your life that's gone wrong, and that's going to change.
+Expect big things. Your life is never going to be the same ever again."
+
+"Yeah right," he says back to you. "Oh what, you know all this because the STARS
+were aligned in the perfect way? Your voodoo magic bullcrap whisper in your 
+ear? I'm FINE just the way I am. It's everybody else that's the problem. It's
+the SYSTEM. It's my WIFE!"
+
+He storms off clearly not ready to accept the truth just yet, maybe he just needs to process it for a while.
+[[Proceed with Story|Friend Encounter]]
+
+:: Partially 2
+"This combination of cards... I think in your case it's best we take them a
+bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
+maybe even study up on some atlases. Just you wait. Good things will come
+to you if you do."
+
+"...What?" He's less angry, more confused. He walks out scratching his head,
+either because he's questioning the complete nonsense you just made up, or
+due to the large welt on his head.
+[[Proceed with Story|Friend Encounter]]
+
+:: Incorrect 2
+He stares at you as if you just grew a third eye.
+
+"What the hell did you just say to me!?"
+
+"Wait, I didn't mean to say tha-"
+
+"FUCK YOU" he exclaims "I knew I should have never listend to my wife about this fortune telling bullshit."
+He storms off...
+That could have gone worse you think to yourself. Whatever.
+[[Proceed with Story|Friend Encounter]]
