@@ -1,0 +1,33 @@
+:: Stalk
+
+As soon as $friendFirstName walks through the door you rush to grab your things.
+You grab your [[sunglasses and a hat|Gear]]. You quickly follow out the door locking up for the day.
+Quickly looking around you spot your friend about 100 feet up the road and you quickly follow them.
+After following them for about 5 minutes you [[trip on your shoe lace|Trip]].
+[[Tie your shoes|Tie Shoes]]
+[[Live life on the edge| Keep Walking]]
+
+:: Gear
+Spy gear obvioulsy. No one will be able to recognize you.
+
+[[Back|Stalk]]
+
+:: Trip
+
+You trip on your shoe lace and scrape your knee.
+It was kind of embarrassing for you.
+
+[[Back|Stalk]]
+
+:: Tie Shoes
+
+<!-- Add death how ever we want to do that. -->
+
+:: Keep Walking
+
+You decide that life is more fun living on the edge so who needs to tie their shoes.
+You stand up after tripping and see your friend being stupid and not looking both ways.
+A car is rushing down the road and your friend is in its path.
+You scramble to think of what to do...
+[[OMG you forogt to tie your shoes| Tie Shoes]]
+[[]]
