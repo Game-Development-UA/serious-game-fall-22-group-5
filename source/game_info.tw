@@ -12,6 +12,7 @@ XIII
 :: StoryInit
 <<set $lovers to false>>
 <<set $anger to false>>
+<<set $ignoreEnding to false>>
 
 <<set $tarotCards1 = ["Empress", "Lovers", "Judgement", "Star", "Tower"]>>
 <<set $tarotCards2 = ["Fool", "Moon", "World", "Sun", "Chariot"]>>
