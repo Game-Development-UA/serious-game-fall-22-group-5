@@ -1,2 +1,25 @@
 :: Bar
-Well
+You decide to head to the bar downtown.
+As you enter the bar, it appears to be empty with only a handful of patrons present.
+They all stare at you and $friendFirstName, even as you sit at the counter you can feel their eyes glued to the back of you head.
+You decide these strangers aren't going to bother you and you proceed to order a drink.
+"What'll it be?" the bartender says with a scowl on their face.
+Hmmm...
+[["A pair of Moscow Mules"|Bar 2]]
+[["A pair of Gin and Tonics"|Bar 2]]
+[["A pair of SnakeBites"|Bar 2]]
+
+:: Bar 2
+"A pair of-"
+Before you finish your sentence $friendFirstName cuts you off.
+You remember hating that about $friendFirstName, always taking charge, always wanting to control everything about their life.
+Even though life is naturally unpredictable, one can't control everything.
+But here $friendFirstName was trying to do exactly that.
+You glare at $friendFirstName obviously bothered by this.
+If $friendFirstName noticed this you don't know, they act as if you weren't giving them the meanest scowl you could muster.
+Before you get to say anything you hear a door slam open.
+A clearly intoxicate man stumbles out of the bathroom door.
+As he approaches the counter, you realize he looks familiar.
+[["I KnOW yEW" says the drunken man slurring his words and clearly looking at you|Customer 2 Encounter]]
+
+:: Customer 2 Encounter

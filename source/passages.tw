@@ -27,20 +27,20 @@ Before starting the game, please enter the name of an important character:
 
 :: Introduction
 At a moments notice, you gain consciousness over your surroundings and you immediately realize 
-something unusally about your situation.
+something unusually about your situation.
 The air feels thick and heavy. You legs feels numb and disfunctional. A state of panic is brewing.
 Suddenly, you hear a voice calling for your name. You turn toward the direction of the sound and noticed an odd site.
 A man that has a familiar look towards you with a saddened expression. 
 "I'm sorry Hans." the man says guiltily.
 Right after, images of grotesque scene start to rapidly visualize in your head.
 Feels of shock and pain overwhelms you. Not being able to take the pain anymore, you realized a loud shriek.
-A shriek so loud that your neighboors can hear. You open your eyes, realizing your sleeping on a chair in your
+A shriek so loud that your neighbors can hear. You open your eyes, realizing your sleeping on a chair in your
 new [[fortune telling shop|New Beginnings]].
 <<set $money to 0>>
 
 :: New Beginnings
-Years ago, you oddly took an interest in the unatural world of the supernatural and fortunes, probably due to your aunt.
-Due to this hobby, you've always wanted to open your own store and after years of saving money, this dream became a reality. Yesterday, you finished setting up the shop. 
+Years ago, you oddly took an interest in the world of the supernatural and fortunes, probably due to your aunt.
+Due to this fascination, you've always wanted to open your own store and after years of saving money, this dream became a reality. Yesterday, you finished setting up the shop. 
 You finish setting up the shop and start to reminisce about your training to become a fortune teller.
 Well, it wasn't really training it was more like asking your aunt about what each card meant and looking things up in the library.
 You recall some [[information|Reading Tips]] you read in the book you had borrowed from the library.
@@ -51,18 +51,18 @@ It's your [[first customer?|First Tarot Reading]]
 You recall that orientation played a huge part in how a card is interpreted when drawn.
 A card can have vastly different meanings depending on the orientation of the card.
 Upright cards usually signify positive concepts meanwhile Reversed cards signified negative things.
-Though, there were some excpetions to this.
+Though, there were some exceptions to this.
 [[Enough reminiscing|New Beginnings]]
 
 :: First Tarot Reading
 You notice a woman nervously making her way to you.
 "Is this a fortune telling shop?" she asks
 You can barely hear what she said, if she weren't standing directly in front of you you probably wouldn't have heard her speak.
-You notice her fidgeting conststantly, she reminds you of someone you knew, or perhaps an animal?
+You notice her fidgeting constantly, she reminds you of someone you knew, or perhaps an animal?
 "Yes" you respond
 She stays silent for a few seconds before mustering enough courage to speak again.
 "I would like to have my fortune read in regards to my love life...you see my parents worry I'll get too old for anyone to want to marry me."
-"Well, you have come to the right place!" you spread your arms in a T postion.
+"Well, you have come to the right place!" you spread your arms in a T position.
 The woman stares at you not really acknowledging the silly gesture you just performed.
 You feel your face get hot.
 "Sorry, it's my first day and you're my first customer and-" you suddenly feel nervous
@@ -128,7 +128,7 @@ A few minutes go by, and already your second customer walks in.
 Already you can tell he has [[anger management issues.|Anecdote]]
 
 :: Anecdote
-You remeber seeing this customer at the park throwing rocks at various animals
+You remember seeing this customer at the park throwing rocks at various animals
 at the park. And then another instance shouting various obscenities at
 someone over the phone. 
 
@@ -197,7 +197,7 @@ You begin the tarot reading and draw...
 You slowly realize that this reading indicates that there is [[death|Uneasy Friend]] in your friend's future.
 
 :: Friend Anecdote
-You rememeber how the last time you had talked to each other played out.
+You remember how the last time you had talked to each other played out.
 It did not end well, you both said some nasty things to each other before you left.
 You remember how your friend did not take the news of your move well.
 [[Back to reading|Friend Tarot Reading]]
@@ -251,41 +251,68 @@ Quickly, you decide to change the topic to avoid telling the truth just yet.
 <i>That is true</i> you think to yourself
 "Well, I'm glad you're here now." you say genuinely.
 "How about I close shop and we go somewhere to catch up?" you offer
-"I would really appreaciate that" $friendFirstName says
+"I would really appreciate that" $friendFirstName says
 "Actually, before we head out I need to [[stop by my house|Stop by Home]] really quick."
 
 :: Stop by Home
-Friend either waits outside ur house or meets up with you later?
-You go home and feed your dog cause why not.
-Have option to interact with your dog, pet dog,
-Also give player decision to grab a knife or a gift.
 You and $friendFirstName arrive at your apartment that was only a few minutes from your new shop.
 "Can you wait out here?" you say
 "Sure" $friendFirstName seems a little hurt you said this
 It's not like $friendFirstName ghosted you for a couple of years, you decide to ignore it.
 As soon as you enter your home you hear a little yapping at your feet.
-It's Luma your pet chihuaha, the whole point for making this stop.
-"Did you miss me?"
-Luma frantically jumps at your legs clearly excited about something.
-You proceed to grab some dog food and fill Luma's dog bowl.
-Luma wastes no time and before you even pull away is already at the bowl devouring the food you had poured her.
-You decide to [[grab some things|Gift Knife]] before you head out with $friendFirstName.
+<<if $pet == "dog">>
+	It's Luma your pet chihuahua, the whole point for making this stop.
+	"Did you miss me?"
+	Luma frantically jumps at your legs clearly excited about something.
+	You proceed to grab some dog food and fill Luma's dog bowl.
+	Luma wastes no time and before you even pull away is already at the bowl devouring the food you had poured her.
+	You decide to [[grab some things|Gift Knife]] before you head out with $friendFirstName.
+<<elseif $pet == "cat">>
+	It's Luma your pet cat, the whole point for making this stop.
+	"Did you miss me?"
+	Luma rubs up against your legs purring clearly excited about something.
+	You proceed to grab some cat food and fill Luma's cat bowl.
+	Luma wastes no time and before you even pull away is already at the bowl devouring the food you had poured her.
+	You decide to [[grab some things|Gift Knife]] before you head out with $friendFirstName.
+<</if>>
 
 :: Gift Knife
-[[Grab gift|Heading Out]]
-[[Grab pocket knife|Heading Out]]
+[[Grab gift|Grab Gift]]
+[[Grab pocket knife|Grab Knife]]
+
+:: Grab Gift
+<<set $gift to true>>
+You decide to grab the gift, who knows it might come in handy later.
+[[Next|Heading Out]]
+
+:: Grab Knife
+<<set $knife to true>>
+You decide to grab the pocket knife, who knows it might come in handy later.
+[[Next|Heading Out]]
 
 :: Heading Out
-As you are heading out Luma approaches you clearly [[expecting something|Dog Pat]]
+<<if $pet == "dog">>
+	As you are heading out Luma approaches you clearly [[expecting something|Dog Pat]]
+	<img src="media/dogStare.gif" alt="dog stare" style="width: 30%;">
+<<elseif $pet == "cat">>
+As you are heading out Luma approaches you clearly [[expecting something|Cat Pat]]
+	<img src="media/catStare.gif" alt="cat stare" style="width: 30%;">
+<</if>>
 After tidying up a bit, you grab a coat and head to the door.
 $friendFirstName is leaning next to your door waiting for you outside.
-"Well I'm ready to go" you say
+"Well I'm ready to go." you say
 "Great [[where we heading?|Park Bar Decision]]"
 
 :: Dog Pat
 You know exactly what Luma wants
 You pet her, Luma clearly loves this letting out a happy noise
 <img src="media/dog.gif" alt="dog being pet" style="width: 30%;">
+[[Go Back|Heading Out]]
+
+:: Cat Pat
+You know exactly what Luma wants
+You pet her, Luma clearly loves this purring happily
+<img src="media/cat.gif" alt="cat being pet" style="width: 30%;">
 [[Go Back|Heading Out]]
 
 :: Park Bar Decision
