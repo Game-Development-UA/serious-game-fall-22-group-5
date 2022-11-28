@@ -20,6 +20,87 @@ If $friendFirstName noticed this you don't know, they act as if you weren't givi
 Before you get to say anything you hear a door slam open.
 A clearly intoxicate man stumbles out of the bathroom door.
 As he approaches the counter, you realize he looks familiar.
-[["I KnOW yEW" says the drunken man slurring his words and clearly looking at you|Customer 2 Encounter]]
+<<if $anger == true>>
+    [["yeW sEEm famIliAr..." says the drunken man slurring his words and clearly looking at you|Customer 2 Encounter]]
+<<elseif $anger == false>>
+    [["I KnOW yEW!" shouts the drunken man slurring his words and clearly looking at you|Customer 2 Angry]]
+<</if>>
 
 :: Customer 2 Encounter
+You realize its the angry man who went to the shop earlier today!
+"riGHT, YouRe ThaT forTUnE telLER." the man says groggily.
+You and $friendFirstName stare at him silently unsure what to do.
+"YeW wERe RIght abOut ThAT forTUNey sTUfF oR WhATevER..." he leans in for a hug.
+You realize the man is trying to thank you.
+"Yeah...you're welcome?" this is a bit too much.
+You and $friendFirstName exchange looks.
+"Well it was nice seeing you but I have somewhere to be." you say gently pushing the man off of you.
+"anY-AnyTiIIme" the man says slumping on the counter.
+While glad you managed to somewhat help this man, you and $friendFirstName decide it's best to hangout [[somewhere else.|Park]]
+
+:: Customer 2 Angry
+"yOUR ThAT foRTUnE SHittER" he slurs out.
+"What did you just say!?" $friendFirstName says, suddenly standing up.
+You try to diffuse the situation "Just let it go-" $friendFirstName cuts you off.
+"I'm not going to let some balding old man insult you like that!" $friendFirstName seems pissed.
+"wH-WhHat dID yOu JuST sAy TO me??" the man is clearly not thinking straight.
+Then before you get to utter another word the man suddenly leaps at $friendFirstName.
+$friendFirstName and this drunk man are suddenly wrestling each other knocking over tables and stools at the bar.
+"HEY" the bartender yells "GET OUT OF MY BAR"
+Although it seems he didn't have to say that twice because once you turned back to $friendFirstName they were already fighting outside.
+Without thinking you run outside to help you friend.
+It appeared $friendFirstName had bit off more than they could chew because they were clearly losing.
+[[Join the fight|Join Fight]]
+<<if $knife == true>>\
+    [[Use Pocket Knife|Pocket Knife]]\
+<</if>>\
+<<if $gift == true>>\
+    [[Use Gift|Gift Fight]]\
+<</if>>\
+
+:: Join Fight
+You step into the alley where the man and $friendFirstName are fighting it out.
+You land a punch cleanly on the man's face, he seems to lose his balance.
+Right as you punched the man, out of the corner of your eye you notice $friendFirstName collapse to the floor.
+You quickly try to help $friendFirstName but it appears you are already too late.
+$friendFirstName is already on the floor unconscious, a gash of blood running down their face.
+The drunk man is already stumbling away into the alley.
+You decide not to go after him and try to help $friendFirstName.
+You try to wake you friend "$friendFirstName?"
+$friendFirstName doesn't respond.
+With a blood hand, you pull out your cellphone and immediately [[call an ambulance.|Alley Death]]
+
+:: Alley Death
+Before the ambulance could even get there your friend had already died.
+Their final words still ring in your ears <i>I'm sorry for everything</i>
+You weep in you bed wondering how things could've gone differently.
+[[Start Over?|Start]]
+[[Restart at Where to Hangout|Park Bar Decision]]
+[[Restart at Friend's Reading|Friend Encounter]]
+
+:: Gift Fight
+You step into the alley where the man and $friendFirstName are fighting it out.
+You remember the gift box you had picked up at your house, you decide to smash the gift on the man's head.
+The drunk man seems confused by this sudden gift care package om his head and he seems to lose his balance.
+Right as you punched the man, out of the corner of your eye you notice $friendFirstName collapse to the floor.
+You quickly try to help $friendFirstName but it appears you are already too late.
+$friendFirstName is already on the floor unconscious, a gash of blood running down their face.
+The drunk man is already stumbling away into the alley, part of the gift box still on him.
+You decide not to go after him and try to help $friendFirstName.
+You try to wake you friend "$friendFirstName?"
+$friendFirstName doesn't respond.
+With a blood hand, you pull out your cellphone and immediately [[call an ambulance.|Alley Death]]
+
+:: Pocket Knife
+You step into the alley where the man and $friendFirstName are fighting it out.
+You remember the pocket knife you had picked up at your house, you decide take out the pocket knife.
+In an act of desperation you plunge the knife into man's chest.
+Your friend is shocked by the sudden change of events.
+You both slowly watch the man slide down the wall and see the life phase out of his body.
+The man's body lies still in the alley, there is an uncomfortable silence.
+The silence is suddenly disrupted by the sounds of police sirens seemingly approaching.
+As quickly as you had heard the sirens you hear a man shouting.
+"PUT YOUR HANDS IN THE AIR AND TURN AROUND"
+$friendFirstName still in shock doesn't follow the officer's orders.
+As you turn around you hear a hauntingly familiar sound, the sounds of a gun being fired.
+You quickly turn around to see your friends [[collapse to the ground.|Alley Death]]

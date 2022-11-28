@@ -28,7 +28,7 @@ Before starting the game, please enter the name of an important character:
 :: Introduction
 At a moments notice, you gain consciousness over your surroundings and you immediately realize 
 something unusually about your situation.
-The air feels thick and heavy. You legs feels numb and disfunctional. A state of panic is brewing.
+The air feels thick and heavy. You legs feels numb and dysfunctional. A state of panic is brewing.
 Suddenly, you hear a voice calling for your name. You turn toward the direction of the sound and noticed an odd site.
 A man that has a familiar look towards you with a saddened expression. 
 "I'm sorry Hans." the man says guiltily.
@@ -232,7 +232,7 @@ This scene shows the person reaching for something on the street when suddenly a
 :: Long Silence
 
 You decide to remain silent as to not show any sign that something is wrong.
-$friendFirstName seems to grow restless at your stilness.
+$friendFirstName seems to grow restless at your stillness.
 "What is it?" $friendFirstName yelps.
 After what seems like an eternity, you answer.
 "I think it's best if you leave" you mutter silently.
