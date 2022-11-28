@@ -259,7 +259,34 @@ Friend either waits outside ur house or meets up with you later?
 You go home and feed your dog cause why not.
 Have option to interact with your dog, pet dog,
 Also give player decision to grab a knife or a gift.
-[[Next|Park Bar Decision]]
+You and $friendFirstName arrive at your apartment that was only a few minutes from your new shop.
+"Can you wait out here?" you say
+"Sure" $friendFirstName seems a little hurt you said this
+It's not like $friendFirstName ghosted you for a couple of years, you decide to ignore it.
+As soon as you enter your home you hear a little yapping at your feet.
+It's Luma your pet chihuaha, the whole point for making this stop.
+"Did you miss me?"
+Luma frantically jumps at your legs clearly excited about something.
+You proceed to grab some dog food and fill Luma's dog bowl.
+Luma wastes no time and before you even pull away is already at the bowl devouring the food you had poured her.
+You decide to [[grab some things|Gift Knife]] before you head out with $friendFirstName.
+
+:: Gift Knife
+[[Grab gift|Heading Out]]
+[[Grab pocket knife|Heading Out]]
+
+:: Heading Out
+As you are heading out Luma approaches you clearly [[expecting something|Dog Pat]]
+After tidying up a bit, you grab a coat and head to the door.
+$friendFirstName is leaning next to your door waiting for you outside.
+"Well I'm ready to go" you say
+"Great [[where we heading?|Park Bar Decision]]"
+
+:: Dog Pat
+You know exactly what Luma wants
+You pet her, Luma clearly loves this letting out a happy noise
+<img src="media/dog.gif" alt="dog being pet" style="width: 30%;">
+[[Go Back|Heading Out]]
 
 :: Park Bar Decision
 Decide to go hangout with friend at...
