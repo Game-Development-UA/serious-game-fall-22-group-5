@@ -36,24 +36,98 @@ You of course can't refuse such a friendly offer. You thus accept the offer and 
 As $friendFirstName walks out the store, you immediately question what happened to you. What were those memories? Why do it felt like your head was splitting?  
 Was it something supernatual? This never happened before, so why is it happening now? 
 
+<!-- Add an if statement that adds a path if the user got the regular ignore ending once. -->
+<<if $ignoreEnding is true>>
+Its possible to catch up to $friendFirstName and [[tell him || Warn Him]] of what you saw, but you 
+witnessed would most likely seem to farfetch to believe even for some as close to you as $friendFirstName. 
+<<else>>
+Despite the history you had with $friendFirstName, you can't see him believing in such a fabricated tale.
+Espically from a new licensed fortune teller.
+<</if>>
+
 You can't dwell on this forever. You need to stay calm, after all, you have a [[shop to run || Back Home]]. 
+
+<!-- Extra small route after completing the original ending to this route -->
+:: Warn Him
 
 :: Back Home
 
-<!-- Might add more -->
+<!-- Might add some more passage to make it more detailed. -->
 
 After a long day of promising totally believable outcomes to your gullible clients, you then immediately
 take off your clothes and jump to bed. When trying to forget the stress of responsibility, you can't help but think about the strange occurrence 
 you experienced. With the death card and the gruesome memory, will $friendFirstName die? 
 
 You are in immediate disbelief. You think to yourself that there is no way $friendFirstName's death is 
-set in stone and fate exists.   
+set in stone and fate exists. Did you acquire some kind of foresight powers? So many questions, yet 
+no one to answer them. 
 
-<!-- Might add some more passage to make it more detailed. -->
+You can't sleep. The constant think makes you more anxious. You got up from your bed, took some beer from 
+the fridge and watch the nightly new. Nothing serious being shown on FOX news at the momment. The bordom
+and the buzz of some cold beers somehow puts your mind at ease and you slowly close your eyes right on the 
+coach.
+
+
 
 <!-- Relive a memory to remember the good days -->
-:: Fond Memories
+<!-- Maybe if there is time. Have different memories based on the cards you choosen in the minigame. -->
+:: Fond Memories 1
 
+Its been 2 weeks since you arrived to the MCRD in San Diego. Its been grueling. The costant 
+screeming from you, your peers, and the drill sergeants, the back breaking exercising. You 
+of course expected the extreme difficulty but yet today has been the worst day so far. 
+
+You went through the obstacle course more than a dozens times, and along with the 
+unbearable Californa heat you never felt worse. Once chow time came, you had to announce
+to the drill sergeants that your regement was coming into the cafeteria. Unforuntately, 
+you messed up the phrase. With the feelings of anxiety and nausea looming over you, 
+you proceded to throw up on the floor. 
+
+Whats worse is that you then had to clean it up while also getting shouted at by 
+your drill sergeants getting constantly shouted at by the drill sergeants. You 
+then have to do more exercise as punishment shortly after as punishment. 
+
+As you [[clean the floors || Fond Memories 1.2]] around the dorm room, regret fills you mind like water filling up a glass cup. You 
+determination of staying is slowly going away and you feel like your on the verge of quitting.
+
+:: Fond Memories 1.2
+
+Suddenly, $friendFirstName came with several cleaning supplies since he was also tasked to clean the
+floors as well. 
+
+"Here you go Hans Puker." $friendFirstName utters as he passes you the dish soap.
+
+You released a short but noticable sigh and replied with "Thanks."
+
+$friendFirstName laughs and says, "Just kicking your ass. Seriously though, it might suck now but eventually all things end, and
+bootcamp is no exception. Just got to keep your head up so as to not slow the others down." 
+
+"Thanks father." You replied [[sarcastically || Tragedy]].
 
 <!-- Ignoring was the wrong choice -->
-:: Tragedy
+:: Tragedy 1
+
+<!-- Might have sound effect for alarm-->
+The sound of the alarm rises you up from your slumber. You instinctively got up from the 
+couch and turned off your alarm.
+
+It only took a few seconds for you to realize that you feel asleep on the couch with the television on.
+Shortly after, you started to do some cleaning from the mess up made last night when you heard a familar
+name coming from the [[news channel || Tragedy Part 2]] being brodcasted to the television.
+
+:: Tragedy 1 Part 2
+
+"Last Night, a shooting took place near a Best Buy on 14th which resulted in the death of 
+30 year old $friendFirstName $friendLastName. Witnesses told San Fransisco PD that $friendLastName
+where in a heat argument with the suspect which esculated which had the suspect 
+pull out a gun and open fire on $friendLastName which wounded him severely. Shortly 
+after arriving at the hospital, $friendLastName was pronounced dead."
+
+The stress, shock, and anxiety came crashing like a thunderbolt. Those bizarre visions where 
+true. How and why? Why did it had to be the death of $friendFirstName? Maybe I should 
+have done SOMETHING to save him figure out what is happening.
+
+<!-- Start the game over. -->
+I wish I could [[START OVER | Start]] and find what is really going on.
+
+<<set $ignoreEnding to true>>
