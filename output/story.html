@@ -100,17 +100,29 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://1F012455-6A83-4CCB-BCB1-49B9D77D4E03// --><tw-storydata name="XIII" startnode="51" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="1F012455-6A83-4CCB-BCB1-49B9D77D4E03" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* The body is everything displayed in the main text delivery area
+	<!-- UUID://1F012455-6A83-4CCB-BCB1-49B9D77D4E03// --><tw-storydata name="XIII" startnode="24" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="1F012455-6A83-4CCB-BCB1-49B9D77D4E03" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* The body is everything displayed in the main text delivery area */
 body {
-	background: blue;
+	background: #24242A;
+	font-family: 'Syne', sans-serif;
 }
-*/
 
-/* This class is specific to the text in the passages
-.passage {
-    border: 1px solid red;
+/* This class is specific to the text in the passages*/
+.passage { 
+    text-align: center;
+	font-size: 12pt;
 }
-*/
+
+h1 {
+	font-family: 'Inter', sans-serif;
+	font-size: 30pt;
+}
+
+a {
+	font-family: 'Inter', sans-serif;
+	font-size: 14pt;
+	font-style: italic;
+	color: #ff3632;
+}
 
 /* This id is specific to the sidebar
 #ui-bar {
@@ -230,40 +242,32 @@ With growing concerns, $friendFirstName genuinely asks, “Are you ok Hans? What
 “Don&#39;t worry. I&#39;m just feeling a little under the weather ever since I opened shop.&quot; You respones.  
 
 Your reassurance didn&#39;t seem to ease $friendFirstName concern, thus $friendFirstName repiles by saying, &quot;Are you sure? 
-Despite our last troubsome encounter with each other, your my bestfriend. You can tell me almost anything.&quot;
+Despite our what happened between us, your my bestfriend. You can tell me almost anything.&quot;
 
 Waves of guility start to come over you, yet your insist on assuring $friendFirstName that everything is fine.
 $friendFirstName at this point knows your stubborn nature too well and begrudgingly backs down.
 &quot;Whatever Hans. Anyways about my fortune.&quot; $friendFirstName brings up.
 &quot;Of course.&quot; you answered.
 
-You then proceded to tell $friendFirstName the remainder of your [[fabricated fortune | Say ya soon]] just to temporarily put you and $friendFirstName minds at ease.</tw-passagedata><tw-passagedata pid="10" name="Say Ya Soon" tags="" position="1225,100" size="100,100">“Alright Hans. I have to get back to work. You want my home number? Maybe we can reconnect sometime and hang out somewhere?”
-
+You then proceded to tell $friendFirstName the remainder of your [[fabricated fortune | Say Ya Soon]] just to temporarily put you and $friendFirstName minds at ease.</tw-passagedata><tw-passagedata pid="10" name="Say Ya Soon" tags="" position="1225,100" size="100,100">“Alright Hans. I have to get back to work. You want my home number? Maybe we can reconnect sometime and hang out somewhere?”
 You of course can&#39;t refuse such a friendly offer. You thus accept the offer and then procede to exhange home numbers.
-
 &quot;I&#39;ll be busy for the rest of the week trying to get this shop on its feet. Maybe sometime next week we can reconnect while downing some hard ones.&quot; You announced.
 &quot;Sounds good. See you then.&quot; $friendFirstName replies.
-
 &quot;Ya. Also, don&#39;t get yourself [[KILLED | Back To Work]].&quot;
-
 &quot;Ok father.&quot; $friendFirstName sarcastically responses.</tw-passagedata><tw-passagedata pid="11" name="Back To Work" tags="" position="100,225" size="100,100">As $friendFirstName walks out the store, you immediately question what happened to you. What were those memories? Why do it felt like your head was splitting?  
 Was it something supernatual? This never happened before, so why is it happening now? 
-
 &lt;!-- Add an if statement that adds a path if the user got the regular ignore ending once. --&gt;
 &lt;&lt;if $ignoreEnding is true&gt;&gt;
-Its possible to catch up to $friendFirstName and [[tell him || Warn Him]] of what you saw, but you 
-witnessed would most likely seem to farfetch to believe even for some as close to you as $friendFirstName. 
+Its possible to catch up to $friendFirstName and [[tell him | Warn Him]] of what you saw, but it would 
+be farfetch far-fetched to have $friendFirstName believe in what you witnessed, even though he is close to you.
 &lt;&lt;else&gt;&gt;
 Despite the history you had with $friendFirstName, you can&#39;t see him believing in such a fabricated tale.
 Espically from a new licensed fortune teller.
 &lt;&lt;/if&gt;&gt;
-
-You can&#39;t dwell on this forever. You need to stay calm, after all, you have a [[shop to run || Back Home]]. 
+You can&#39;t dwell on this forever. You need to stay calm, after all, you have a [[shop to run | Back Home]]. 
 
 &lt;!-- Extra small route after completing the original ending to this route --&gt;</tw-passagedata><tw-passagedata pid="12" name="Warn Him" tags="" position="225,225" size="100,100">At a moment&#39;s notice, you rushed out the door to your shop in order to catched up with $friendFirstName.
-
 &quot;$friendFirstName! Wait!&quot; You yelled.
-
 &quot;Hans? Is there really nothing wrong with you?&quot; $friendFirstName replied.
 
 &quot;Dude, this might sound like nonsense, but I believe that your death will be arriving very soon.&quot; You said.
@@ -272,25 +276,22 @@ You can&#39;t dwell on this forever. You need to stay calm, after all, you have 
 
 &quot;I&#39;m serious. I have a gut feeling about this.&quot; You enounced.
 
-As expected, $friendFirstName looks at you in disbelief. &quot;Hans, you definitely trust your insticts, but I don&#39;t.&quot; $friendFirstName replies.
+As expected, $friendFirstName looks at you in disbelief. &quot;Hans, you of course trust your insticts, but I don&#39;t.&quot; $friendFirstName replies.
 
-You then think for a moment about what to say to dissuade him from meeting his fate:
+You then think for a moment about what to say to dissuade him from meeting his unforuntate fate:
 
 [[Ask to hang out later tonight | Ask to Hang Out]]
 [[Ask to go with him to your place | Go With Him Now]]
 
-&lt;!-- Attempt to reconnect but fails and the friend dies. --&gt;</tw-passagedata><tw-passagedata pid="13" name="Ask to Hang Out" tags="" position="350,225" size="100,100">You want him to be safety, but he might have plans he needs to do later. 
+&lt;!-- Attempt to reconnect but fails and the friend dies. --&gt;</tw-passagedata><tw-passagedata pid="13" name="Ask to Hang Out" tags="" position="350,225" size="100,100">You want him to be safety, but he might have plans later. 
 
-&quot;Want to meet up at that bar on 4th after I close my start later today. I assume you might be busy with your own plans.&quot; You asked. 
 
+&quot;Ok. How about we meet up at that bar on 12th after I close my start later today. I assume you might be busy with your own plans.&quot; You asked. 
 &quot;Absolutely. It would be nice to catch up. What time do you plan on closing your shop?&quot; $friendFirstName replies 
-
 &quot;Probably around 8. I will for sure be at that bar at 8:15.&quot; You said.
+&quot;Alright, see you then.&quot; $friendFirstName says.
 
-&quot;Alright, see you then.&quot;
-&quot;See Ya.&quot;
-
-Despite the stress and anxiety that overwhelms you, work still needs to get done.</tw-passagedata><tw-passagedata pid="14" name="Getting Ready" tags="" position="475,225" size="100,100">Work was for the most part, uneventful. Only a few customers ever showed up. For most of the day,
+Despite the stress and anxiety that overwhelms you, [[work | Getting Ready]] still needs to get done.</tw-passagedata><tw-passagedata pid="14" name="Getting Ready" tags="" position="475,225" size="100,100">Work was for the most part, uneventful. Only a few customers ever showed up. For most of the day,
 you were left with your thoughts. 
 
 Despite you and $friendFirstName not being related in anyway and the troubsome last encounter you 
@@ -298,17 +299,17 @@ had with $friendFirstName, he is like a brother to you. Witness someone you care
 a gut wrenching feeling. 
 
 Along with the feeling of stress and anxiety, you are also left puzzled. Why did you experience 
-such visions? Was it all a funny coincidence?
+such visions? Was it all a funny coincidence? You can&#39;t get these questions out of your head.
 
-When 8 o&#39;clock hit, you immediately closed your shop and [[head to the bar || To The Bar]]. You decided to walk 
-since the distance from the bar to your shop isn&#39;t far from where you worked.</tw-passagedata><tw-passagedata pid="15" name="To The Bar" tags="" position="600,225" size="100,100">On your way to the bar, you hear a lot of commotion going on near the convinence store 
+When 8 o&#39;clock hit, you immediately closed your shop and [[head to the bar | To The Bar]]. You decided to walk 
+since the distance from the bar to your shop isn&#39;t far from where you work.</tw-passagedata><tw-passagedata pid="15" name="To The Bar" tags="" position="600,225" size="100,100">On your way to the bar, you hear a lot of commotion going on near the convinence store 
 on 14th street. You thus looked over and notice a familiar face going around yelling at those 
 that pass by. 
 
 As you got closer, you became completely shocked when you realized that the person causing all of the commotion is $friendFirstName.
 You then quickly ran over to the situation to talk with $friendFirstName and deescalte the situation.
 
-&quot;$friendFirstName! What&#39;s wrong?&quot; You shouted.
+&quot;$friendFirstName! Are you ok? What&#39;s wrong?&quot; You shouted.
 
 &quot;Hans! I need to tell you man. My life is FUCKED and this world is FUCKED!!&quot; $friendFirstName shouted.
 
@@ -317,35 +318,37 @@ most of his sentences.
 
 You then put your arm around him and then say, &quot;Come on. I&#39;ll take you back to my place.&quot;
 
-&quot;WAIT! NEED TO BO TO BY BLACE&quot; $friendFirstName disorientely shouted.
+&quot;NOOOO! NEED TO BO TO BY BLACE&quot; $friendFirstName disorientely shouted.
 
 $friendFirstName pushed you away and ran towards the street, eventually tripping on
 a pot hole in the middle of [[street | Tragedy 2]]. 
 
 
-&lt;!-- Go back to the Reconnect Route --&gt;</tw-passagedata><tw-passagedata pid="16" name="Go With Him Now" tags="" position="725,225" size="100,100">Of course what I said isn&#39;t believable. Even if it makes you look insane, you decided to actively be with $friendFirstName to ensure his safety. 
+&lt;!-- Go back to the Reconnect Route --&gt;</tw-passagedata><tw-passagedata pid="16" name="Go With Him Now" tags="" position="725,225" size="100,100">Of course what I said isn&#39;t believable. Even if it makes you look insane, you decided to be with $friendFirstName for the rest of the 
+dau to ensure his safety. 
 
-&quot;Hey, want to go back to my place for a bit? Don&#39;t worry about me, I can close the shop anytime I feel like.&quot; 
+&quot;Nevermind what I said. How about we go back to my place for a bit? Don&#39;t worry about me, I can close the shop anytime I feel like.&quot; 
 
 $friendFirstName hesitated for a bit and replies, &quot;Ummm... I have plans-&quot; 
 
 &quot;Your free today? What a coincidence! I have some beer and other drinks at my place too. We can catch up.&quot; You brusted out.
 
-$friendFirstName let out a slight sigh and says, &quot;Alright, fine.&quot;
+$friendFirstName let out a slight sigh and says, &quot;Alright, fine. If it makes you stop acting bizarre.&quot;
 
-You then thus close the shop and procede to your [[place | Stop by Home]].
+You then close the shop and procede to your [[place | Stop by Home]].
 
 &lt;!-- Original Ignore Route --&gt;</tw-passagedata><tw-passagedata pid="17" name="Back Home" tags="" position="850,225" size="100,100">After a long day of promising totally believable outcomes to your gullible clients, you then immediately
-take off your clothes and jump to bed. When trying to forget the stress of responsibility, you can&#39;t help but think about the strange occurrence 
-you experienced. With the death card and the gruesome memory, will $friendFirstName die? 
+take off your clothes and jump to bed. When trying to forget the stress of responsibility, you can&#39;t help but think about the strange events  
+that transpired recently. With the draw of the death card and the gruesome memory you 
+witnessed, will $friendFirstName truly die? 
 
 You are in immediate disbelief. You think to yourself that there is no way $friendFirstName&#39;s death is 
-set in stone and fate exists. Did you acquire some kind of foresight powers? So many questions, yet 
+set in stone and fate exists. Also, what about the memory? Did you acquire some kind of foresight powers? So many questions, yet 
 no one to answer them. 
 
-You can&#39;t sleep. The constant think makes you more anxious. You got up from your bed, took some beer from 
-the fridge and watch the nightly new. Nothing serious being shown on FOX news at the momment. The bordom
-and the buzz of some cold beers somehow puts your mind at ease and you slowly close your eyes right on the 
+You can&#39;t sleep. The constant thinking makes you more anxious. You got up from your bed, you grab some beer from 
+the fridge and watch the nightly news hosted by FOX. However, there is nothing serious being shown on FOX news at the momment. The bordom
+and the the feeling of buzz one gets after consuming several cold beers somehow puts your mind at ease and you slowly [[close your eyes | Fond Memories 1]] right on the 
 coach.
 
 
@@ -365,7 +368,7 @@ Whats worse is that you then had to clean it up while also getting shouted at by
 your drill sergeants getting constantly shouted at by the drill sergeants. You 
 then have to do more exercise as punishment shortly after as punishment. 
 
-As you [[clean the floors || Fond Memories 1.2]] around the dorm room, regret fills you mind like water filling up a glass cup. You 
+As you [[clean the floors | Fond Memories 1.2]] around the dorm room, regret fills you mind like water filling up a glass cup. You 
 determination of staying is slowly going away and you feel like your on the verge of quitting.</tw-passagedata><tw-passagedata pid="19" name="Fond Memories 1.2" tags="" position="1100,225" size="100,100">Suddenly, $friendFirstName came with several cleaning supplies since he was also tasked to clean the
 floors as well. 
 
@@ -376,18 +379,18 @@ You released a short but noticable sigh and replied with &quot;Thanks.&quot;
 $friendFirstName laughs and says, &quot;Just kicking your ass. Seriously though, it might suck now but eventually all things end, and
 bootcamp is no exception. Just got to keep your head up so as to not slow the others down.&quot; 
 
-&quot;Thanks father.&quot; You replied [[sarcastically || Tragedy]].
+&quot;Thanks father.&quot; You replied [[sarcastically | Tragedy 1]].
 
 &lt;!-- Ignoring was the wrong choice --&gt;</tw-passagedata><tw-passagedata pid="20" name="Tragedy 1" tags="" position="1225,225" size="100,100">&lt;!-- Might have sound effect for alarm--&gt;
-The sound of the alarm rises you up from your slumber. You instinctively got up from the 
+The sound of the alarm rises you up from your slumber. You instinctively get up from the 
 couch and turned off your alarm.
 
 It only took a few seconds for you to realize that you feel asleep on the couch with the television on.
-Shortly after, you started to do some cleaning from the mess up made last night when you heard a familar
-name coming from the [[news channel || Tragedy Part 2]] being brodcasted to the television.</tw-passagedata><tw-passagedata pid="21" name="Tragedy 1 Part 2" tags="" position="100,350" size="100,100">&quot;Last Night, a shooting took place near a convenience store on 14th which resulted in the death of 
+Shortly after, you started cleaning the mess up made last night. Suddenly, you heard a familar
+name coming from the [[news channel | Tragedy 1 Part 2]] being brodcasted to the television.</tw-passagedata><tw-passagedata pid="21" name="Tragedy 1 Part 2" tags="" position="100,350" size="100,100">&quot;Last Night, a shooting took place near a convenience store on 14th which resulted in the death of 
 30 year old $friendFirstName $friendLastName. Witnesses told San Fransisco PD that $friendLastName
-where in a heat argument with the suspect which esculated which had the suspect 
-pull out a gun and open fire on $friendLastName which wounded him severely. Shortly 
+was in a heat argument with the suspect. The situation escalated when the suspect 
+pulled out a gun and open fired on $friendLastName which wounded him severely. Shortly 
 after arriving at the hospital, $friendLastName was pronounced dead.&quot;
 
 The stress, shock, and anxiety came crashing like a thunderbolt. Those bizarre visions where 
@@ -395,7 +398,7 @@ true. How and why? Why did it had to be the death of $friendFirstName? Maybe I s
 have done SOMETHING to save him figure out what is happening.
 
 &lt;!-- Start the game over. --&gt;
-I wish I could [[START OVER | Start]] and find what is really going on.
+I wish I could [[START OVER | Introduction]] and find what is really going on.
 
 &lt;&lt;set $ignoreEnding to true&gt;&gt;</tw-passagedata><tw-passagedata pid="22" name="Tragedy 2" tags="" position="225,350" size="100,100">When he tried to get up, a truck that was driving at high speeds immediately honked its horn. 
 
@@ -407,7 +410,7 @@ The stress, shock, and anxiety came crashing like a thunderbolt. Why did I not g
 Why did I not help him? 
 
 &lt;!-- Start the game over. --&gt;
-I wish I could [[START OVER | Start]] and find what is really going on with .</tw-passagedata><tw-passagedata pid="23" name="StoryInit" tags="" position="350,350" size="100,100">&lt;&lt;set $lovers to false&gt;&gt;
+I wish I could [[START OVER | Introduction]] and find what is really going on with .</tw-passagedata><tw-passagedata pid="23" name="StoryInit" tags="" position="350,350" size="100,100">&lt;&lt;set $lovers to false&gt;&gt;
 &lt;&lt;set $anger to false&gt;&gt;
 &lt;&lt;set $ignoreEnding to false&gt;&gt;
 
@@ -454,6 +457,7 @@ I wish I could [[START OVER | Start]] and find what is really going on with .</t
 &lt;&lt;set $knife to false&gt;&gt;
 
 &lt;&lt;set $petList = [&quot;dog&quot;, &quot;cat&quot;]&gt;&gt;
+
 &lt;&lt;set $pet = $petList.pluck()&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Park" tags="" position="475,350" size="100,100">&lt;&lt;set $bitterness to 0&gt;&gt;
 You and $friendFirstName decide to head to the park. Breathe in some of that fresh air, take 
 in some of nature&#39;s eye candy. EXPERIENCE that lovely scenery.
@@ -789,9 +793,7 @@ Before starting the game, please enter the name of an important character:
 	&lt;&lt;else&gt;&gt;
 		&lt;&lt;goto &quot;Introduction&quot;&gt;&gt;
 	&lt;&lt;/if&gt;&gt;
-&lt;&lt;/button&gt;&gt;@@#input-error;@@
-
-[[Start Game | Introduction]]</tw-passagedata><tw-passagedata pid="52" name="Introduction" tags="" position="225,725" size="100,100">At a moments notice, you gain consciousness over your surroundings and you immediately realize 
+&lt;&lt;/button&gt;&gt;@@#input-error;@@</tw-passagedata><tw-passagedata pid="25" name="Introduction" tags="" position="600,350" size="100,100">At a moments notice, you gain consciousness over your surroundings and you immediately realize 
 something unusually about your situation.
 The air feels thick and heavy. You legs feels numb and dysfunctional. A state of panic is brewing.
 Suddenly, you hear a voice calling for your name. You turn toward the direction of the sound and noticed an odd site.

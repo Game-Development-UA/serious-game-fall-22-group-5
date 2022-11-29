@@ -1,6 +1,6 @@
 :: Start
 
-<h1 class="title">XIII</h1>
+<i><h1>XIII</h1></i>
 
 Before starting the game, please enter the name of an important character:
 <br>
@@ -22,8 +22,6 @@ Before starting the game, please enter the name of an important character:
 		<<goto "Introduction">>
 	<</if>>
 <</button>>@@#input-error;@@
-
-[[Start Game | Introduction]]
 
 :: Introduction
 At a moments notice, you gain consciousness over your surroundings and you immediately realize 
