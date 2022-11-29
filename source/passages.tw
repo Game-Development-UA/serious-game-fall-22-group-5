@@ -291,10 +291,10 @@ You decide to grab the pocket knife, who knows it might come in handy later.
 :: Heading Out
 <<if $pet == "dog">>
 	As you are heading out Luma approaches you clearly [[expecting something|Dog Pat]]
-	<img src="media/dogStare.gif" alt="dog stare" style="width: 30%;">
+	<img src="media/dogStare.jpg" alt="dog stare" style="width: 30%;">
 <<elseif $pet == "cat">>
 As you are heading out Luma approaches you clearly [[expecting something|Cat Pat]]
-	<img src="media/catStare.gif" alt="cat stare" style="width: 30%;">
+	<img src="media/catStare.jpg" alt="cat stare" style="width: 30%;">
 <</if>>
 After tidying up a bit, you grab a coat and head to the door.
 $friendFirstName is leaning next to your door waiting for you outside.
