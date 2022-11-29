@@ -183,7 +183,7 @@ You try to break the ice by asking
 ::MarriageQ
 "So, uh... how's the marriage going? Y'know, with Barbara," you ask $friendFirstName. You
 heard from another old friend in high school a while back that they got married to someone they
-met in univerisity.
+met in university.
 
 "Oh, Barbara? We got divorced a few years ago," they said. "I'm on my third wife at this point. 
 Annabeth, her name is."
@@ -392,3 +392,185 @@ or make a move at all.
 
 You pull $friendFirstName to the side.
 
+How do you explain to them about her feelings?
+[[Kind of hint at it|RejectLotta]]
+[[Be blunt|IgnoreLotta]]
+
+::RejectLotta
+You kind of hint at the fact that she likes them.
+
+"Well... y'see... I kind of told her that she would definitely fall in love with someone, and 
+you were really hamming it up with her earlier... I dunno, it kind of feels like she's the type
+of gal to jump to conclusions really quick," you say to them.
+
+They pause, slowly coming to the realization. 
+
+"Oh, I see," $friendFirstName nods. "I'll [[explain|RejectLotta2]] the whole situation right quick,"
+
+::RejectLotta2
+The two of you return to Lotta who has been twiddling with her thumbs in the meantime. She and
+$friendFirstName engage in some light conversation, to which they really casually yet cleverly steer towards the
+concept of crushes, like they always do unknowingly, and then they hit her with the whammy:
+
+"Okay so, Hans over here kind of alluded to the fact that you may or may not have a crush on me.
+So I just want to set the record straight, in that I really can't reciprocate your feelings. 
+I'm married, and it just doesn't feel like there's anything of a spark. Sorry."
+
+Lotta stops dead in her tracks. You could tell at that moment her heart just sank.
+
+"O-oh... okay..." she stammers.
+
+It just went from a 0 to a 100 on the awkwardness scale. You and $friendFirstName make a hasty 
+leave while Lotta just stands there.
+
+<<if $bitterness gte 3>>
+[[Next|AfterRejectFight]]
+<<else>>
+[[Next|AfterRejectMakeUp]]
+<</if>>
+
+::AfterRejectFight
+It's been a bit after $friendFirstName rejected Lotta, and the two of you have since left the park
+and are now in some sort of alley way. You don't know why you're there, you've just been following
+$friendFirstName the whole time.
+
+"Uhh... so what's up? Why are we here?" you ask.
+
+They glare at you.
+
+"What was up with that, huh? You wanted to set me up with that girl Lotta over there? You think
+just because you're a fortune teller you're a matchmaking god now?"
+
+[[Next|ARF2]]
+
+::ARF2
+You can't believe what you just heard. "What? No! I was just-"
+
+"Shut up!" $friendFirstName screams at you. "You wanted me to be happy, right? You think this will
+make me forgive you after you left me to go date your little crush Kathy? Hey, how'd THAT turn out
+for you?"
+
+Your face starts to get red.
+
+"You think I'm just a pathetic loser, don't you?" $friendFirstName says. "You've always thought that.
+Well, hate to break it to you, but I'm doing FINE. I've at least got a wife. Hell, I've got three of
+them. You don't need to set me up with someone because you feel sorry for me."
+
+You can't believe it. You yell back, "Oh my god, you STILL hold a grudge against me for all of that?
+You literally left me for dead back in the war! Why do YOU get the right to talk?"
+
+"Yeah, and I should've left you for dead, you disgusting fucking pig."
+
+Okay. Now they've done it.
+
+[[Next|ARF3]]
+
+::ARF3
+[[...|ARF4]]
+
+::ARF4
+You barely come to. For the past few minutes the only thing you could see is red. You look down. Your
+entire body stings. Your hands are bloody. You look at the floor.
+
+$friendFirstName is laying there, dead.
+
+[[Oh god.|ARF5]]
+
+::ARF5
+You sprint out of that alley as fast as you possibly can. Your mind is racing with pure emotion, your
+veins pumping with adrenaline, both from the fact that you just killed your best friend.
+
+"Oh my god, oh my god, oh my god," you can't stop thinking to yourself.
+
+In the panic, you accidentally bump into some sleazebag.
+
+"Hey dude- WHOA man, are you okay?" he asked, obviously startled at the fact that the person he
+ran into was covered in bruises and blood.
+
+"NO, no, no, I'm fine!" you say to him. You try to run past him, but he stops you.
+
+"Hey, do you know a guy named $friendFirstName $friendLastName?" he asks.
+
+You [[respond|ARF6]]
+
+::ARF6
+"N-no... I don't know who you're talking about," those words feel like hot tacks in your mouth.
+
+"Oh... okay then..." he runs past you, also clearly on his own thing.
+
+You pause for a bit, and then you keep running.
+
+You just killed your best friend.
+
+What do you do now?
+
+<b>BAD END</b>
+
+[[RETURN TO START|Start]]
+
+::AfterRejectMakeUp
+The two of you keep walking. By now you've left the park and Lotta, who kind of just stood
+there dumbfounded, and have entered the city.
+
+You found a local ice cream vendor and bought some. Mint chocolate chip, your favorite. $friendFirstName 
+always called you weird for liking it, but whatever. You sit at the curb, enjoying your frozen treat
+when $friendFirstName sits by your side to join you.
+
+"I'm sorry, by the way," they say to you.
+
+"What," you respond. "What are you [[talking about?|ARMU2]]
+
+::ARMU2
+"I'm sorry, about the war..." 
+
+Their eyes get watery. This has been a long time coming and you could tell.
+
+"$friendFirstName, no, don't" you say to them.
+
+"No it's true! I saw you in that trap lying there, almost certainly gonna die. If I had just
+taken the time to help you instead of trying to save my own skin..."
+
+"Dude, you're totally fine. Honestly, you're not the only one that needs to apologize. I'm sorry
+for ditching you in university, man. I was thinking way too emotionally then."
+
+You lean over for a hug. They reciprocate. A giant load came off your chest. You feel
+grateful for what just happened.
+
+[[Next|ARMU3]]
+
+::ARMU3
+Another hour or so goes by, and you and $friendFirstName are still chilling. Y'know, after you two had made
+up, it feels nice to chat with your old friend like this. The two of you reminisce about the
+past, talk about current prospects, future goals, hell, you two even exchanged contact information.
+The two of you were well on your way to becoming best friends again, just like the good ol' days.
+
+Suddenly, you hear loud yelling from some guy, mixed with the loud yelling of a woman, whose voice
+is vaguely familiar.
+
+Then it got closer.
+
+And closer.
+
+Until finally you two are confronted with some [[sleazebag|ARMU4]], accompanied by Lotta.
+
+::ARMU4
+"Hey asshole!" the sleazebag yells at the two of you, spit hitting both of your faces. "Which one
+of you is named $friendFirstName?!"
+
+"That would be me," $friendFirstName replied.
+
+The sleazebag puts his face up in front of $friendFirstName's. "Oh, so YOU'RE the one who's been
+talking to Lotta, huh? You think you can really act all cool, right?"
+
+"We-we're not DATING anymore, Leon," Lotta says, meekly.
+
+Leon turns to Lotta. "SHUT THE FUCK UP, BITCH" he screams at her. She flinches on instinct.
+
+Leon turns his attention to $friendFirstName, screaming at them. He keeps screaming something
+incoherent about righeousness, and Lotta, and whatever. He has the bamblings of an incoherent
+drunkard. $friendFirstName rolls their eyes, [[before...||ARMU5]]
+
+::ARMU5
+<b>POW!!!</b>
+
+$friendFirstName punches Leon straight in the jaw. 
