@@ -100,7 +100,7 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 		<div id="init-lacking">Your browser lacks required capabilities. Please upgrade it or switch to another to continue.</div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://1F012455-6A83-4CCB-BCB1-49B9D77D4E03// --><tw-storydata name="XIII" startnode="51" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="1F012455-6A83-4CCB-BCB1-49B9D77D4E03" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* The body is everything displayed in the main text delivery area
+	<!-- UUID://1F012455-6A83-4CCB-BCB1-49B9D77D4E03// --><tw-storydata name="XIII" startnode="87" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="1F012455-6A83-4CCB-BCB1-49B9D77D4E03" zoom="1" format="SugarCube" format-version="2.30.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* The body is everything displayed in the main text delivery area */
 body {
 	background: #24242A;
 	font-family: 'Syne', sans-serif;
@@ -457,8 +457,9 @@ I wish I could [[START OVER | Introduction]] and find what is really going on wi
 &lt;&lt;set $knife to false&gt;&gt;
 
 &lt;&lt;set $petList = [&quot;dog&quot;, &quot;cat&quot;]&gt;&gt;
+&lt;&lt;set $pet = $petList.pluck()&gt;&gt;
 
-&lt;&lt;set $pet = $petList.pluck()&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Park" tags="" position="475,350" size="100,100">&lt;&lt;set $bitterness to 0&gt;&gt;
+&lt;&lt;set $soy to true&gt;&gt;</tw-passagedata><tw-passagedata pid="24" name="Park" tags="" position="475,350" size="100,100">&lt;&lt;set $bitterness to 0&gt;&gt;
 You and $friendFirstName decide to head to the park. Breathe in some of that fresh air, take 
 in some of nature&#39;s eye candy. EXPERIENCE that lovely scenery.
 
@@ -505,7 +506,7 @@ It honestly didn&#39;t matter anyway. In like junior year of university after ga
 the courage to confess your feelings to her, she rejected you anyway.
 
 All that matters is that you chose to go out of state to follow her to Glaggleblorp
-University instead of staying with $friendFirstName in state at the Univeristy of
+University instead of staying with $friendFirstName in state at the University of
 Wogglemurphy.
 
 I mean, you tried to tell $friendFirstName that it was all about your degree and your major,
@@ -549,6 +550,8 @@ They turn around and notice you.
 [[Next|BackstoryNext4]]</tw-passagedata><tw-passagedata pid="31" name="BackstoryNext4" tags="" position="100,475" size="100,100">They hesitated for a bit.
 
 Then the noise of the enemy hit a peak.
+
+&quot;I&#39;m sorry Hans...&quot; $friendFirstName says.
 
 Then they ran.
 
@@ -617,7 +620,6 @@ single my entire life, ever since... &quot;
 
 You stop the sentence there. You don&#39;t want to bring up Kathy.
 &lt;&lt;set $bitterness to $bitterness + 1&gt;&gt;
-&lt;&lt;if $bitterness gte 2&gt;&gt;Test!&lt;&lt;else&gt;&gt;Failed&lt;&lt;/if&gt;&gt;
 [[Next|LottaParkEncounter1]]</tw-passagedata><tw-passagedata pid="38" name="BarbaraQ" tags="" position="975,475" size="100,100">&quot;Oh, well how&#39;s Barbara doing? I heard you guys were old flings back in the university
 days?&quot; you queried.
 
@@ -713,7 +715,7 @@ you completely forgot what fortune you gave her.
 
 You choose to:
 [[Say hi|LottaHart]]
-[[Ignore her|IgnoreLotta]]</tw-passagedata><tw-passagedata pid="46" name="LottaHart" tags="" position="725,600" size="100,100">&quot;Hey, there&#39;s a customer I had today!&quot; you say to $friendFirstName, pointing to her. &quot;I read her fortune
+[[Ignore her|IgnoreHer]]</tw-passagedata><tw-passagedata pid="46" name="LottaHart" tags="" position="725,600" size="100,100">&quot;Hey, there&#39;s a customer I had today!&quot; you say to $friendFirstName, pointing to her. &quot;I read her fortune
 a while ago, before you came in.&quot;
 
 &quot;Wow, what did you read her fortune to be?&quot;
@@ -730,7 +732,21 @@ Doesn&#39;t matter. You still want to say [[hi|lhInLove]], see how it&#39;s been
 of your VERY prestigious tarot shop. You want to see how that little fortune you read for
 her is going.
 &lt;&lt;elseif $passion is true&gt;&gt;
-You go over to Lotta who is talking to her boyfriend.
+You go over to Lotta, talking to someone you don&#39;t recognize. On your way over to her, you accidentally
+bump into some random sleazebag who wasn&#39;t looking where he was going. What a turd.
+
+Oh well. You still want to say [[hi|OldNemesis]], see how it&#39;s been going. I mean, she was a patron
+of your VERY prestigious tarot shop. You want to see how that little fortune you read for
+her is going.
+&lt;&lt;else&gt;&gt;
+You go over to Lotta, clearly nervous. She has trouble interacting with birds, let alone
+people. Right away, from the moment she walked into your shop, you could tell she was a shy 
+person.
+
+Doesn&#39;t matter. You still want to say [[hi|Anticlimactic]], see how it&#39;s been going. I mean, she was a patron
+of your VERY prestigious tarot shop. You want to see how that little fortune you read for
+her is going. Hey, you may have fibbed a little, but a little placebo can be just the right
+push to cause great change in life.
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="48" name="lhInLove" tags="" position="975,600" size="100,100">You go over to her, $friendFirstName following close behind.
 
 &quot;Hi... Lotta.. was it?&quot; you say to her.
@@ -914,9 +930,295 @@ Leon turns to Lotta. &quot;SHUT THE FUCK UP, BITCH&quot; he screams at her. She 
 
 Leon turns his attention to $friendFirstName, screaming at them. He keeps screaming something
 incoherent about righeousness, and Lotta, and whatever. He has the bamblings of an incoherent
-drunkard. $friendFirstName rolls their eyes, [[before...||ARMU5]]</tw-passagedata><tw-passagedata pid="63" name="ARMU5" tags="" position="350,850" size="100,100">&lt;b&gt;POW!!!&lt;/b&gt;
+drunkard. $friendFirstName rolls their eyes, [[before...|ARMU5]]</tw-passagedata><tw-passagedata pid="63" name="ARMU5" tags="" position="350,850" size="100,100">&lt;b&gt;POW!!!&lt;/b&gt;
 
-$friendFirstName punches Leon straight in the jaw.</tw-passagedata><tw-passagedata pid="64" name="Start" tags="" position="475,850" size="100,100">&lt;h1 class=&quot;title&quot;&gt;XIII&lt;/h1&gt;
+$friendFirstName punches Leon straight in the jaw. 
+
+It&#39;s a doozy too. Leon fell to the floor in a daze, with you and Lotta both too shocked to even
+comprehend what just happened. Leon gets up and runs away, probably out of shame.
+
+&quot;HOLY SHIT!&quot; you say to $friendFirstName. &quot;That was amazing!&quot;
+
+&quot;Yeah!&quot; Lotta agrees, grinning from ear to ear. Honestly, that was sort of counterproductive
+because now the crush Lotta has on $friendFirstName has only grown.
+
+[[Next|ARMU6]]</tw-passagedata><tw-passagedata pid="64" name="ARMU6" tags="" position="475,850" size="100,100">A while has passed, yet again. You and $friendFirstName have been accompanied by Lotta on your
+little hang out sesh, and she&#39;s just fully out of her shell now. She&#39;s been cracking jokes
+with you two, and has just been all around a pleasant person.
+
+&quot;Oh shoot,&quot; she says. &quot;It is DEFINITELY late. I really need to get home.&quot; You didn&#39;t notice
+how dark it&#39;s been getting.
+
+&quot;Hey, maybe we could walk you home! Wouldn&#39;t want you to run into that scumbag again. Leon
+was his name, right?&quot; $friendFirstName says.
+
+Lotta giggles. &quot;Well aren&#39;t YOU a knight in shining armor. Fine, I accept your act of charity.&quot;
+
+The three of you find yourselves at a [[crosswalk|ARMU7]]</tw-passagedata><tw-passagedata pid="65" name="ARMU7" tags="" position="600,850" size="100,100">Suddenly, you&#39;re confronted with a vision. A vision where a car goes out of control going 80
+mph and hits the three of you. And it was going to happen just then.
+
+You notice that car coming from your peripheral vision. You react fast.
+
+You grab Lotta, who just so happened to be closest to you, and jump immediately out of the way.
+
+$friendFirstName turned out to [[not be so lucky.|ARMU8]]</tw-passagedata><tw-passagedata pid="66" name="ARMU8" tags="" position="725,850" size="100,100">You see $friendFirstName&#39;s lifeless body, almost turned to goo from the metal machine that just
+hit them, and immediately after, hit a streetlight.
+
+The car very obviously out of commision, the driver stumbles out, also bloody.
+
+You recognize him instantly.
+
+It&#39;s Leon.
+
+[[Start Over?|Start]]</tw-passagedata><tw-passagedata pid="67" name="IgnoreLotta" tags="" position="850,850" size="100,100">&quot;Okay, so that girl Lotta has definitely got crush on you. It&#39;s completely obvious, too.&quot;
+
+&quot;Wh-what?&quot; $friendFirstName says. &quot;Are you serious?&quot;
+
+&quot;Dead serious dude. Look at the way she talks to you.&quot;
+
+&quot;But I&#39;m MARRIED,&quot; $friendFirstName responds. &quot;What do I do?&quot; The two of you look back to Lotta, too meek 
+to even interact with the wildlife without getting nervous.
+
+&quot;Oh..hmm...&quot; they ponder. They quickly walk away from Lotta&#39;s general direction. Lotta,
+noticing this, [[follows||ignore2]] $friendFirstName. &quot;Hey! Wait up!&quot; she yells at them.</tw-passagedata><tw-passagedata pid="68" name="ignore2" tags="" position="975,850" size="100,100">You stop her as she&#39;s running towards $friendFirstName.
+
+&quot;Lotta, listen... I-&quot; she interrupts you.
+
+&quot;Okay Hans, look. Y&#39;know that whole fortune you gave me? About finding true love?
+I think $friendFirstName is it. They&#39;re perfect. They&#39;re attractive, funny, nice, I mean 
+anything is an upgrade over my ex...&quot; she stops a bit, before getting the motivation
+to continue again. &quot;Okay, just- thank you for introducing me to them,&quot;
+
+She doesn&#39;t get the hint, and continues chasing after them.
+
+All the while, you two were distracting each other from noticing that $friendFirstName had
+accidentally [[bumped into...|BearEat]]</tw-passagedata><tw-passagedata pid="69" name="BearEat" tags="" position="1100,850" size="100,100">A bear.
+
+A bear who did not quite like the fact that during its pleasant nap was hit by a panicking
+$friendFirstName.
+
+A bear who, in its anger, has ripped $friendFirstName to shreds.
+
+Dear god.
+
+[[Start Over?|Start]]</tw-passagedata><tw-passagedata pid="70" name="OldNemesis" tags="" position="1225,850" size="100,100">You walk over to Lotta, all buddy buddy with someone new.
+
+&quot;Hey... Lotta... right?&quot; you say to her. &quot;Hey, it&#39;s me, Hans, the fortune teller from earlier!
+How&#39;s that fortune going?&quot;
+
+Her eyes widen when she sees you. &quot;Oh my god, YOU!&quot; She shakes your hand vigorously. &quot;Thank you
+for giving me that fortune! If it wasn&#39;t for you, I wouldn&#39;t have had the courage to tell my crush
+my feelings. Thankfully he reciprocated. I&#39;d like to introduce you to my boyfriend, Norville 
+Wockywomp!&quot;
+
+The man extends a hand to you.
+
+&quot;Hi! It&#39;s very good to meet you!&quot; he says.
+
+You look into his eyes and reciprocate the handshake, but [[all of a sudden...|Flashback]]</tw-passagedata><tw-passagedata pid="71" name="Flashback" tags="" position="100,975" size="100,100">You flash back in time. To the war. The war $friendFirstName left you for dead in.
+
+You remember yourself playing dead in that trap, the enemy soldier was so close to realizing
+you were actually alive before someone, presumably his superior, called him away. So close, in fact,
+that at one point his boot was literally on your chest, sensing a heartbeat.
+
+And this was [[the same person.|BackToReality]]</tw-passagedata><tw-passagedata pid="72" name="BackToReality" tags="" position="225,975" size="100,100">Dear god.
+
+When you realized this, you started to sweat profusely. Your ears turned bright red, and it took
+everything you had to maintain your composure. You break out of the handshake immediately.
+
+&quot;I&#39;m sorry, but I have to go,&quot; you say to $friendFirstName.
+
+You break off in a sprint back to your [[shop.|Nemesis1]]</tw-passagedata><tw-passagedata pid="73" name="Nemesis1" tags="" position="350,975" size="100,100">When you finally arrive at your fortune telling shop, you start gathering all your things. All
+your war memorabilia from your service. Jesus Christ. How could this have happened. The war by now
+has ended. Everything came back to you regarding your time in the platoon. The guard duty, the
+horrifyingly malnutritious meals, everything. Everything came back to you regarding the ambush. The
+violence, the chaos.
+
+After the rush of panic and fear, you start to rationalize everything. &quot;Okay,&quot; you think to yourself.
+&quot;The war is over! It&#39;s not like he&#39;d... hold a GRUDGE against me or anything! Besides, that&#39;s even
+if he remembers me at all, or what I&#39;d look like! Surely he wouldn&#39;t be some insanely violent
+psychopath that he holds some sort of vendetta against me after all this time! All I did was fake my
+death! It was his own fault that I lived!&quot;
+
+After you come to your senses, you begin to put all your things away.
+
+&lt;&lt;timed 5s&gt;&gt;
+And then you [[see him in the lobby.|Nemesis2]]
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="74" name="Nemesis2" tags="" position="475,975" size="100,100">&quot;Oh! H-hi!&quot; you trembled. &quot;H-how can I help you?&quot;
+
+&quot;Oh, I bet you know exactly why I&#39;m here,&quot; he says, whipping out a gun from his jacket. &quot;I know you,
+and you know who I am. Y&#39;know, I never really forgave myself for letting such an easy kill go
+under my nose like that. Oh bother, I guess it&#39;s time for me to finish what I started.&quot;
+
+He points his gun at you, but [[all of a sudden...|Nemesis3]]</tw-passagedata><tw-passagedata pid="75" name="Nemesis3" tags="" position="600,975" size="100,100">You get a vision of the future, and you see everything that he&#39;s about to do. Every punch thrown,
+every where he aims to fire his gun, and most importantly, what he&#39;s NOT paying attention to.
+
+You immediately get thrown to the present where you start to fight him. You dodge his attacks left
+and right. He fires a bullet once at you, but you dodge it effortlessly. It almost looks
+choreographed, the way you&#39;re just dancing through everything he throws at you.
+
+After a few minutes of pure humiliation, you pin him to the ground, dismantling him of his weapon in the
+process. You get a long thing of rope (very common in most fortune telling shops) and tie him to a
+chair, and call the police.
+
+But it was only after all that coolness that you notice [[what happened in the middle of the fight.|StrayBullet]]</tw-passagedata><tw-passagedata pid="76" name="StrayBullet" tags="" position="725,975" size="100,100">That lone bullet the guy fired? It went straight out the window.
+
+You quickly run out to assess the damage, but it&#39;s even worse than you could&#39;ve imagined.
+
+$friendFirstName lay on the ground, lifeless. They went to go check on you, infering you were stressed,
+but was hit by the stray bullet that came straight through the window.
+
+Funny. The person who accidentally spared your life, in a situation $friendFirstName put you in before 
+was now the  one who accidentally killed $friendFirstName, due to a situation you put yourself in.
+
+How ironic.
+
+[[Start Over?|Start]]</tw-passagedata><tw-passagedata pid="77" name="IgnoreHer" tags="" position="850,975" size="100,100">You decide to ignore her. I mean, why even get involved with the lives of customers? Like,
+they&#39;re just paying for their fortune read. They don&#39;t need to be stalked or anything like that.
+
+Then you realize that&#39;s kind of what you&#39;re doing to $friendFirstName, and then you feel silly.
+
+The two of you find yourselves at a bench, and have sat down. You&#39;re simply chilling, when all of
+a sudden, you notice a tear streaming down $friendFirstName&#39;s cheek.
+
+&quot;What&#39;s wrong?&quot; you ask.
+
+&quot;I dunno...&quot; $friendFirstName says. &quot;Everything just feels so... lonely... lately.&quot;
+
+[[Press further as to what&#39;s going on|PressFurther]]
+[[Show empathy|ShowEmpathy]]</tw-passagedata><tw-passagedata pid="78" name="PressFurther" tags="" position="975,975" size="100,100">&quot;Oh shit... I&#39;m sorry... what&#39;s been going on recently?&quot; you ask them.
+
+&quot;I.. I just...&quot; they wipe the tear from their cheek. &quot;I recently found out that my mom passed...&quot;
+
+&quot;Oh... oh my god, I&#39;m sorry,&quot; you say to them.
+
+&quot;I mean... no.. it&#39;s not even just that. I just feel so isolated all the time.... Everyone I
+was close to has left me in my life. You, Miguel, my parents, my first two wives... hell my
+current wife is so distant to me all the time and I&#39;m currently thinking about divorcing her as
+well. Everything is just so messed up, man. I miss the sense of community I used to have in
+high school with you and everybody else.. I miss having a friend to just having drinks with 
+and bond with. I miss it all.&quot;
+
+Oh god. You never realized how hard you leaving them in university hit them. 
+
+[[Apologize|SorryForLeaving]]
+&lt;&lt;if $gift == true&gt;&gt;
+[[Give Gift|ApologyGift]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="79" name="ApologyGift" tags="" position="1100,975" size="100,100">&quot;Here...&quot; you say, handing the gift over to them. &quot;I wanted you to have this. I know it by itself
+isn&#39;t gonna make up for my abandoning you, but it&#39;s the least I could do.&quot;
+
+$friendFirstName takes the gift. &quot;Hans... I...&quot; Their lips trembling. &quot;I don&#39;t know what to say...&quot;
+
+...
+
+&quot;Aren&#39;t you gonna open it?&quot; you ask.
+
+Tears are streaming down $friendFirstName&#39;s face even more. &quot;I don&#39;t need to. It could be the most
+impractical, nothing thing ever and I still wouldn&#39;t care. I&#39;m just glad that you still care about
+me.&quot;
+
+They hug you. This one came from the heart though.
+
+&quot;Thank you,&quot; $friendFirstName says, before getting up. &quot;I think I have to go now, but it was
+really fun catching up with you.&quot;
+
+You don&#39;t know what just happened, but you&#39;re honestly really glad that it did.
+
+[[Next|LaterSuicide]]</tw-passagedata><tw-passagedata pid="80" name="LaterSuicide" tags="" position="1225,975" size="100,100">A week passed since then.
+
+It&#39;s been a while since you saw the news. &quot;Ah, what the hell,&quot; you thought to yourself. &quot;Time for
+another existential loathing experience,&quot; you say as you flick to the news channel.
+
+The big story is that someone hanged themselves recently. They left no note.
+
+That person was $friendFirstName.
+
+On the ground of the crime scene you notice off to the side of the body.
+
+It was the gift you gave them, still unopened.
+
+[[Start Over?|Start]]</tw-passagedata><tw-passagedata pid="81" name="SorryForLeaving" tags="" position="100,1100" size="100,100">&quot;I just wanted to say,&quot; you address to $friendFirstName. &quot;I&#39;m sorry for leaving. I should&#39;ve
+just stayed with you at Wogglemurphy.&quot;
+
+They scoff.
+
+&quot;Well, you should&#39;ve thought about that all those years ago when applying for colleges, right?&quot;
+
+The tension in the air is so thick you could almost cut through it with a butter knife. &lt;&lt;set $bitterness to $bitterness + 3&gt;&gt;
+
+You notice Lotta, from earlier, still in the park. You point to her. &quot;H-hey!&quot; desperate to change
+the topic of conversation to something more positive. &quot;There&#39;s a customer I had earlier today!
+Why don&#39;t we go [[say hi?&quot;|LottaHart]]</tw-passagedata><tw-passagedata pid="82" name="ShowEmpathy" tags="" position="225,1100" size="100,100">&quot;H-hey... I totally feel you. I mean, look at me. I&#39;ve had nobody to call my own! I never
+really got to know anybody in university, and I still haven&#39;t met anyone new. It&#39;s a miracle
+I even GET customers,&quot; you say, trying to take a load off them.
+
+&quot;Oh, that&#39;s cool. Yeah, then, it&#39;s super cool how you left me for that one girl you had a crush
+on... I forgot her name... Kathy? Yeah, her. How&#39;d you do with her? She never even looked at you
+in high school. Yea it&#39;s so great that you abandoned me in university for her. Yea, great.&quot;
+
+Before you knew it, words spilled out of your mouth.
+
+&quot;Okay, well at least I&#39;m not the coward who left me to die in the war,&quot; you lash out at them.
+
+&quot;Oh, what, now you expect me to risk my life to save your sorry ass? Oh, I&#39;m sorry I didn&#39;t walk
+with you into the most obvious trap in existence. I&#39;m sorry I didn&#39;t risk my life saving yours.
+I&#39;m sorry I didn&#39;t finish you while you were down there. I&#39;m sorry, Hans. I am.&quot;
+
+Your ears turn beet red... and before you knew it...
+&lt;&lt;if $knife == true&gt;&gt;
+[[...you take out that knife you brought...|ThroatSlit]]
+&lt;&lt;else&gt;&gt;
+[[...|NothingHappened]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="83" name="ThroatSlit" tags="" position="350,1100" size="100,100">...and slit his throat.
+
+.
+.
+.
+
+Before you even have the mental capacity to process what you just did, you hear a blood-curdling
+scream in the distance.
+
+You look over.
+
+It&#39;s Lotta.
+
+[[Start Over|Start]]</tw-passagedata><tw-passagedata pid="84" name="NothingHappened" tags="" position="475,1100" size="100,100">...nothing.
+
+You don&#39;t do anything.
+
+You don&#39;t have the capacity to do anything, except stew in vitriol.
+
+Desperate to take your mind off the situation you dart your eyes everywhere you can. &lt;&lt;set $bitterness to $bitterness + 99&gt;&gt;
+
+You notice Lotta, from earlier, still in the park. You point to her. &quot;H-hey!&quot; desperate to change
+the topic of conversation to something more positive. &quot;There&#39;s a customer I had earlier today!
+Why don&#39;t we go [[say hi?&quot;|LottaHart]]</tw-passagedata><tw-passagedata pid="85" name="Anticlimactic" tags="" position="600,1100" size="100,100">&quot;Hi,&quot; you say to Lotta. &quot;I&#39;m Hans, the guy who read your fortune earlier today!&quot;
+
+...
+
+She doesn&#39;t respond. She&#39;s still too nervous to interact with you. I guess the pent up energy
+she had when asking for her fortune must&#39;ve worn off by this point.
+
+The air is somehow even more uncomfortable and awkward than before. You and $friendFirstName quickly [[take your leave.|Anticlimax2]]</tw-passagedata><tw-passagedata pid="86" name="Anticlimax2" tags="" position="725,1100" size="100,100">A bit later, after not really talking to each other, $friendFirstName decides to part ways.
+
+&quot;Well... I wish I could say it&#39;s been fun,&quot; they say to you, &quot;but I really gotta get going now.&quot;
+
+They hastily speedwalk away.
+
+Unfortunately for $friendFirstName, they were so desperate to get away from the whole situation
+that they got hit by an oncoming car.
+
+&quot;WHAT THE SHIT DUDE&quot; the sleazebag driving the car says, as he&#39;s getting out of the car to assess the
+damage. He cares more about the car than the literal person he just hit. Whatever. I mean, it was 
+partially his fault too. You could tell he was going waaaaay too fast.
+
+Honestly, you probably could&#39;ve warned $friendFirstName about the oncoming car, since just prior
+you saw a vision of it, but you didn&#39;t really want to talk to them anymore and would probably be
+way too uncomfortable doing it.
+
+It was for the best.
+
+[[Start Over?|Start]]</tw-passagedata><tw-passagedata pid="87" name="Start" tags="" position="850,1100" size="100,100">&lt;i&gt;&lt;h1&gt;XIII&lt;/h1&gt;&lt;/i&gt;
 
 Before starting the game, please enter the name of an important character:
 &lt;br&gt;
@@ -937,9 +1239,7 @@ Before starting the game, please enter the name of an important character:
 	&lt;&lt;else&gt;&gt;
 		&lt;&lt;goto &quot;Introduction&quot;&gt;&gt;
 	&lt;&lt;/if&gt;&gt;
-&lt;&lt;/button&gt;&gt;@@#input-error;@@
-
-[[Start Game | Introduction]]</tw-passagedata><tw-passagedata pid="52" name="Introduction" tags="" position="225,725" size="100,100">At a moments notice, you gain consciousness over your surroundings and you immediately realize 
+&lt;&lt;/button&gt;&gt;@@#input-error;@@</tw-passagedata><tw-passagedata pid="88" name="Introduction" tags="" position="975,1100" size="100,100">At a moments notice, you gain consciousness over your surroundings and you immediately realize 
 something unusually about your situation.
 The air feels thick and heavy. You legs feels numb and dysfunctional. A state of panic is brewing.
 Suddenly, you hear a voice calling for your name. You turn toward the direction of the sound and noticed an odd site.
@@ -949,17 +1249,17 @@ Right after, images of grotesque scene start to rapidly visualize in your head.
 Feels of shock and pain overwhelms you. Not being able to take the pain anymore, you realized a loud shriek.
 A shriek so loud that your neighbors can hear. You open your eyes, realizing your sleeping on a chair in your
 new [[fortune telling shop|New Beginnings]].
-&lt;&lt;set $money to 0&gt;&gt;</tw-passagedata><tw-passagedata pid="66" name="New Beginnings" tags="" position="725,850" size="100,100">Years ago, you oddly took an interest in the world of the supernatural and fortunes, probably due to your aunt.
+&lt;&lt;set $money to 0&gt;&gt;</tw-passagedata><tw-passagedata pid="89" name="New Beginnings" tags="" position="1100,1100" size="100,100">Years ago, you oddly took an interest in the world of the supernatural and fortunes, probably due to your aunt.
 Due to this fascination, you&#39;ve always wanted to open your own store and after years of saving money, this dream became a reality. Yesterday, you finished setting up the shop. 
 You finish setting up the shop and start to reminisce about your training to become a fortune teller.
 Well, it wasn&#39;t really training it was more like asking your aunt about what each card meant and looking things up in the library.
 You recall some [[information|Reading Tips]] you read in the book you had borrowed from the library.
 As you were lost in you own thoughts, you hear light footsteps approaching you.
-It&#39;s your [[first customer?|First Tarot Reading]]</tw-passagedata><tw-passagedata pid="67" name="Reading Tips" tags="" position="850,850" size="100,100">You recall that orientation played a huge part in how a card is interpreted when drawn.
+It&#39;s your [[first customer?|First Tarot Reading]]</tw-passagedata><tw-passagedata pid="90" name="Reading Tips" tags="" position="1225,1100" size="100,100">You recall that orientation played a huge part in how a card is interpreted when drawn.
 A card can have vastly different meanings depending on the orientation of the card.
 Upright cards usually signify positive concepts meanwhile Reversed cards signified negative things.
 Though, there were some exceptions to this.
-[[Enough reminiscing|New Beginnings]]</tw-passagedata><tw-passagedata pid="68" name="First Tarot Reading" tags="" position="975,850" size="100,100">You notice a woman nervously making her way to you.
+[[Enough reminiscing|New Beginnings]]</tw-passagedata><tw-passagedata pid="91" name="First Tarot Reading" tags="" position="100,1225" size="100,100">You notice a woman nervously making her way to you.
 &quot;Is this a fortune telling shop?&quot; she asks
 You can barely hear what she said, if she weren&#39;t standing directly in front of you you probably wouldn&#39;t have heard her speak.
 You notice her fidgeting constantly, she reminds you of someone you knew, or perhaps an animal?
@@ -977,10 +1277,10 @@ She seems a little more open and comfortable now, maybe it was because she saw y
 &quot;My name is Lotta Hart&quot; her voice loud and clear
 &quot;Like I said before, I&#39;m looking for a lover, a soulmate.&quot;
 
-The first customer is looking for a [[soulmate.|Tarot Minigame Customer 1]]</tw-passagedata><tw-passagedata pid="69" name="Fortune for First Customer" tags="" position="1100,850" size="100,100">You pull three tarot cards, the Lovers, Judgment, Temperance, and tell them their fortune.
+The first customer is looking for a [[soulmate.|Tarot Minigame Customer 1]]</tw-passagedata><tw-passagedata pid="92" name="Fortune for First Customer" tags="" position="225,1225" size="100,100">You pull three tarot cards, the Lovers, Judgment, Temperance, and tell them their fortune.
 [[Correct reading|Correct Reading 1]]
 [[Lie slightly|First Lie 1]]
-[[Lie completely|First Lie 2]]</tw-passagedata><tw-passagedata pid="70" name="Correct Reading 1" tags="" position="1225,850" size="100,100">&quot;These are the Lovers, Judgment, and Temperance cards, respectively,&quot; you say.
+[[Lie completely|First Lie 2]]</tw-passagedata><tw-passagedata pid="93" name="Correct Reading 1" tags="" position="350,1225" size="100,100">&quot;These are the Lovers, Judgment, and Temperance cards, respectively,&quot; you say.
 &quot;I see happiness and romance in your future, all you need is patience.
 Wait a bit. Who knows how long? It might be tomorrow, it might be a year.
 Just know that soon, your soulmate will surely come to you.&quot;
@@ -989,14 +1289,14 @@ Just know that soon, your soulmate will surely come to you.&quot;
 
 She puts a dollar in your tip jar, and walks away, clearly content with your answer.
 &lt;&lt;set $loversVariable to true&gt;&gt; &lt;&lt;set $money to $money + 1&gt;&gt;
-[[Proceed with Story|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="71" name="First Lie 1" tags="" position="100,975" size="100,100">&quot;Hmmm...&quot; you say, &quot;The Lovers, Temperance, and Judgment... that combination usually
+[[Proceed with Story|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="94" name="First Lie 1" tags="" position="475,1225" size="100,100">&quot;Hmmm...&quot; you say, &quot;The Lovers, Temperance, and Judgment... that combination usually
 doesn&#39;t bode well romantically. It might signify a lack of love in the near future, maybe.
 It&#39;s hard to tell.&quot;
 
 &quot;Oh... really?&quot; the customer says. &quot;That sucks.&quot;
 
 She walks away.
-[[Proceed with Story|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="72" name="First Lie 2" tags="" position="225,975" size="100,100">&quot;Oh wow,&quot; you say, on a whim. &quot;These cards being pulled specifically are rare. Love for
+[[Proceed with Story|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="95" name="First Lie 2" tags="" position="600,1225" size="100,100">&quot;Oh wow,&quot; you say, on a whim. &quot;These cards being pulled specifically are rare. Love for
 you is very fleeting. Within the next few days you must confess your love to the
 person you love most, or you&#39;ll stay single for the rest of your life!&quot;
 
@@ -1013,15 +1313,15 @@ you lied to her about the fortune.
 
 Ah, to hell with it. It&#39;s not your problem anyway. &lt;&lt;set $passion to true&gt;&gt;
 
-[[Proceed with Story|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="73" name="Second Tarot Reading" tags="" position="350,975" size="100,100">A few minutes go by, and already your second customer walks in.
-Already you can tell he has [[anger management issues.|Anecdote]]</tw-passagedata><tw-passagedata pid="74" name="Anecdote" tags="" position="475,975" size="100,100">You remember seeing this customer at the park throwing rocks at various animals
+[[Proceed with Story|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="96" name="Second Tarot Reading" tags="" position="725,1225" size="100,100">A few minutes go by, and already your second customer walks in.
+Already you can tell he has [[anger management issues.|Anecdote]]</tw-passagedata><tw-passagedata pid="97" name="Anecdote" tags="" position="850,1225" size="100,100">You remember seeing this customer at the park throwing rocks at various animals
 at the park. And then another instance shouting various obscenities at
 someone over the phone. 
 
 He didn&#39;t really strike you as someone with sociopathic tendencies, moreso
 just some random guy who got angry at way too many things.
 
-[[Back to Reading|Second Part 2]]</tw-passagedata><tw-passagedata pid="75" name="Second Part 2" tags="" position="600,975" size="100,100">&quot;Yeah, skippy. I need my fortune read. I need to prove to my wife that this
+[[Back to Reading|Second Part 2]]</tw-passagedata><tw-passagedata pid="98" name="Second Part 2" tags="" position="975,1225" size="100,100">&quot;Yeah, skippy. I need my fortune read. I need to prove to my wife that this
 &#39;hokey pokey witchcraft BULL.&#39; Do you have a wife? Or like any spouse or
 anything? Oh my GOD. ALWAYS NAGGING about something. I spend ALL DAY working,
 PROVIDING, and she NEVER-&quot;
@@ -1029,7 +1329,7 @@ PROVIDING, and she NEVER-&quot;
 You tune him out. You really really don&#39;t want to hear this guy going
 &quot;wife bad&quot; the next 10 minutes.
 
-You proceed to read this person&#39;s fortune, you [[draw...|Tarot Minigame Customer 2]]</tw-passagedata><tw-passagedata pid="76" name="Correct Reading 2" tags="" position="725,975" size="100,100">&quot;Wow,&quot; you say. &quot;Judgement, Moon, and World.&quot;
+You proceed to read this person&#39;s fortune, you [[draw...|Tarot Minigame Customer 2]]</tw-passagedata><tw-passagedata pid="99" name="Correct Reading 2" tags="" position="1100,1225" size="100,100">&quot;Wow,&quot; you say. &quot;Judgement, Moon, and World.&quot;
 
 He scoffs. You continue.
 
@@ -1045,7 +1345,7 @@ the SYSTEM. It&#39;s my WIFE!&quot;
 
 He storms off, clearly not content with his answer. 
 
-[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="77" name="Second Lie 1" tags="" position="850,975" size="100,100">&quot;This combination of cards... I think in your case it&#39;s best we take them a
+[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="100" name="Second Lie 1" tags="" position="1225,1225" size="100,100">&quot;This combination of cards... I think in your case it&#39;s best we take them a
 bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
 maybe even study up on some atlases. Just you wait. Good things will come
 to you if you do.&quot;
@@ -1054,25 +1354,25 @@ to you if you do.&quot;
 either because he&#39;s questioning the complete nonsense you just made up, or
 due to the large welt on his head.
 
-[[Proceed With Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="78" name="Second Lie 2" tags="" position="975,975" size="100,100">&quot;These cards together signify change. Something around you</tw-passagedata><tw-passagedata pid="79" name="Friend Encounter" tags="" position="1100,975" size="100,100">You then notice a familiar face you had not seen in years at the door.
+[[Proceed With Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="101" name="Second Lie 2" tags="" position="100,1350" size="100,100">&quot;These cards together signify change. Something around you</tw-passagedata><tw-passagedata pid="102" name="Friend Encounter" tags="" position="225,1350" size="100,100">You then notice a familiar face you had not seen in years at the door.
 &quot;Hey&quot; $friendFirstName says.
 &quot;What are you doing here $friendFirstName?&quot; you say
 &quot;I heard you were starting a business, I thought it would be good to see you&quot;
-[[...you hesitantly tell them to come inside|Friend Tarot Reading]]</tw-passagedata><tw-passagedata pid="80" name="Friend Tarot Reading" tags="" position="1225,975" size="100,100">There is an uncomfortable [[awkwardness|Friend Anecdote]] in the air.
+[[...you hesitantly tell them to come inside|Friend Tarot Reading]]</tw-passagedata><tw-passagedata pid="103" name="Friend Tarot Reading" tags="" position="350,1350" size="100,100">There is an uncomfortable [[awkwardness|Friend Anecdote]] in the air.
 You can tell your friend also notices this.
 You begin the tarot reading and draw...
 &lt;img src=&quot;media/death.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Death Tarot&quot;&gt;
-You slowly realize that this reading indicates that there is [[death|Uneasy Friend]] in your friend&#39;s future.</tw-passagedata><tw-passagedata pid="81" name="Friend Anecdote" tags="" position="100,1100" size="100,100">You remember how the last time you had talked to each other played out.
+You slowly realize that this reading indicates that there is [[death|Uneasy Friend]] in your friend&#39;s future.</tw-passagedata><tw-passagedata pid="104" name="Friend Anecdote" tags="" position="475,1350" size="100,100">You remember how the last time you had talked to each other played out.
 It did not end well, you both said some nasty things to each other before you left.
 You remember how your friend did not take the news of your move well.
-[[Back to reading|Friend Tarot Reading]]</tw-passagedata><tw-passagedata pid="82" name="Uneasy Friend" tags="" position="225,1100" size="100,100">&quot;What&#39;s wrong?&quot; your friend seems to have noticed your silence
+[[Back to reading|Friend Tarot Reading]]</tw-passagedata><tw-passagedata pid="105" name="Uneasy Friend" tags="" position="600,1350" size="100,100">&quot;What&#39;s wrong?&quot; your friend seems to have noticed your silence
 [[Lie|Special Lie]]
 [[Avoid the question|Avoided Question]]
-[[Remain silent|Long Silence]]</tw-passagedata><tw-passagedata pid="83" name="Special Lie" tags="" position="350,1100" size="100,100">You then draw the rest of the two cards and pulled the following cards, luck and destiny. 
+[[Remain silent|Long Silence]]</tw-passagedata><tw-passagedata pid="106" name="Special Lie" tags="" position="725,1350" size="100,100">You then draw the rest of the two cards and pulled the following cards, luck and destiny. 
 &quot;This reading... I think in your case it&#39;s best we take them a
 bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
 maybe even study up on some atlases. Just you wait. Despite the intimidating  
-look on some of these cards, good things will come-[[!!! | Strange Visions]]&quot;</tw-passagedata><tw-passagedata pid="84" name="Strange Visions" tags="" position="475,1100" size="100,100">Afterwards to read out the fortunes for $friendFirstName, a sharp pain splinters your head. 
+look on some of these cards, good things will come-[[!!! | Strange Visions]]&quot;</tw-passagedata><tw-passagedata pid="107" name="Strange Visions" tags="" position="850,1350" size="100,100">Afterwards to read out the fortunes for $friendFirstName, a sharp pain splinters your head. 
 The pain feels as sharp as nails being jammed into your head, but yet to not lose your composure, you pushed through the pain, 
 showing no expression.
 
@@ -1080,7 +1380,7 @@ As vast drips of sweaty rolls down your face from the pain,
 you started to see visions. Visions of a gruesome scene where someone of similar body compassion 
 and clothes of $friendFirstName, however the visions feels so blurred that the person is 
 [[not immediately recognizable | Ignore]]. 
-This scene shows the person reaching for something on the street when suddenly a tumbling car squashed this person in gruesome fashion.</tw-passagedata><tw-passagedata pid="85" name="Long Silence" tags="" position="600,1100" size="100,100">You decide to remain silent as to not show any sign that something is wrong.
+This scene shows the person reaching for something on the street when suddenly a tumbling car squashed this person in gruesome fashion.</tw-passagedata><tw-passagedata pid="108" name="Long Silence" tags="" position="975,1350" size="100,100">You decide to remain silent as to not show any sign that something is wrong.
 $friendFirstName seems to grow restless at your stillness.
 &quot;What is it?&quot; $friendFirstName yelps.
 After what seems like an eternity, you answer.
@@ -1090,7 +1390,7 @@ $friendFirstName gets up and leaves without saying another word.
 
 Unbeknownst to your friend, your brain was having a full on meltdown after what you had just seen.
 DEATH, DEATH, WHAT AM I SUPPOSED TO DO?!?!?!?!?!?
-[[I MUST SAVE THEM I MUST.| Stalk]]</tw-passagedata><tw-passagedata pid="86" name="Avoided Question" tags="" position="725,1100" size="100,100">Quickly, you decide to change the topic to avoid telling the truth just yet.
+[[I MUST SAVE THEM I MUST.| Stalk]]</tw-passagedata><tw-passagedata pid="109" name="Avoided Question" tags="" position="1100,1350" size="100,100">Quickly, you decide to change the topic to avoid telling the truth just yet.
 
 &quot;Well actua-&quot; $friendFirstName interrupts you.
 &quot;Hey, I know this is strange. Me showing up after being absent for such a long time.&quot;
@@ -1098,7 +1398,7 @@ DEATH, DEATH, WHAT AM I SUPPOSED TO DO?!?!?!?!?!?
 &quot;Well, I&#39;m glad you&#39;re here now.&quot; you say genuinely.
 &quot;How about I close shop and we go somewhere to catch up?&quot; you offer
 &quot;I would really appreciate that&quot; $friendFirstName says
-&quot;Actually, before we head out I need to [[stop by my house|Stop by Home]] really quick.&quot;</tw-passagedata><tw-passagedata pid="87" name="Stop by Home" tags="" position="850,1100" size="100,100">You and $friendFirstName arrive at your apartment that was only a few minutes from your new shop.
+&quot;Actually, before we head out I need to [[stop by my house|Stop by Home]] really quick.&quot;</tw-passagedata><tw-passagedata pid="110" name="Stop by Home" tags="" position="1225,1350" size="100,100">You and $friendFirstName arrive at your apartment that was only a few minutes from your new shop.
 &quot;Can you wait out here?&quot; you say
 &quot;Sure&quot; $friendFirstName seems a little hurt you said this
 It&#39;s not like $friendFirstName ghosted you for a couple of years, you decide to ignore it.
@@ -1117,12 +1417,12 @@ As soon as you enter your home you hear a little yapping at your feet.
 	You proceed to grab some cat food and fill Luma&#39;s cat bowl.
 	Luma wastes no time and before you even pull away is already at the bowl devouring the food you had poured her.
 	You decide to [[grab some things|Gift Knife]] before you head out with $friendFirstName.
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="88" name="Gift Knife" tags="" position="975,1100" size="100,100">[[Grab gift|Grab Gift]]
-[[Grab pocket knife|Grab Knife]]</tw-passagedata><tw-passagedata pid="89" name="Grab Gift" tags="" position="1100,1100" size="100,100">&lt;&lt;set $gift to true&gt;&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="111" name="Gift Knife" tags="" position="100,1475" size="100,100">[[Grab gift|Grab Gift]]
+[[Grab pocket knife|Grab Knife]]</tw-passagedata><tw-passagedata pid="112" name="Grab Gift" tags="" position="225,1475" size="100,100">&lt;&lt;set $gift to true&gt;&gt;
 You decide to grab the gift, who knows it might come in handy later.
-[[Next|Heading Out]]</tw-passagedata><tw-passagedata pid="90" name="Grab Knife" tags="" position="1225,1100" size="100,100">&lt;&lt;set $knife to true&gt;&gt;
+[[Next|Heading Out]]</tw-passagedata><tw-passagedata pid="113" name="Grab Knife" tags="" position="350,1475" size="100,100">&lt;&lt;set $knife to true&gt;&gt;
 You decide to grab the pocket knife, who knows it might come in handy later.
-[[Next|Heading Out]]</tw-passagedata><tw-passagedata pid="91" name="Heading Out" tags="" position="100,1225" size="100,100">&lt;&lt;if $pet == &quot;dog&quot;&gt;&gt;
+[[Next|Heading Out]]</tw-passagedata><tw-passagedata pid="114" name="Heading Out" tags="" position="475,1475" size="100,100">&lt;&lt;if $pet == &quot;dog&quot;&gt;&gt;
 	As you are heading out Luma approaches you clearly [[expecting something|Dog Pat]]
 	&lt;img src=&quot;media/dogStare.gif&quot; alt=&quot;dog stare&quot; style=&quot;width: 30%;&quot;&gt;
 &lt;&lt;elseif $pet == &quot;cat&quot;&gt;&gt;
@@ -1132,30 +1432,102 @@ As you are heading out Luma approaches you clearly [[expecting something|Cat Pat
 After tidying up a bit, you grab a coat and head to the door.
 $friendFirstName is leaning next to your door waiting for you outside.
 &quot;Well I&#39;m ready to go.&quot; you say
-&quot;Great [[where we heading?|Park Bar Decision]]&quot;</tw-passagedata><tw-passagedata pid="92" name="Dog Pat" tags="" position="225,1225" size="100,100">You know exactly what Luma wants
+&quot;Great [[where we heading?|Park Bar Decision]]&quot;</tw-passagedata><tw-passagedata pid="115" name="Dog Pat" tags="" position="600,1475" size="100,100">You know exactly what Luma wants
 You pet her, Luma clearly loves this letting out a happy noise
 &lt;img src=&quot;media/dog.gif&quot; alt=&quot;dog being pet&quot; style=&quot;width: 30%;&quot;&gt;
-[[Go Back|Heading Out]]</tw-passagedata><tw-passagedata pid="93" name="Cat Pat" tags="" position="350,1225" size="100,100">You know exactly what Luma wants
+[[Go Back|Heading Out]]</tw-passagedata><tw-passagedata pid="116" name="Cat Pat" tags="" position="725,1475" size="100,100">You know exactly what Luma wants
 You pet her, Luma clearly loves this purring happily
 &lt;img src=&quot;media/cat.gif&quot; alt=&quot;cat being pet&quot; style=&quot;width: 30%;&quot;&gt;
-[[Go Back|Heading Out]]</tw-passagedata><tw-passagedata pid="94" name="Park Bar Decision" tags="" position="475,1225" size="100,100">Decide to go hangout with friend at...
+[[Go Back|Heading Out]]</tw-passagedata><tw-passagedata pid="117" name="Park Bar Decision" tags="" position="850,1475" size="100,100">Decide to go hangout with friend at...
 [[Park|Park]]
-[[Bar|Bar]]</tw-passagedata><tw-passagedata pid="95" name="Stalk" tags="" position="600,1225" size="100,100">As soon as $friendFirstName walks through the door you rush to grab your things.
+[[Bar|Bar]]</tw-passagedata><tw-passagedata pid="118" name="Stalk" tags="" position="975,1475" size="100,100">As soon as $friendFirstName walks through the door you rush to grab your things.
 You grab your [[sunglasses and a hat|Gear]]. You quickly follow out the door locking up for the day.
 Quickly looking around you spot your friend about 100 feet up the road and you quickly follow them.
 After following them for about 5 minutes you [[trip on your shoe lace|Trip]].
 [[Tie your shoes|Tie Shoes]]
-[[Live life on the edge| Keep Walking]]</tw-passagedata><tw-passagedata pid="96" name="Gear" tags="" position="725,1225" size="100,100">Spy gear obvioulsy. No one will be able to recognize you.
+[[Live life on the edge| Keep Walking]]</tw-passagedata><tw-passagedata pid="119" name="Gear" tags="" position="1100,1475" size="100,100">Spy gear obvioulsy. No one will be able to recognize you.
 
-[[Back|Stalk]]</tw-passagedata><tw-passagedata pid="97" name="Trip" tags="" position="850,1225" size="100,100">You trip on your shoe lace and scrape your knee.
+[[Back|Stalk]]</tw-passagedata><tw-passagedata pid="120" name="Trip" tags="" position="1225,1475" size="100,100">You trip on your shoe lace and scrape your knee.
 It was kind of embarrassing for you.
 
-[[Back|Stalk]]</tw-passagedata><tw-passagedata pid="98" name="Tie Shoes" tags="" position="975,1225" size="100,100">&lt;!-- Add death how ever we want to do that. --&gt;</tw-passagedata><tw-passagedata pid="99" name="Keep Walking" tags="" position="1100,1225" size="100,100">You decide that life is more fun living on the edge so who needs to tie their shoes.
+[[Back|Stalk]]</tw-passagedata><tw-passagedata pid="121" name="Tie Shoes" tags="" position="100,1600" size="100,100">You bend down to tie your shoes and hear a loud screeching noise and a bang.
+You look up to see $friendFirstName laying in the road.
+Before the you could even get there your friend had already died.
+later you lay in bed and think how things could of gone diffrently.
+[[Start Over?|Start]]
+[[Try following again| Stalk]]</tw-passagedata><tw-passagedata pid="122" name="Keep Walking" tags="" position="225,1600" size="100,100">You decide that life is more fun living on the edge so who needs to tie their shoes.
 You stand up after tripping and see your friend being stupid and not looking both ways.
 A car is rushing down the road and your friend is in its path.
 You scramble to think of what to do...
 [[OMG you forogt to tie your shoes| Tie Shoes]]
-[[]]</tw-passagedata><tw-passagedata pid="100" name="Tarot Minigame Customer 1" tags="" position="1225,1225" size="100,100">You begin your reading of the customer...
+[[Yell AHHHHHHHHHH| Yell]]</tw-passagedata><tw-passagedata pid="123" name="Yell" tags="" position="350,1600" size="100,100">You Scream a girlish scream like you had just seen a Ghost.
+Your scream echos off the buildings and $friendFirstName darts their head back.
+Worried you will be found out you dash being the nearest light post.
+The concerened people around you stare and try to approch you but you shooed them away.
+$friendFirstName Did not pay much mind and continued walking [[forward|Resturant]].</tw-passagedata><tw-passagedata pid="124" name="Resturant" tags="" position="475,1600" size="100,100">Following closly behing $friendFirstName you make your way to a nice Chinese resturant.
+They walk in to get some dinner.
+[[Wait outside|Outside]]
+[[Follow into the resturant|Dinner]]
+[[Find a way into the kitchen|Kitchen]]</tw-passagedata><tw-passagedata pid="125" name="Outside" tags="" position="600,1600" size="100,100">A very cute puppy comes running up to you. It has adorable Puppy eyes
+and starts licking your ankles. you get distracted and start petting it.
+They look so happy! You have made such a great friend!
+$friendFirstName however is not doing to hot because they are curently [[choking|Choke]] on a shrimp.</tw-passagedata><tw-passagedata pid="126" name="Dinner" tags="" position="725,1600" size="100,100">You succesfully make it in unoticed and order some delicious fried rice.
+$friendFirstName starts to move in a weird way and you realize they are choking.
+[[If they are going to be taken out by a shrimp it was ment to be.| Choke]]
+[[Save him yourself| Save]]
+[[Call for help| Boy Scout]]</tw-passagedata><tw-passagedata pid="127" name="Kitchen" tags="" position="850,1600" size="100,100">You remeber $friendFirstName has a server gluten allergy! So to make sure
+they are not going to be poisoned you sneak through the back into the kitchen.
+You sneak into kitchen sucessfully and see the crazy comotion of a professional kitchen.
+There is a plate of fried rice and you remeber its $friendFirstName&#39;s favorite food.
+[[Talk to the chef and make sure they dont put soy sause on it| No Soy]]
+[[Wait it out| Soy]]</tw-passagedata><tw-passagedata pid="128" name="No Soy" tags="" position="975,1600" size="100,100">&lt;&lt;set soy to false&gt;&gt;
+You Talk with the chef and explain the situation and of course she completely understands.
+She takes good care of the plate and delivers it to $friendFirstName.
+Before you get a chance to leave the kitchen you hear a comotion from the dining area.
+You see $friendFirstName choking.
+[[If they are going to be taken out by a shrimp it was ment to be.| Choke]]
+[[Save him yourself| Save]]
+[[Call for help| Boy Scout]]</tw-passagedata><tw-passagedata pid="129" name="Soy" tags="" position="1100,1600" size="100,100">You hang around in the kitchen to long and the head chef starts yelling at you.
+She is pissed you are taking up so much room in her kitchen and demands you leave.
+While you argue the plate is taken away to $friendFirstName.
+You were unable to hear the comotion and $friendFirstName is [[choking|Choke]] on a shrimp.</tw-passagedata><tw-passagedata pid="130" name="Save" tags="" position="1225,1600" size="100,100">In a rush of bravery and desperation you rush to save your friend.
+Rembering back to 6th grade health class you attempt the heimlich maneuver.
+With 3 big push and a few cracks you see a shrimp fly across the room.
+$friendFirstName passes out from the pain.
+The [[ambulence| Hospital]] arives quickly.</tw-passagedata><tw-passagedata pid="131" name="Boy Scout" tags="" position="100,1725" size="100,100">You cry for help and a young boy jumps out of his seat he is maybe 12.
+He says dont worry im a Boy Scout! He grabs $friendFirstName and starts the 
+heimlich maneuver and in one trust the shrimp goes flying.
+Everyone claps and $friendFirstName thanks the boy and dosnt even notice you.
+$friendFirstName appologises to the owner for the comotion and [[leaves.| Go Home]]</tw-passagedata><tw-passagedata pid="132" name="Choke" tags="" position="225,1725" size="100,100">Before the ambulance can arive your friend stop breathing. You hear the
+siren ring in the distance and you wonder if you could of helped somehow.
+[[Start Over?|Start]]
+[[Out side the resturant| Resturant]]</tw-passagedata><tw-passagedata pid="133" name="Hospital" tags="" position="350,1725" size="100,100">You ride in the abulence with your friend and wait in the waiting room
+to hear the news. The doctor comes in and tells you the sad news.
+&lt;&lt;if $soy == true&gt;&gt;\
+    [[Thier lower intestents have failed.|Failed]]\
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $soy == false&gt;&gt;\
+    [[The internal bleeding was to much.|Ribs]]\
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="134" name="Failed" tags="" position="475,1725" size="100,100">The doctor lets you know that $friendFirstName&#39;s lower intestents
+have failed and they passed away a few moments ago. This must of been because of
+the gluten. You think what you could of done to save them.
+[[Start Over?|Start]]
+[[Out side the resturant| Resturant]]</tw-passagedata><tw-passagedata pid="135" name="Ribs" tags="" position="600,1725" size="100,100">The doctor lets you know that $friendFirstName&#39;s ribs were 
+were broken and they lost to much blood and passed.
+you relize this is your fault and don&#39;t know how to cope.
+[[Start Over?|Start]]
+[[Out side the resturant| Resturant]]</tw-passagedata><tw-passagedata pid="136" name="Go Home" tags="" position="725,1725" size="100,100">$friendFirstName starts to head in the direction of there home.
+&lt;&lt;if $soy == true&gt;&gt;\
+    About a mile in and $friendFirstName collapses. you quickly call 911 
+    after feeling there pulse. You ride with them to the hosibital and wait 
+    patiently in the waiting room. [[The doctor comes out|Failed]].
+&lt;&lt;/if&gt;&gt;\
+&lt;&lt;if $soy == Flase&gt;&gt;\
+    $friendFirstName makes it home saftley and you think to yourself
+    maybe nothing bad will happen to them. You will have to check in on a diffrent day.
+    your friend survives for today.
+    [[Start Over?|Start]]
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="137" name="Tarot Minigame Customer 1" tags="" position="850,1725" size="100,100">You begin your reading of the customer...
 
 You draw the $cardDrawn1 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
 
@@ -1189,13 +1561,13 @@ You draw the $cardDrawn1 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
     [[&quot;I draw the Tower card, this could signify &quot; + $towerList.pluck() + &quot;.&quot;|Correct]]
     [[&quot;I draw the Tower card, this could signify &quot; + $towerListReversed.pluck() + &quot;.&quot;|Partially]]
     [[&quot;I draw the Tower card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
-&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="101" name="Correct" tags="" position="100,1350" size="100,100">&lt;&lt;set $lovers to true&gt;&gt;
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="138" name="Correct" tags="" position="975,1725" size="100,100">&lt;&lt;set $lovers to true&gt;&gt;
 &quot;I see happiness and romance in your future, all you need is patience.
 Wait a bit. Who knows how long? It might be tomorrow, it might be a year.
 Just know that soon, your soulmate will surely come to you.&quot;
 
 &quot;Wow, you really think so?&quot; she bounds. &quot;Thank you!&quot;
-[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="102" name="Partially" tags="" position="225,1350" size="100,100">&quot;Oh wow,&quot; you say, on a whim. &quot;These cards being pulled specifically are rare. Love for
+[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="139" name="Partially" tags="" position="1100,1725" size="100,100">&quot;Oh wow,&quot; you say, on a whim. &quot;These cards being pulled specifically are rare. Love for
 you is very fleeting. Within the next few days you must confess your love to the
 person you love most, or you&#39;ll stay single for the rest of your life!&quot;
 
@@ -1211,13 +1583,13 @@ you is glad she finally has the drive to ask that person out. Then you remember
 you lied to her about the fortune.
 
 Ah, to hell with it. It&#39;s not your problem anyway. &lt;&lt;set $passion to true&gt;&gt;
-[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="103" name="Incorrect" tags="" position="350,1350" size="100,100">&quot;Hmmm...&quot; you say, &quot;That card usually doesn&#39;t bode well romantically. It might signify a lack of love in the near future, maybe.
+[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="140" name="Incorrect" tags="" position="1225,1725" size="100,100">&quot;Hmmm...&quot; you say, &quot;That card usually doesn&#39;t bode well romantically. It might signify a lack of love in the near future, maybe.
 It&#39;s hard to tell.&quot;
 
 &quot;Oh... really?&quot; the customer says. &quot;That sucks.&quot;
 
 She walks away.
-[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="104" name="Tarot Minigame Customer 2" tags="" position="475,1350" size="100,100">You begin your reading of the customer...
+[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="141" name="Tarot Minigame Customer 2" tags="" position="100,1850" size="100,100">You begin your reading of the customer...
 
 You draw the $cardDrawn2 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
 
@@ -1251,7 +1623,7 @@ You draw the $cardDrawn2 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
     [[&quot;I draw the Chariot card, this could signify &quot; + $chariotList.pluck() + &quot;.&quot;|Correct 2]]
     [[&quot;I draw the Chariot card, this could signify &quot; + $chariotListReversed.pluck() + &quot;.&quot;|Partially 2]]
     [[&quot;I draw the Chariot card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect 2]]
-&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="105" name="Correct 2" tags="" position="600,1350" size="100,100">&lt;&lt;set $anger to true&gt;&gt;
+&lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="142" name="Correct 2" tags="" position="225,1850" size="100,100">&lt;&lt;set $anger to true&gt;&gt;
 He scoffs. You continue.
 
 &quot;Big things are coming your way. BIIIIIG changes. It&#39;s not very clear
@@ -1265,7 +1637,7 @@ ear? I&#39;m FINE just the way I am. It&#39;s everybody else that&#39;s the prob
 the SYSTEM. It&#39;s my WIFE!&quot;
 
 He storms off clearly not ready to accept the truth just yet, maybe he just needs to process it for a while.
-[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="106" name="Partially 2" tags="" position="725,1350" size="100,100">&quot;This combination of cards... I think in your case it&#39;s best we take them a
+[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="143" name="Partially 2" tags="" position="350,1850" size="100,100">&quot;This combination of cards... I think in your case it&#39;s best we take them a
 bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
 maybe even study up on some atlases. Just you wait. Good things will come
 to you if you do.&quot;
@@ -1273,7 +1645,7 @@ to you if you do.&quot;
 &quot;...What?&quot; He&#39;s less angry, more confused. He walks out scratching his head,
 either because he&#39;s questioning the complete nonsense you just made up, or
 due to the large welt on his head.
-[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="107" name="Incorrect 2" tags="" position="850,1350" size="100,100">He stares at you as if you just grew a third eye.
+[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="144" name="Incorrect 2" tags="" position="475,1850" size="100,100">He stares at you as if you just grew a third eye.
 
 &quot;What the hell did you just say to me!?&quot;
 

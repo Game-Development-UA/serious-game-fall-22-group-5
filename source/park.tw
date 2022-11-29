@@ -55,7 +55,7 @@ It honestly didn't matter anyway. In like junior year of university after gather
 the courage to confess your feelings to her, she rejected you anyway.
 
 All that matters is that you chose to go out of state to follow her to Glaggleblorp
-University instead of staying with $friendFirstName in state at the Univeristy of
+University instead of staying with $friendFirstName in state at the University of
 Wogglemurphy.
 
 I mean, you tried to tell $friendFirstName that it was all about your degree and your major,
@@ -111,6 +111,8 @@ They turn around and notice you.
 They hesitated for a bit.
 
 Then the noise of the enemy hit a peak.
+
+"I'm sorry Hans..." $friendFirstName says.
 
 Then they ran.
 
@@ -197,7 +199,6 @@ single my entire life, ever since... "
 
 You stop the sentence there. You don't want to bring up Kathy.
 <<set $bitterness to $bitterness + 1>>
-<<if $bitterness gte 2>>Test!<<else>>Failed<</if>>
 [[Next|LottaParkEncounter1]]
 
 ::BarbaraQ
@@ -317,7 +318,7 @@ you completely forgot what fortune you gave her.
 
 You choose to:
 [[Say hi|LottaHart]]
-[[Ignore her|IgnoreLotta]]
+[[Ignore her|IgnoreHer]]
 
 ::LottaHart
 "Hey, there's a customer I had today!" you say to $friendFirstName, pointing to her. "I read her fortune
@@ -339,7 +340,21 @@ Doesn't matter. You still want to say [[hi|lhInLove]], see how it's been going. 
 of your VERY prestigious tarot shop. You want to see how that little fortune you read for
 her is going.
 <<elseif $passion is true>>
-You go over to Lotta who is talking to her boyfriend.
+You go over to Lotta, talking to someone you don't recognize. On your way over to her, you accidentally
+bump into some random sleazebag who wasn't looking where he was going. What a turd.
+
+Oh well. You still want to say [[hi|OldNemesis]], see how it's been going. I mean, she was a patron
+of your VERY prestigious tarot shop. You want to see how that little fortune you read for
+her is going.
+<<else>>
+You go over to Lotta, clearly nervous. She has trouble interacting with birds, let alone
+people. Right away, from the moment she walked into your shop, you could tell she was a shy 
+person.
+
+Doesn't matter. You still want to say [[hi|Anticlimactic]], see how it's been going. I mean, she was a patron
+of your VERY prestigious tarot shop. You want to see how that little fortune you read for
+her is going. Hey, you may have fibbed a little, but a little placebo can be just the right
+push to cause great change in life.
 <</if>>
 
 ::lhInLove
@@ -568,9 +583,364 @@ Leon turns to Lotta. "SHUT THE FUCK UP, BITCH" he screams at her. She flinches o
 
 Leon turns his attention to $friendFirstName, screaming at them. He keeps screaming something
 incoherent about righeousness, and Lotta, and whatever. He has the bamblings of an incoherent
-drunkard. $friendFirstName rolls their eyes, [[before...||ARMU5]]
+drunkard. $friendFirstName rolls their eyes, [[before...|ARMU5]]
 
 ::ARMU5
 <b>POW!!!</b>
 
 $friendFirstName punches Leon straight in the jaw. 
+
+It's a doozy too. Leon fell to the floor in a daze, with you and Lotta both too shocked to even
+comprehend what just happened. Leon gets up and runs away, probably out of shame.
+
+"HOLY SHIT!" you say to $friendFirstName. "That was amazing!"
+
+"Yeah!" Lotta agrees, grinning from ear to ear. Honestly, that was sort of counterproductive
+because now the crush Lotta has on $friendFirstName has only grown.
+
+[[Next|ARMU6]]
+
+::ARMU6
+A while has passed, yet again. You and $friendFirstName have been accompanied by Lotta on your
+little hang out sesh, and she's just fully out of her shell now. She's been cracking jokes
+with you two, and has just been all around a pleasant person.
+
+"Oh shoot," she says. "It is DEFINITELY late. I really need to get home." You didn't notice
+how dark it's been getting.
+
+"Hey, maybe we could walk you home! Wouldn't want you to run into that scumbag again. Leon
+was his name, right?" $friendFirstName says.
+
+Lotta giggles. "Well aren't YOU a knight in shining armor. Fine, I accept your act of charity."
+
+The three of you find yourselves at a [[crosswalk|ARMU7]]
+
+::ARMU7
+Suddenly, you're confronted with a vision. A vision where a car goes out of control going 80
+mph and hits the three of you. And it was going to happen just then.
+
+You notice that car coming from your peripheral vision. You react fast.
+
+You grab Lotta, who just so happened to be closest to you, and jump immediately out of the way.
+
+$friendFirstName turned out to [[not be so lucky.|ARMU8]]
+
+::ARMU8
+You see $friendFirstName's lifeless body, almost turned to goo from the metal machine that just
+hit them, and immediately after, hit a streetlight.
+
+The car very obviously out of commision, the driver stumbles out, also bloody.
+
+You recognize him instantly.
+
+It's Leon.
+
+[[Start Over?|Start]]
+
+::IgnoreLotta
+"Okay, so that girl Lotta has definitely got crush on you. It's completely obvious, too."
+
+"Wh-what?" $friendFirstName says. "Are you serious?"
+
+"Dead serious dude. Look at the way she talks to you."
+
+"But I'm MARRIED," $friendFirstName responds. "What do I do?" The two of you look back to Lotta, too meek 
+to even interact with the wildlife without getting nervous.
+
+"Oh..hmm..." they ponder. They quickly walk away from Lotta's general direction. Lotta,
+noticing this, [[follows||ignore2]] $friendFirstName. "Hey! Wait up!" she yells at them.
+
+::ignore2
+You stop her as she's running towards $friendFirstName.
+
+"Lotta, listen... I-" she interrupts you.
+
+"Okay Hans, look. Y'know that whole fortune you gave me? About finding true love?
+I think $friendFirstName is it. They're perfect. They're attractive, funny, nice, I mean 
+anything is an upgrade over my ex..." she stops a bit, before getting the motivation
+to continue again. "Okay, just- thank you for introducing me to them,"
+
+She doesn't get the hint, and continues chasing after them.
+
+All the while, you two were distracting each other from noticing that $friendFirstName had
+accidentally [[bumped into...|BearEat]]
+
+::BearEat
+A bear.
+
+A bear who did not quite like the fact that during its pleasant nap was hit by a panicking
+$friendFirstName.
+
+A bear who, in its anger, has ripped $friendFirstName to shreds.
+
+Dear god.
+
+[[Start Over?|Start]]
+
+::OldNemesis
+You walk over to Lotta, all buddy buddy with someone new.
+
+"Hey... Lotta... right?" you say to her. "Hey, it's me, Hans, the fortune teller from earlier!
+How's that fortune going?"
+
+Her eyes widen when she sees you. "Oh my god, YOU!" She shakes your hand vigorously. "Thank you
+for giving me that fortune! If it wasn't for you, I wouldn't have had the courage to tell my crush
+my feelings. Thankfully he reciprocated. I'd like to introduce you to my boyfriend, Norville 
+Wockywomp!"
+
+The man extends a hand to you.
+
+"Hi! It's very good to meet you!" he says.
+
+You look into his eyes and reciprocate the handshake, but [[all of a sudden...|Flashback]]
+
+::Flashback
+You flash back in time. To the war. The war $friendFirstName left you for dead in.
+
+You remember yourself playing dead in that trap, the enemy soldier was so close to realizing
+you were actually alive before someone, presumably his superior, called him away. So close, in fact,
+that at one point his boot was literally on your chest, sensing a heartbeat.
+
+And this was [[the same person.|BackToReality]]
+
+::BackToReality
+Dear god.
+
+When you realized this, you started to sweat profusely. Your ears turned bright red, and it took
+everything you had to maintain your composure. You break out of the handshake immediately.
+
+"I'm sorry, but I have to go," you say to $friendFirstName.
+
+You break off in a sprint back to your [[shop.|Nemesis1]]
+
+::Nemesis1
+When you finally arrive at your fortune telling shop, you start gathering all your things. All
+your war memorabilia from your service. Jesus Christ. How could this have happened. The war by now
+has ended. Everything came back to you regarding your time in the platoon. The guard duty, the
+horrifyingly malnutritious meals, everything. Everything came back to you regarding the ambush. The
+violence, the chaos.
+
+After the rush of panic and fear, you start to rationalize everything. "Okay," you think to yourself.
+"The war is over! It's not like he'd... hold a GRUDGE against me or anything! Besides, that's even
+if he remembers me at all, or what I'd look like! Surely he wouldn't be some insanely violent
+psychopath that he holds some sort of vendetta against me after all this time! All I did was fake my
+death! It was his own fault that I lived!"
+
+After you come to your senses, you begin to put all your things away.
+
+<<timed 5s>>
+And then you [[see him in the lobby.|Nemesis2]]
+<</timed>>
+
+::Nemesis2
+"Oh! H-hi!" you trembled. "H-how can I help you?"
+
+"Oh, I bet you know exactly why I'm here," he says, whipping out a gun from his jacket. "I know you,
+and you know who I am. Y'know, I never really forgave myself for letting such an easy kill go
+under my nose like that. Oh bother, I guess it's time for me to finish what I started."
+
+He points his gun at you, but [[all of a sudden...|Nemesis3]]
+
+::Nemesis3
+You get a vision of the future, and you see everything that he's about to do. Every punch thrown,
+every where he aims to fire his gun, and most importantly, what he's NOT paying attention to.
+
+You immediately get thrown to the present where you start to fight him. You dodge his attacks left
+and right. He fires a bullet once at you, but you dodge it effortlessly. It almost looks
+choreographed, the way you're just dancing through everything he throws at you.
+
+After a few minutes of pure humiliation, you pin him to the ground, dismantling him of his weapon in the
+process. You get a long thing of rope (very common in most fortune telling shops) and tie him to a
+chair, and call the police.
+
+But it was only after all that coolness that you notice [[what happened in the middle of the fight.|StrayBullet]]
+
+::StrayBullet
+That lone bullet the guy fired? It went straight out the window.
+
+You quickly run out to assess the damage, but it's even worse than you could've imagined.
+
+$friendFirstName lay on the ground, lifeless. They went to go check on you, infering you were stressed,
+but was hit by the stray bullet that came straight through the window.
+
+Funny. The person who accidentally spared your life, in a situation $friendFirstName put you in before 
+was now the  one who accidentally killed $friendFirstName, due to a situation you put yourself in.
+
+How ironic.
+
+[[Start Over?|Start]]
+
+::IgnoreHer
+You decide to ignore her. I mean, why even get involved with the lives of customers? Like,
+they're just paying for their fortune read. They don't need to be stalked or anything like that.
+
+Then you realize that's kind of what you're doing to $friendFirstName, and then you feel silly.
+
+The two of you find yourselves at a bench, and have sat down. You're simply chilling, when all of
+a sudden, you notice a tear streaming down $friendFirstName's cheek.
+
+"What's wrong?" you ask.
+
+"I dunno..." $friendFirstName says. "Everything just feels so... lonely... lately."
+
+[[Press further as to what's going on|PressFurther]]
+[[Show empathy|ShowEmpathy]]
+
+::PressFurther
+"Oh shit... I'm sorry... what's been going on recently?" you ask them.
+
+"I.. I just..." they wipe the tear from their cheek. "I recently found out that my mom passed..."
+
+"Oh... oh my god, I'm sorry," you say to them.
+
+"I mean... no.. it's not even just that. I just feel so isolated all the time.... Everyone I
+was close to has left me in my life. You, Miguel, my parents, my first two wives... hell my
+current wife is so distant to me all the time and I'm currently thinking about divorcing her as
+well. Everything is just so messed up, man. I miss the sense of community I used to have in
+high school with you and everybody else.. I miss having a friend to just having drinks with 
+and bond with. I miss it all."
+
+Oh god. You never realized how hard you leaving them in university hit them. 
+
+[[Apologize|SorryForLeaving]]
+<<if $gift == true>>
+[[Give Gift|ApologyGift]]
+<</if>>
+
+::ApologyGift
+"Here..." you say, handing the gift over to them. "I wanted you to have this. I know it by itself
+isn't gonna make up for my abandoning you, but it's the least I could do."
+
+$friendFirstName takes the gift. "Hans... I..." Their lips trembling. "I don't know what to say..."
+
+...
+
+"Aren't you gonna open it?" you ask.
+
+Tears are streaming down $friendFirstName's face even more. "I don't need to. It could be the most
+impractical, nothing thing ever and I still wouldn't care. I'm just glad that you still care about
+me."
+
+They hug you. This one came from the heart though.
+
+"Thank you," $friendFirstName says, before getting up. "I think I have to go now, but it was
+really fun catching up with you."
+
+You don't know what just happened, but you're honestly really glad that it did.
+
+[[Next|LaterSuicide]]
+
+::LaterSuicide
+A week passed since then.
+
+It's been a while since you saw the news. "Ah, what the hell," you thought to yourself. "Time for
+another existential loathing experience," you say as you flick to the news channel.
+
+The big story is that someone hanged themselves recently. They left no note.
+
+That person was $friendFirstName.
+
+On the ground of the crime scene you notice off to the side of the body.
+
+It was the gift you gave them, still unopened.
+
+[[Start Over?|Start]]
+
+::SorryForLeaving
+"I just wanted to say," you address to $friendFirstName. "I'm sorry for leaving. I should've
+just stayed with you at Wogglemurphy."
+
+They scoff.
+
+"Well, you should've thought about that all those years ago when applying for colleges, right?"
+
+The tension in the air is so thick you could almost cut through it with a butter knife. <<set $bitterness to $bitterness + 3>>
+
+You notice Lotta, from earlier, still in the park. You point to her. "H-hey!" desperate to change
+the topic of conversation to something more positive. "There's a customer I had earlier today!
+Why don't we go [[say hi?"|LottaHart]]
+
+::ShowEmpathy
+"H-hey... I totally feel you. I mean, look at me. I've had nobody to call my own! I never
+really got to know anybody in university, and I still haven't met anyone new. It's a miracle
+I even GET customers," you say, trying to take a load off them.
+
+"Oh, that's cool. Yeah, then, it's super cool how you left me for that one girl you had a crush
+on... I forgot her name... Kathy? Yeah, her. How'd you do with her? She never even looked at you
+in high school. Yea it's so great that you abandoned me in university for her. Yea, great."
+
+Before you knew it, words spilled out of your mouth.
+
+"Okay, well at least I'm not the coward who left me to die in the war," you lash out at them.
+
+"Oh, what, now you expect me to risk my life to save your sorry ass? Oh, I'm sorry I didn't walk
+with you into the most obvious trap in existence. I'm sorry I didn't risk my life saving yours.
+I'm sorry I didn't finish you while you were down there. I'm sorry, Hans. I am."
+
+Your ears turn beet red... and before you knew it...
+<<if $knife == true>>
+[[...you take out that knife you brought...|ThroatSlit]]
+<<else>>
+[[...|NothingHappened]]
+<</if>>
+
+::ThroatSlit
+...and slit his throat.
+
+.
+.
+.
+
+Before you even have the mental capacity to process what you just did, you hear a blood-curdling
+scream in the distance.
+
+You look over.
+
+It's Lotta.
+
+[[Start Over|Start]]
+
+::NothingHappened
+...nothing.
+
+You don't do anything.
+
+You don't have the capacity to do anything, except stew in vitriol.
+
+Desperate to take your mind off the situation you dart your eyes everywhere you can. <<set $bitterness to $bitterness + 99>>
+
+You notice Lotta, from earlier, still in the park. You point to her. "H-hey!" desperate to change
+the topic of conversation to something more positive. "There's a customer I had earlier today!
+Why don't we go [[say hi?"|LottaHart]]
+
+::Anticlimactic
+"Hi," you say to Lotta. "I'm Hans, the guy who read your fortune earlier today!"
+
+...
+
+She doesn't respond. She's still too nervous to interact with you. I guess the pent up energy
+she had when asking for her fortune must've worn off by this point.
+
+The air is somehow even more uncomfortable and awkward than before. You and $friendFirstName quickly [[take your leave.|Anticlimax2]]
+
+::Anticlimax2
+A bit later, after not really talking to each other, $friendFirstName decides to part ways.
+
+"Well... I wish I could say it's been fun," they say to you, "but I really gotta get going now."
+
+They hastily speedwalk away.
+
+Unfortunately for $friendFirstName, they were so desperate to get away from the whole situation
+that they got hit by an oncoming car.
+
+"WHAT THE SHIT DUDE" the sleazebag driving the car says, as he's getting out of the car to assess the
+damage. He cares more about the car than the literal person he just hit. Whatever. I mean, it was 
+partially his fault too. You could tell he was going waaaaay too fast.
+
+Honestly, you probably could've warned $friendFirstName about the oncoming car, since just prior
+you saw a vision of it, but you didn't really want to talk to them anymore and would probably be
+way too uncomfortable doing it.
+
+It was for the best.
+
+[[Start Over?|Start]]
