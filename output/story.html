@@ -1361,7 +1361,7 @@ due to the large welt on his head.
 [[...you hesitantly tell them to come inside|Friend Tarot Reading]]</tw-passagedata><tw-passagedata pid="103" name="Friend Tarot Reading" tags="" position="350,1350" size="100,100">There is an uncomfortable [[awkwardness|Friend Anecdote]] in the air.
 You can tell your friend also notices this.
 You begin the tarot reading and draw...
-&lt;img src=&quot;media/death.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Death Tarot&quot;&gt;
+&lt;img src=&quot;media/death.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Death Tarot&quot;&gt;
 You slowly realize that this reading indicates that there is [[death|Uneasy Friend]] in your friend&#39;s future.</tw-passagedata><tw-passagedata pid="104" name="Friend Anecdote" tags="" position="475,1350" size="100,100">You remember how the last time you had talked to each other played out.
 It did not end well, you both said some nasty things to each other before you left.
 You remember how your friend did not take the news of your move well.
@@ -1532,31 +1532,31 @@ you realize this is your fault and don&#39;t know how to cope.
 You draw the $cardDrawn1 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
 
 &lt;&lt;if $cardDrawn1 == &quot;Lovers&quot;&gt;&gt;\
-    &lt;img src=&quot;media/lovers.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Lovers Tarot&quot;&gt;
+    &lt;img src=&quot;media/lovers.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Lovers Tarot&quot;&gt;
 
     [[&quot;I draw the Lovers card, this could signify &quot; + $loversList.pluck() + &quot;.&quot;|Correct]]
     [[&quot;I draw the Lovers card, this could signify &quot; + $loversListReversed.pluck() + &quot;.&quot;|Partially]]
     [[&quot;I draw the Lovers card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
 &lt;&lt;elseif $cardDrawn1 == &quot;Empress&quot;&gt;&gt;\
-    &lt;img src=&quot;media/empress.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Empress Tarot&quot;&gt;
+    &lt;img src=&quot;media/empress.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Empress Tarot&quot;&gt;
 
     [[&quot;I draw the Empress card, this could signify &quot; + $empressListReversed.pluck() + &quot;.&quot;|Partially]]
     [[&quot;I draw the Empress card, this could signify &quot; + $empressList.pluck() + &quot;.&quot;|Correct]]
     [[&quot;I draw the Empress card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
 &lt;&lt;elseif $cardDrawn1 == &quot;Judgement&quot;&gt;&gt;\
-    &lt;img src=&quot;media/judgement.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Judgement Tarot&quot;&gt;
+    &lt;img src=&quot;media/judgement.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Judgement Tarot&quot;&gt;
 
     [[&quot;I draw the Judgement card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
     [[&quot;I draw the Judgement card, this could signify &quot; + $judgementList.pluck() + &quot;.&quot;|Correct]]
     [[&quot;I draw the Judgement card, this could signify &quot; + $judgementListReversed.pluck() + &quot;.&quot;|Partially]]
 &lt;&lt;elseif $cardDrawn1 == &quot;Star&quot;&gt;&gt;\
-    &lt;img src=&quot;media/star.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Star Tarot&quot;&gt;
+    &lt;img src=&quot;media/star.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Star Tarot&quot;&gt;
 
     [[&quot;I draw the Star card, this could signify &quot; + $starList.pluck() + &quot;.&quot;|Correct]]
     [[&quot;I draw the Star card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
     [[&quot;I draw the Star card, this could signify &quot; + $starListReversed.pluck() + &quot;.&quot;|Partially]]
 &lt;&lt;elseif $cardDrawn1 == &quot;Tower&quot;&gt;&gt;\
-    &lt;img src=&quot;media/tower.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Tower Tarot&quot;&gt;
+    &lt;img src=&quot;media/tower.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Tower Tarot&quot;&gt;
     
     [[&quot;I draw the Tower card, this could signify &quot; + $towerListReversed.pluck() + &quot;.&quot;|Partially]]
     [[&quot;I draw the Tower card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
@@ -1594,31 +1594,31 @@ She walks away.
 You draw the $cardDrawn2 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
 
 &lt;&lt;if $cardDrawn2 == &quot;Moon&quot;&gt;&gt;\
-    &lt;img src=&quot;media/moon.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Lovers Tarot&quot;&gt;
+    &lt;img src=&quot;media/moon.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Lovers Tarot&quot;&gt;
 
     [[&quot;I draw the Moon card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect 2]]
     [[&quot;I draw the Moon card, this could signify &quot; + $moonList.pluck() + &quot;.&quot;|Correct 2]]
     [[&quot;I draw the Moon card, this could signify &quot; + $moonListReversed.pluck() + &quot;.&quot;|Partially 2]]
 &lt;&lt;elseif $cardDrawn2 == &quot;World&quot;&gt;&gt;\
-    &lt;img src=&quot;media/world.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Empress Tarot&quot;&gt;
+    &lt;img src=&quot;media/world.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Empress Tarot&quot;&gt;
 
     [[&quot;I draw the World card, this could signify &quot; + $worldList.pluck() + &quot;.&quot;|Correct 2]]
     [[&quot;I draw the World card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect 2]]
     [[&quot;I draw the World card, this could signify &quot; + $worldListReversed.pluck() + &quot;.&quot;|Partially 2]]
 &lt;&lt;elseif $cardDrawn2 == &quot;Fool&quot;&gt;&gt;\
-    &lt;img src=&quot;media/fool.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Fool Tarot&quot;&gt;
+    &lt;img src=&quot;media/fool.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Fool Tarot&quot;&gt;
 
     [[&quot;I draw the Fool card, this could signify &quot; + $foolListReversed.pluck() + &quot;.&quot;|Partially 2]]
     [[&quot;I draw the Fool card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect 2]]
     [[&quot;I draw the Fool card, this could signify &quot; + $foolList.pluck() + &quot;.&quot;|Correct 2]]
 &lt;&lt;elseif $cardDrawn2 == &quot;Sun&quot;&gt;&gt;\
-    &lt;img src=&quot;media/sun.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Star Tarot&quot;&gt;
+    &lt;img src=&quot;media/sun.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Star Tarot&quot;&gt;
 
     [[&quot;I draw the Sun card, this could signify &quot; + $sunListReversed.pluck() + &quot;.&quot;|Partially 2]]
     [[&quot;I draw the Sun card, this could signify &quot; + $sunList.pluck() + &quot;.&quot;|Correct 2]]
     [[&quot;I draw the Sun card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect 2]]
 &lt;&lt;elseif $cardDrawn2 == &quot;Chariot&quot;&gt;&gt;\
-    &lt;img src=&quot;media/chariot.png&quot; style=&quot;width: 30%;&quot; alt=&quot;Tower Tarot&quot;&gt;
+    &lt;img src=&quot;media/chariot.jpg&quot; style=&quot;width: 30%;&quot; alt=&quot;Tower Tarot&quot;&gt;
     
     [[&quot;I draw the Chariot card, this could signify &quot; + $chariotList.pluck() + &quot;.&quot;|Correct 2]]
     [[&quot;I draw the Chariot card, this could signify &quot; + $chariotListReversed.pluck() + &quot;.&quot;|Partially 2]]
