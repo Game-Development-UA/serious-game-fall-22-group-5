@@ -21,7 +21,12 @@ It was kind of embarrassing for you.
 
 :: Tie Shoes
 
-<!-- Add death how ever we want to do that. -->
+You bend down to tie your shoes and hear a loud screeching noise and a bang.
+You look up to see $friendFirstName laying in the road.
+Before the you could even get there your friend had already died.
+later you lay in bed and think how things could of gone diffrently.
+[[Start Over?|Start]]
+[[Try following again| Stalk]]
 
 :: Keep Walking
 
@@ -30,4 +35,126 @@ You stand up after tripping and see your friend being stupid and not looking bot
 A car is rushing down the road and your friend is in its path.
 You scramble to think of what to do...
 [[OMG you forogt to tie your shoes| Tie Shoes]]
-[[]]
+[[Yell AHHHHHHHHHH| Yell]]
+
+:: Yell
+
+You Scream a girlish scream like you had just seen a Ghost.
+Your scream echos off the buildings and $friendFirstName darts their head back.
+Worried you will be found out you dash being the nearest light post.
+The concerened people around you stare and try to approch you but you shooed them away.
+$friendFirstName Did not pay much mind and continued walking [[forward|Resturant]].
+
+:: Resturant
+
+Following closly behing $friendFirstName you make your way to a nice Chinese resturant.
+They walk in to get some dinner.
+[[Wait outside|Outside]]
+[[Follow into the resturant|Dinner]]
+[[Find a way into the kitchen|Kitchen]]
+
+:: Outside
+
+A very cute puppy comes running up to you. It has adorable Puppy eyes
+and starts licking your ankles. you get distracted and start petting it.
+They look so happy! You have made such a great friend!
+$friendFirstName however is not doing to hot because they are curently [[choking|Choke]] on a shrimp.
+
+:: Dinner
+
+You succesfully make it in unoticed and order some delicious fried rice.
+$friendFirstName starts to move in a weird way and you realize they are choking.
+[[If they are going to be taken out by a shrimp it was ment to be.| Choke]]
+[[Save him yourself| Save]]
+[[Call for help| Boy Scout]]
+
+:: Kitchen 
+
+You remeber $friendFirstName has a server gluten allergy! So to make sure
+they are not going to be poisoned you sneak through the back into the kitchen.
+You sneak into kitchen sucessfully and see the crazy comotion of a professional kitchen.
+There is a plate of fried rice and you remeber its $friendFirstName's favorite food.
+[[Talk to the chef and make sure they dont put soy sause on it| No Soy]]
+[[Wait it out| Soy]]
+
+:: No Soy
+
+<<set soy to false>>
+You Talk with the chef and explain the situation and of course she completely understands.
+She takes good care of the plate and delivers it to $friendFirstName.
+Before you get a chance to leave the kitchen you hear a comotion from the dining area.
+You see $friendFirstName choking.
+[[If they are going to be taken out by a shrimp it was ment to be.| Choke]]
+[[Save him yourself| Save]]
+[[Call for help| Boy Scout]]
+
+:: Soy
+You hang around in the kitchen to long and the head chef starts yelling at you.
+She is pissed you are taking up so much room in her kitchen and demands you leave.
+While you argue the plate is taken away to $friendFirstName.
+You were unable to hear the comotion and $friendFirstName is [[choking|Choke]] on a shrimp.
+
+:: Save
+
+In a rush of bravery and desperation you rush to save your friend.
+Rembering back to 6th grade health class you attempt the heimlich maneuver.
+With 3 big push and a few cracks you see a shrimp fly across the room.
+$friendFirstName passes out from the pain.
+The [[ambulence| Hospital]] arives quickly.
+
+:: Boy Scout
+
+You cry for help and a young boy jumps out of his seat he is maybe 12.
+He says dont worry im a Boy Scout! He grabs $friendFirstName and starts the 
+heimlich maneuver and in one trust the shrimp goes flying.
+Everyone claps and $friendFirstName thanks the boy and dosnt even notice you.
+$friendFirstName appologises to the owner for the comotion and [[leaves.| Go Home]]
+
+:: Choke
+
+Before the ambulance can arive your friend stop breathing. You hear the
+siren ring in the distance and you wonder if you could of helped somehow.
+[[Start Over?|Start]]
+[[Out side the resturant| Resturant]]
+
+:: Hospital
+
+You ride in the abulence with your friend and wait in the waiting room
+to hear the news. The doctor comes in and tells you the sad news.
+<<if $soy == true>>\
+    [[Thier lower intestents have failed.|Failed]]\
+<</if>>\
+<<if $soy == false>>\
+    [[The internal bleeding was to much.|Ribs]]\
+<</if>>\
+
+:: Failed
+
+The doctor lets you know that $friendFirstName's lower intestents
+have failed and they passed away a few moments ago. This must of been because of
+the gluten. You think what you could of done to save them.
+[[Start Over?|Start]]
+[[Out side the resturant| Resturant]]
+
+:: Ribs
+
+The doctor lets you know that $friendFirstName's ribs were 
+were broken and they lost to much blood and passed.
+you relize this is your fault and don't know how to cope.
+[[Start Over?|Start]]
+[[Out side the resturant| Resturant]]
+
+:: Go Home
+
+$friendFirstName starts to head in the direction of there home.
+<<if $soy == true>>\
+    About a mile in and $friendFirstName collapses. you quickly call 911 
+    after feeling there pulse. You ride with them to the hosibital and wait 
+    patiently in the waiting room. [[The doctor comes out|Failed]].
+<</if>>\
+<<if $soy == Flase>>\
+    $friendFirstName makes it home saftley and you think to yourself
+    maybe nothing bad will happen to them. You will have to check in on a diffrent day.
+    your friend survives for today.
+    [[Start Over?|Start]]
+<</if>>\

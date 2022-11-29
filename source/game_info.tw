@@ -58,3 +58,5 @@ XIII
 
 <<set $petList = ["dog", "cat"]>>
 <<set $pet = $petList.pluck()>>
+
+<<set $soy to true>>
