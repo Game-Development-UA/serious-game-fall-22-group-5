@@ -1,4 +1,4 @@
-::Park
+:: Park
 <<set $bitterness to 0>>
 You and $friendFirstName decide to head to the park. Breathe in some of that fresh air, take 
 in some of nature's eye candy. EXPERIENCE that lovely scenery.
@@ -20,9 +20,9 @@ but it was still absolutely a park.
 
 [[Next|Next0]]
 
-::Next0
+:: Next0
 You glance over at your friend. In contrast to the beauty of nature, your friend's whole
-vibe was off. They're clearly, at the very least, slightly uncomfrotable. I mean, of course they 
+vibe was off. They're clearly, at the very least, slightly uncomfortable. I mean, of course they 
 are. After the [[shit|Backstory]] that went down. The current mood is... awkward.
 
 You try to break the ice by asking
@@ -30,9 +30,9 @@ You try to break the ice by asking
 [[How one of your old friends is doing|FriendQ]]
 [[About their old aspiration of playing guitar|GuitarQ]]
 
-::Backstory
+:: Backstory
 You remember it as clear as if it had just happened yesterday. You and your friend were
-inseperable in high school, like peas in a pod. They were your plus one to everything, and
+inseparable in high school, like peas in a pod. They were your plus one to everything, and
 you were to his. All group projects you two ever did, you did together. A party was not
 attended where, only one of you two were there. You two were attached at the hip
 
@@ -44,7 +44,7 @@ That's why the knowledge that you'd be going to a different university stung so 
 [[Next|BackstoryNext0]]
 <</timed>>
 
-::BackstoryNext0
+:: BackstoryNext0
 It was all because of a girl you liked. What was her name? 
 
 Oh right.
@@ -68,7 +68,7 @@ But honestly, that was a you thing. You were willing to apologize for everything
 it's been years at this point. What you weren't willing to forget, was what happened after
 that. When you two were in the [[military|BackstoryNext1]]
 
-::BackstoryNext1
+:: BackstoryNext1
 Years later all that partying caught up to you and you found yourself in the military, and it
 just so happened that you and $friendFirstName were in the same platoon. You two noticed recognized each
 other right away, but never had the opportunity to speak with one another. The military regimen
@@ -83,7 +83,7 @@ It was complete chaos after that. Explosions filled your direct line of sight an
 filled your peripherals. You barely remember what happened after that, but you do know at one
 point you found yourself [[caught on an enemy trap|BackstoryNext2]]
 
-::BackstoryNext2
+:: BackstoryNext2
 You remembered the searing pain that coursed through your body when you fell into that pit of
 spikes. It rendered you almost unable to move at all, with nearly every part of your body being
 penetrated by sharp iron.
@@ -95,7 +95,7 @@ Then you saw $friendFirstName running by, obviously fleeing.
 
 [[Next|BackstoryNext3]]
 
-::BackstoryNext3
+:: BackstoryNext3
 <<set _fnCaps to $friendFirstName.toUpperCase()>>
 You cry out to them. "_fnCaps!"
 
@@ -107,7 +107,7 @@ They turn around and notice you.
 
 [[Next|BackstoryNext4]]
 
-::BackstoryNext4
+:: BackstoryNext4
 They hesitated for a bit.
 
 Then the noise of the enemy hit a peak.
@@ -120,7 +120,7 @@ $friendFirstName left you for dead.
 
 [[Next|BackstoryNext5]]
 
-::BackstoryNext5
+:: BackstoryNext5
 You couldn't believe it. Was that just the person you were to them? After all those years
 you spent together in high school, after all the stuff you two went through together. I guess
 they never really forgave you for leaving them to go to university out of state.
@@ -132,7 +132,7 @@ Then an enemy soldier ran in, and it was back to fear again.
 
 [[Next|BackstoryNext6]]
 
-::BackstoryNext6
+:: BackstoryNext6
 All of a sudden, you felt dizzy. Your brain experienced signals that you barely even could
 comprehend, much less recognize. Suddenly, you had a vision. The enemy soldier looked around,
 checking for other members of your platoon, and then you cried. The soldier noticed you from
@@ -153,7 +153,7 @@ too much to take in, this in conjunction with the fact that you were bleeding ou
 
 [[Next|BackstoryNext7]]
 
-::BackstoryNext7
+:: BackstoryNext7
 You limped your way back to the rest of your platoon, miraculously not encountering any enemies
 on your way there. A ceasefire must've happened or something. You didn't see $friendFirstName after that.
 All you know is that immediately after this, you left the military to put your fortune telling
@@ -174,7 +174,7 @@ after your reputation as a good fortune teller spread more widely.
 
 [[But back to the present|OriginalQuestions]]
 
-::OriginalQuestions
+:: OriginalQuestions
 You sling your mind back to the present. You wanted to clear the uncomfortable feeling in the air.
 
 You try to break the ice by asking
@@ -182,7 +182,7 @@ You try to break the ice by asking
 [[How one of your old friends is doing|FriendQ]]
 [[About their old aspiration of playing guitar|GuitarQ]]
 
-::MarriageQ
+:: MarriageQ
 "So, uh... how's the marriage going? Y'know, with Barbara," you ask $friendFirstName. You
 heard from another old friend in high school a while back that they got married to someone they
 met in university.
@@ -193,7 +193,7 @@ Annabeth, her name is."
 [[Congratulate about marriage|CongratsMarriage]]
 [[Inquire about Barbara|BarbaraQ]]
 
-::CongratsMarriage
+:: CongratsMarriage
 "Well, hey, congrats on getting THREE other people to date you," you laughed. "Still been
 single my entire life, ever since... "
 
@@ -201,7 +201,7 @@ You stop the sentence there. You don't want to bring up Kathy.
 <<set $bitterness to $bitterness + 1>>
 [[Next|LottaParkEncounter1]]
 
-::BarbaraQ
+:: BarbaraQ
 "Oh, well how's Barbara doing? I heard you guys were old flings back in the university
 days?" you queried.
 
@@ -225,7 +225,7 @@ yourself.
 
 <<set $bitterness to $bitterness + 4>>[[Next|LottaParkEncounter1]]
 
-::FriendQ
+:: FriendQ
 "So... how's Miguel?" you inquire. Miguel was also one of your friends in your high school
 era friend trio. Of course, he was never as close to you or $friendFirstName as you two were to each
 other, but he was a good friend of both of you nonetheless. Miguel went to the same university
@@ -241,7 +241,7 @@ I mean, Miguel was kind of the wild card of the group. Of course he'd do somethi
 [[Ask more about that|HighDiveQ]]
 [[Reminisce about old stuff Miguel did|OldStuff]]
 
-::HighDiveQ
+:: HighDiveQ
 "What happened on the high dive?" you prodded.
 
 "Uhh...." $friendFirstName hesitated. "So y'know how Miguel likes to do really stupid shit? Well
@@ -256,7 +256,7 @@ a jab at you.
 
 <<set $bitterness to $bitterness + 2>> [[Next|LottaParkEncounter1]]
 
-::OldStuff
+:: OldStuff
 "Well, I mean Miguel always had a penchant for doing really stupid stuff. Remember how he
 flooded the high school gym with goat blood?"
 
@@ -271,7 +271,7 @@ the end.
 
 <<set $bitterness to $bitterness - 2>>[[Next|LottaParkEncounter1]]
 
-::GuitarQ
+:: GuitarQ
 "Hey, so how's the whole guitar thing comin? You the famous bass player of an insane rock
 band yet?" you ask. They really were nutty with the bass back in the day. They always went
 on about how they wanted to "make it big," and how a degree was only their backup plan.
@@ -284,7 +284,7 @@ and dreams with humor instead of regret. <<set $bitterness to $bitterness - 1>>
 [[Ask why haven't they made it big|FameYetQ]]
 [[Talk about old bass experiences|OldBass]]
 
-::FameYetQ
+:: FameYetQ
 "So... why haven't you made it big yet?" you prod jokingly.
 
 "Oh, well I mean... I was in a band at one point. But then my second wife Lisa got really
@@ -297,7 +297,7 @@ dad on his 14th birthday, a dad who died shortly after giving it to him. That re
 
 [[Next|LottaParkEncounter1]]
 
-::OldBass
+:: OldBass
 "Well of course I've seen you on the covers of magazines and all that stuff," you say, playing
 along with the joke. "Bass is your natural god-given talent. Remember when you played bass for
 Gwen back at that one party in 11th grade?"
@@ -310,7 +310,7 @@ They laugh. Honestly reminiscing on the past is making you feel pretty good at t
 
 <<set $bitterness to $bitterness - 3>>[[Next|LottaParkEncounter1]]
 
-::LottaParkEncounter1
+:: LottaParkEncounter1
 You keep walking along the main park path, talking about your respective lives.
 
 All of a sudden, you see your first customer. Lotta Hart, you recall her name to be. Honestly,
@@ -320,7 +320,7 @@ You choose to:
 [[Say hi|LottaHart]]
 [[Ignore her|IgnoreHer]]
 
-::LottaHart
+:: LottaHart
 "Hey, there's a customer I had today!" you say to $friendFirstName, pointing to her. "I read her fortune
 a while ago, before you came in."
 
@@ -330,7 +330,7 @@ You pause. "I'm... I'm not sure. I can barely remember what fortunes I give peop
 her name was like 'Lotta Heart,' or something weird like that.
 
 [[Next|lh2]]
-::lh2
+:: lh2
 <<if $lovers is true>>
 You go over to Lotta, clearly nervous. She has trouble interacting with birds, let alone
 people. Right away, from the moment she walked into your shop, you could tell she was a shy 
@@ -357,7 +357,7 @@ her is going. Hey, you may have fibbed a little, but a little placebo can be jus
 push to cause great change in life.
 <</if>>
 
-::lhInLove
+:: lhInLove
 You go over to her, $friendFirstName following close behind.
 
 "Hi... Lotta.. was it?" you say to her.
@@ -382,7 +382,7 @@ was probably just their natural charisma taking the wheel.
 
 $friendFirstName offers Lotta to join you and them on the little park [[walk|lhInLove2]]. She accepts.
 
-::lhInLove2
+:: lhInLove2
 After walking for a half hour with Lotta accompanying you two, you now feel like a third wheel.
 $friendFirstName is totally vibing with her in a way you knew all too well. They were crackin jokes,
 making references to obscure pieces of media that she understood, and honestly just being an
@@ -401,7 +401,7 @@ Any second now
 [[Aaaaaany second now.|lhInLove3]]
 <</timed>>
 
-::lhInLove3
+:: lhInLove3
 Okay, this is taking way too long. An hour has passed, and she's still way too shy to do anything
 or make a move at all.
 
@@ -411,7 +411,7 @@ How do you explain to them about her feelings?
 [[Kind of hint at it|RejectLotta]]
 [[Be blunt|IgnoreLotta]]
 
-::RejectLotta
+:: RejectLotta
 You kind of hint at the fact that she likes them.
 
 "Well... y'see... I kind of told her that she would definitely fall in love with someone, and 
@@ -422,7 +422,7 @@ They pause, slowly coming to the realization.
 
 "Oh, I see," $friendFirstName nods. "I'll [[explain|RejectLotta2]] the whole situation right quick,"
 
-::RejectLotta2
+:: RejectLotta2
 The two of you return to Lotta who has been twiddling with her thumbs in the meantime. She and
 $friendFirstName engage in some light conversation, to which they really casually yet cleverly steer towards the
 concept of crushes, like they always do unknowingly, and then they hit her with the whammy:
@@ -444,7 +444,7 @@ leave while Lotta just stands there.
 [[Next|AfterRejectMakeUp]]
 <</if>>
 
-::AfterRejectFight
+:: AfterRejectFight
 It's been a bit after $friendFirstName rejected Lotta, and the two of you have since left the park
 and are now in some sort of alley way. You don't know why you're there, you've just been following
 $friendFirstName the whole time.
@@ -458,7 +458,7 @@ just because you're a fortune teller you're a matchmaking god now?"
 
 [[Next|ARF2]]
 
-::ARF2
+:: ARF2
 You can't believe what you just heard. "What? No! I was just-"
 
 "Shut up!" $friendFirstName screams at you. "You wanted me to be happy, right? You think this will
@@ -480,10 +480,10 @@ Okay. Now they've done it.
 
 [[Next|ARF3]]
 
-::ARF3
+:: ARF3
 [[...|ARF4]]
 
-::ARF4
+:: ARF4
 You barely come to. For the past few minutes the only thing you could see is red. You look down. Your
 entire body stings. Your hands are bloody. You look at the floor.
 
@@ -491,7 +491,7 @@ $friendFirstName is laying there, dead.
 
 [[Oh god.|ARF5]]
 
-::ARF5
+:: ARF5
 You sprint out of that alley as fast as you possibly can. Your mind is racing with pure emotion, your
 veins pumping with adrenaline, both from the fact that you just killed your best friend.
 
@@ -508,7 +508,7 @@ ran into was covered in bruises and blood.
 
 You [[respond|ARF6]]
 
-::ARF6
+:: ARF6
 "N-no... I don't know who you're talking about," those words feel like hot tacks in your mouth.
 
 "Oh... okay then..." he runs past you, also clearly on his own thing.
@@ -523,7 +523,7 @@ What do you do now?
 
 [[RETURN TO START|Start]]
 
-::AfterRejectMakeUp
+:: AfterRejectMakeUp
 The two of you keep walking. By now you've left the park and Lotta, who kind of just stood
 there dumbfounded, and have entered the city.
 
@@ -535,7 +535,7 @@ when $friendFirstName sits by your side to join you.
 
 "What," you respond. "What are you [[talking about?|ARMU2]]
 
-::ARMU2
+:: ARMU2
 "I'm sorry, about the war..." 
 
 Their eyes get watery. This has been a long time coming and you could tell.
@@ -553,7 +553,7 @@ grateful for what just happened.
 
 [[Next|ARMU3]]
 
-::ARMU3
+:: ARMU3
 Another hour or so goes by, and you and $friendFirstName are still chilling. Y'know, after you two had made
 up, it feels nice to chat with your old friend like this. The two of you reminisce about the
 past, talk about current prospects, future goals, hell, you two even exchanged contact information.
@@ -568,7 +568,7 @@ And closer.
 
 Until finally you two are confronted with some [[sleazebag|ARMU4]], accompanied by Lotta.
 
-::ARMU4
+:: ARMU4
 "Hey asshole!" the sleazebag yells at the two of you, spit hitting both of your faces. "Which one
 of you is named $friendFirstName?!"
 
@@ -582,10 +582,10 @@ talking to Lotta, huh? You think you can really act all cool, right?"
 Leon turns to Lotta. "SHUT THE FUCK UP, BITCH" he screams at her. She flinches on instinct.
 
 Leon turns his attention to $friendFirstName, screaming at them. He keeps screaming something
-incoherent about righeousness, and Lotta, and whatever. He has the bamblings of an incoherent
+incoherent about righteousness, and Lotta, and whatever. He has the bamblings of an incoherent
 drunkard. $friendFirstName rolls their eyes, [[before...|ARMU5]]
 
-::ARMU5
+:: ARMU5
 <b>POW!!!</b>
 
 $friendFirstName punches Leon straight in the jaw. 
@@ -600,7 +600,7 @@ because now the crush Lotta has on $friendFirstName has only grown.
 
 [[Next|ARMU6]]
 
-::ARMU6
+:: ARMU6
 A while has passed, yet again. You and $friendFirstName have been accompanied by Lotta on your
 little hang out sesh, and she's just fully out of her shell now. She's been cracking jokes
 with you two, and has just been all around a pleasant person.
@@ -615,7 +615,7 @@ Lotta giggles. "Well aren't YOU a knight in shining armor. Fine, I accept your a
 
 The three of you find yourselves at a [[crosswalk|ARMU7]]
 
-::ARMU7
+:: ARMU7
 Suddenly, you're confronted with a vision. A vision where a car goes out of control going 80
 mph and hits the three of you. And it was going to happen just then.
 
@@ -625,11 +625,11 @@ You grab Lotta, who just so happened to be closest to you, and jump immediately 
 
 $friendFirstName turned out to [[not be so lucky.|ARMU8]]
 
-::ARMU8
+:: ARMU8
 You see $friendFirstName's lifeless body, almost turned to goo from the metal machine that just
 hit them, and immediately after, hit a streetlight.
 
-The car very obviously out of commision, the driver stumbles out, also bloody.
+The car very obviously out of commission, the driver stumbles out, also bloody.
 
 You recognize him instantly.
 
@@ -637,7 +637,7 @@ It's Leon.
 
 [[Start Over?|Start]]
 
-::IgnoreLotta
+:: IgnoreLotta
 "Okay, so that girl Lotta has definitely got crush on you. It's completely obvious, too."
 
 "Wh-what?" $friendFirstName says. "Are you serious?"
@@ -650,7 +650,7 @@ to even interact with the wildlife without getting nervous.
 "Oh..hmm..." they ponder. They quickly walk away from Lotta's general direction. Lotta,
 noticing this, [[follows||ignore2]] $friendFirstName. "Hey! Wait up!" she yells at them.
 
-::ignore2
+:: ignore2
 You stop her as she's running towards $friendFirstName.
 
 "Lotta, listen... I-" she interrupts you.
@@ -665,7 +665,7 @@ She doesn't get the hint, and continues chasing after them.
 All the while, you two were distracting each other from noticing that $friendFirstName had
 accidentally [[bumped into...|BearEat]]
 
-::BearEat
+:: BearEat
 A bear.
 
 A bear who did not quite like the fact that during its pleasant nap was hit by a panicking
@@ -677,7 +677,7 @@ Dear god.
 
 [[Start Over?|Start]]
 
-::OldNemesis
+:: OldNemesis
 You walk over to Lotta, all buddy buddy with someone new.
 
 "Hey... Lotta... right?" you say to her. "Hey, it's me, Hans, the fortune teller from earlier!
@@ -694,7 +694,7 @@ The man extends a hand to you.
 
 You look into his eyes and reciprocate the handshake, but [[all of a sudden...|Flashback]]
 
-::Flashback
+:: Flashback
 You flash back in time. To the war. The war $friendFirstName left you for dead in.
 
 You remember yourself playing dead in that trap, the enemy soldier was so close to realizing
@@ -703,7 +703,7 @@ that at one point his boot was literally on your chest, sensing a heartbeat.
 
 And this was [[the same person.|BackToReality]]
 
-::BackToReality
+:: BackToReality
 Dear god.
 
 When you realized this, you started to sweat profusely. Your ears turned bright red, and it took
@@ -713,7 +713,7 @@ everything you had to maintain your composure. You break out of the handshake im
 
 You break off in a sprint back to your [[shop.|Nemesis1]]
 
-::Nemesis1
+:: Nemesis1
 When you finally arrive at your fortune telling shop, you start gathering all your things. All
 your war memorabilia from your service. Jesus Christ. How could this have happened. The war by now
 has ended. Everything came back to you regarding your time in the platoon. The guard duty, the
@@ -732,7 +732,7 @@ After you come to your senses, you begin to put all your things away.
 And then you [[see him in the lobby.|Nemesis2]]
 <</timed>>
 
-::Nemesis2
+:: Nemesis2
 "Oh! H-hi!" you trembled. "H-how can I help you?"
 
 "Oh, I bet you know exactly why I'm here," he says, whipping out a gun from his jacket. "I know you,
@@ -741,7 +741,7 @@ under my nose like that. Oh bother, I guess it's time for me to finish what I st
 
 He points his gun at you, but [[all of a sudden...|Nemesis3]]
 
-::Nemesis3
+:: Nemesis3
 You get a vision of the future, and you see everything that he's about to do. Every punch thrown,
 every where he aims to fire his gun, and most importantly, what he's NOT paying attention to.
 
@@ -755,12 +755,12 @@ chair, and call the police.
 
 But it was only after all that coolness that you notice [[what happened in the middle of the fight.|StrayBullet]]
 
-::StrayBullet
+:: StrayBullet
 That lone bullet the guy fired? It went straight out the window.
 
 You quickly run out to assess the damage, but it's even worse than you could've imagined.
 
-$friendFirstName lay on the ground, lifeless. They went to go check on you, infering you were stressed,
+$friendFirstName lay on the ground, lifeless. They went to go check on you, inferring you were stressed,
 but was hit by the stray bullet that came straight through the window.
 
 Funny. The person who accidentally spared your life, in a situation $friendFirstName put you in before 
@@ -770,7 +770,7 @@ How ironic.
 
 [[Start Over?|Start]]
 
-::IgnoreHer
+:: IgnoreHer
 You decide to ignore her. I mean, why even get involved with the lives of customers? Like,
 they're just paying for their fortune read. They don't need to be stalked or anything like that.
 
@@ -786,7 +786,7 @@ a sudden, you notice a tear streaming down $friendFirstName's cheek.
 [[Press further as to what's going on|PressFurther]]
 [[Show empathy|ShowEmpathy]]
 
-::PressFurther
+:: PressFurther
 "Oh shit... I'm sorry... what's been going on recently?" you ask them.
 
 "I.. I just..." they wipe the tear from their cheek. "I recently found out that my mom passed..."
@@ -807,7 +807,7 @@ Oh god. You never realized how hard you leaving them in university hit them.
 [[Give Gift|ApologyGift]]
 <</if>>
 
-::ApologyGift
+:: ApologyGift
 "Here..." you say, handing the gift over to them. "I wanted you to have this. I know it by itself
 isn't gonna make up for my abandoning you, but it's the least I could do."
 
@@ -830,7 +830,7 @@ You don't know what just happened, but you're honestly really glad that it did.
 
 [[Next|LaterSuicide]]
 
-::LaterSuicide
+:: LaterSuicide
 A week passed since then.
 
 It's been a while since you saw the news. "Ah, what the hell," you thought to yourself. "Time for
@@ -846,7 +846,7 @@ It was the gift you gave them, still unopened.
 
 [[Start Over?|Start]]
 
-::SorryForLeaving
+:: SorryForLeaving
 "I just wanted to say," you address to $friendFirstName. "I'm sorry for leaving. I should've
 just stayed with you at Wogglemurphy."
 
@@ -860,7 +860,7 @@ You notice Lotta, from earlier, still in the park. You point to her. "H-hey!" de
 the topic of conversation to something more positive. "There's a customer I had earlier today!
 Why don't we go [[say hi?"|LottaHart]]
 
-::ShowEmpathy
+:: ShowEmpathy
 "H-hey... I totally feel you. I mean, look at me. I've had nobody to call my own! I never
 really got to know anybody in university, and I still haven't met anyone new. It's a miracle
 I even GET customers," you say, trying to take a load off them.
@@ -884,7 +884,7 @@ Your ears turn beet red... and before you knew it...
 [[...|NothingHappened]]
 <</if>>
 
-::ThroatSlit
+:: ThroatSlit
 ...and slit his throat.
 
 .
@@ -900,7 +900,7 @@ It's Lotta.
 
 [[Start Over|Start]]
 
-::NothingHappened
+:: NothingHappened
 ...nothing.
 
 You don't do anything.
@@ -913,7 +913,7 @@ You notice Lotta, from earlier, still in the park. You point to her. "H-hey!" de
 the topic of conversation to something more positive. "There's a customer I had earlier today!
 Why don't we go [[say hi?"|LottaHart]]
 
-::Anticlimactic
+:: Anticlimactic
 "Hi," you say to Lotta. "I'm Hans, the guy who read your fortune earlier today!"
 
 ...
@@ -923,7 +923,7 @@ she had when asking for her fortune must've worn off by this point.
 
 The air is somehow even more uncomfortable and awkward than before. You and $friendFirstName quickly [[take your leave.|Anticlimax2]]
 
-::Anticlimax2
+:: Anticlimax2
 A bit later, after not really talking to each other, $friendFirstName decides to part ways.
 
 "Well... I wish I could say it's been fun," they say to you, "but I really gotta get going now."

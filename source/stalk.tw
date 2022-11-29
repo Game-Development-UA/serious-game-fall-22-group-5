@@ -8,7 +8,7 @@ After following them for about 5 minutes you [[trip on your shoe lace|Trip]].
 [[Live life on the edge| Keep Walking]]
 
 :: Gear
-Spy gear obvioulsy. No one will be able to recognize you.
+Spy gear obviously. No one will be able to recognize you.
 
 [[Back|Stalk]]
 
@@ -24,7 +24,7 @@ It was kind of embarrassing for you.
 You bend down to tie your shoes and hear a loud screeching noise and a bang.
 You look up to see $friendFirstName laying in the road.
 Before the you could even get there your friend had already died.
-later you lay in bed and think how things could of gone diffrently.
+later you lay in bed and think how things could of gone differently.
 [[Start Over?|Start]]
 [[Try following again| Stalk]]
 
@@ -34,7 +34,7 @@ You decide that life is more fun living on the edge so who needs to tie their sh
 You stand up after tripping and see your friend being stupid and not looking both ways.
 A car is rushing down the road and your friend is in its path.
 You scramble to think of what to do...
-[[OMG you forogt to tie your shoes| Tie Shoes]]
+[[OMG you forgot to tie your shoes| Tie Shoes]]
 [[Yell AHHHHHHHHHH| Yell]]
 
 :: Yell
@@ -42,15 +42,15 @@ You scramble to think of what to do...
 You Scream a girlish scream like you had just seen a Ghost.
 Your scream echos off the buildings and $friendFirstName darts their head back.
 Worried you will be found out you dash being the nearest light post.
-The concerened people around you stare and try to approch you but you shooed them away.
-$friendFirstName Did not pay much mind and continued walking [[forward|Resturant]].
+The concerned people around you stare and try to approach you but you shooed them away.
+$friendFirstName Did not pay much mind and continued walking [[forward|Restaurant]].
 
-:: Resturant
+:: Restaurant
 
-Following closly behing $friendFirstName you make your way to a nice Chinese resturant.
+Following closely behind $friendFirstName you make your way to a nice Chinese restaurant.
 They walk in to get some dinner.
 [[Wait outside|Outside]]
-[[Follow into the resturant|Dinner]]
+[[Follow into the restaurant|Dinner]]
 [[Find a way into the kitchen|Kitchen]]
 
 :: Outside
@@ -58,23 +58,23 @@ They walk in to get some dinner.
 A very cute puppy comes running up to you. It has adorable Puppy eyes
 and starts licking your ankles. you get distracted and start petting it.
 They look so happy! You have made such a great friend!
-$friendFirstName however is not doing to hot because they are curently [[choking|Choke]] on a shrimp.
+$friendFirstName however is not doing to hot because they are currently [[choking|Choke]] on a shrimp.
 
 :: Dinner
 
-You succesfully make it in unoticed and order some delicious fried rice.
+You successfully make it in unnoticed and order some delicious fried rice.
 $friendFirstName starts to move in a weird way and you realize they are choking.
-[[If they are going to be taken out by a shrimp it was ment to be.| Choke]]
+[[If they are going to be taken out by a shrimp it was meant to be.| Choke]]
 [[Save him yourself| Save]]
 [[Call for help| Boy Scout]]
 
 :: Kitchen 
 
-You remeber $friendFirstName has a server gluten allergy! So to make sure
+You remember $friendFirstName has a server gluten allergy! So to make sure
 they are not going to be poisoned you sneak through the back into the kitchen.
-You sneak into kitchen sucessfully and see the crazy comotion of a professional kitchen.
-There is a plate of fried rice and you remeber its $friendFirstName's favorite food.
-[[Talk to the chef and make sure they dont put soy sause on it| No Soy]]
+You sneak into kitchen successfully and see the crazy commotion of a professional kitchen.
+There is a plate of fried rice and you remember its $friendFirstName's favorite food.
+[[Talk to the chef and make sure they don't put soy sauce on it| No Soy]]
 [[Wait it out| Soy]]
 
 :: No Soy
@@ -82,9 +82,9 @@ There is a plate of fried rice and you remeber its $friendFirstName's favorite f
 <<set soy to false>>
 You Talk with the chef and explain the situation and of course she completely understands.
 She takes good care of the plate and delivers it to $friendFirstName.
-Before you get a chance to leave the kitchen you hear a comotion from the dining area.
+Before you get a chance to leave the kitchen you hear a commotion from the dining area.
 You see $friendFirstName choking.
-[[If they are going to be taken out by a shrimp it was ment to be.| Choke]]
+[[If they are going to be taken out by a shrimp it was meant to be.| Choke]]
 [[Save him yourself| Save]]
 [[Call for help| Boy Scout]]
 
@@ -92,37 +92,37 @@ You see $friendFirstName choking.
 You hang around in the kitchen to long and the head chef starts yelling at you.
 She is pissed you are taking up so much room in her kitchen and demands you leave.
 While you argue the plate is taken away to $friendFirstName.
-You were unable to hear the comotion and $friendFirstName is [[choking|Choke]] on a shrimp.
+You were unable to hear the commotion and $friendFirstName is [[choking|Choke]] on a shrimp.
 
 :: Save
 
 In a rush of bravery and desperation you rush to save your friend.
-Rembering back to 6th grade health class you attempt the heimlich maneuver.
+Remembering back to 6th grade health class you attempt the heimlich maneuver.
 With 3 big push and a few cracks you see a shrimp fly across the room.
 $friendFirstName passes out from the pain.
-The [[ambulence| Hospital]] arives quickly.
+The [[ambulance| Hospital]] arrives quickly.
 
 :: Boy Scout
 
 You cry for help and a young boy jumps out of his seat he is maybe 12.
-He says dont worry im a Boy Scout! He grabs $friendFirstName and starts the 
+He says don't worry im a Boy Scout! He grabs $friendFirstName and starts the 
 heimlich maneuver and in one trust the shrimp goes flying.
-Everyone claps and $friendFirstName thanks the boy and dosnt even notice you.
-$friendFirstName appologises to the owner for the comotion and [[leaves.| Go Home]]
+Everyone claps and $friendFirstName thanks the boy and doesn't even notice you.
+$friendFirstName apologizes to the owner for the commotion and [[leaves.| Go Home]]
 
 :: Choke
 
-Before the ambulance can arive your friend stop breathing. You hear the
+Before the ambulance can arrive your friend stop breathing. You hear the
 siren ring in the distance and you wonder if you could of helped somehow.
 [[Start Over?|Start]]
-[[Out side the resturant| Resturant]]
+[[Out side the restaurant| Restaurant]]
 
 :: Hospital
 
-You ride in the abulence with your friend and wait in the waiting room
+You ride in the ambulance with your friend and wait in the waiting room
 to hear the news. The doctor comes in and tells you the sad news.
 <<if $soy == true>>\
-    [[Thier lower intestents have failed.|Failed]]\
+    [[Their lower intestines have failed.|Failed]]\
 <</if>>\
 <<if $soy == false>>\
     [[The internal bleeding was to much.|Ribs]]\
@@ -130,31 +130,31 @@ to hear the news. The doctor comes in and tells you the sad news.
 
 :: Failed
 
-The doctor lets you know that $friendFirstName's lower intestents
+The doctor lets you know that $friendFirstName's lower intestines
 have failed and they passed away a few moments ago. This must of been because of
 the gluten. You think what you could of done to save them.
 [[Start Over?|Start]]
-[[Out side the resturant| Resturant]]
+[[Out side the restaurant| Restaurant]]
 
 :: Ribs
 
 The doctor lets you know that $friendFirstName's ribs were 
 were broken and they lost to much blood and passed.
-you relize this is your fault and don't know how to cope.
+you realize this is your fault and don't know how to cope.
 [[Start Over?|Start]]
-[[Out side the resturant| Resturant]]
+[[Out side the restaurant| Restaurant]]
 
 :: Go Home
 
 $friendFirstName starts to head in the direction of there home.
 <<if $soy == true>>\
     About a mile in and $friendFirstName collapses. you quickly call 911 
-    after feeling there pulse. You ride with them to the hosibital and wait 
+    after feeling there pulse. You ride with them to the hospital and wait 
     patiently in the waiting room. [[The doctor comes out|Failed]].
 <</if>>\
-<<if $soy == Flase>>\
-    $friendFirstName makes it home saftley and you think to yourself
-    maybe nothing bad will happen to them. You will have to check in on a diffrent day.
+<<if $soy == false>>\
+    $friendFirstName makes it home safely and you think to yourself
+    maybe nothing bad will happen to them. You will have to check in on a different day.
     your friend survives for today.
     [[Start Over?|Start]]
 <</if>>\

@@ -5,23 +5,23 @@ Despite your best efforts to conceal emotion, $friendFirstName notices.
 
 With growing concerns, $friendFirstName genuinely asks, “Are you ok Hans? What is my fortune?” 
 
-“Don't worry. I'm just feeling a little under the weather ever since I opened shop." You respones.  
+“Don't worry. I'm just feeling a little under the weather ever since I opened shop." You response.  
 
-Your reassurance didn't seem to ease $friendFirstName concern, thus $friendFirstName repiles by saying, "Are you sure? 
-Despite our what happened between us, your my bestfriend. You can tell me almost anything."
+Your reassurance didn't seem to ease $friendFirstName concern, thus $friendFirstName replies by saying, "Are you sure? 
+Despite our what happened between us, your my best friend. You can tell me almost anything."
 
-Waves of guility start to come over you, yet your insist on assuring $friendFirstName that everything is fine.
+Waves of guilty start to come over you, yet your insist on assuring $friendFirstName that everything is fine.
 $friendFirstName at this point knows your stubborn nature too well and begrudgingly backs down.
 "Whatever Hans. Anyways about my fortune." $friendFirstName brings up.
 "Of course." you answered.
 
-You then proceded to tell $friendFirstName the remainder of your [[fabricated fortune | Say Ya Soon]] just to temporarily put you and $friendFirstName minds at ease.
+You then proceed to tell $friendFirstName the remainder of your [[fabricated fortune | Say Ya Soon]] just to temporarily put you and $friendFirstName minds at ease.
 
 
 :: Say Ya Soon
 
 “Alright Hans. I have to get back to work. You want my home number? Maybe we can reconnect sometime and hang out somewhere?”
-You of course can't refuse such a friendly offer. You thus accept the offer and then procede to exhange home numbers.
+You of course can't refuse such a friendly offer. You thus accept the offer and then proceed to exchange home numbers.
 "I'll be busy for the rest of the week trying to get this shop on its feet. Maybe sometime next week we can reconnect while downing some hard ones." You announced.
 "Sounds good. See you then." $friendFirstName replies.
 "Ya. Also, don't get yourself [[KILLED | Back To Work]]."
@@ -30,21 +30,21 @@ You of course can't refuse such a friendly offer. You thus accept the offer and 
 :: Back To Work
 
 As $friendFirstName walks out the store, you immediately question what happened to you. What were those memories? Why do it felt like your head was splitting?  
-Was it something supernatual? This never happened before, so why is it happening now? 
+Was it something supernatural? This never happened before, so why is it happening now? 
 <!-- Add an if statement that adds a path if the user got the regular ignore ending once. -->
 <<if $ignoreEnding is true>>
 Its possible to catch up to $friendFirstName and [[tell him | Warn Him]] of what you saw, but it would 
-be farfetch far-fetched to have $friendFirstName believe in what you witnessed, even though he is close to you.
+be farfetched to have $friendFirstName believe in what you witnessed, even though he is close to you.
 <<else>>
 Despite the history you had with $friendFirstName, you can't see him believing in such a fabricated tale.
-Espically from a new licensed fortune teller.
+Especially from a new licensed fortune teller.
 <</if>>
 You can't dwell on this forever. You need to stay calm, after all, you have a [[shop to run | Back Home]]. 
 
 <!-- Extra small route after completing the original ending to this route -->
 :: Warn Him
 
-At a moment's notice, you rushed out the door to your shop in order to catched up with $friendFirstName.
+At a moment's notice, you rushed out the door to your shop in order to catch up with $friendFirstName.
 "$friendFirstName! Wait!" You yelled.
 "Hans? Is there really nothing wrong with you?" $friendFirstName replied.
 
@@ -54,9 +54,9 @@ At a moment's notice, you rushed out the door to your shop in order to catched u
 
 "I'm serious. I have a gut feeling about this." You enounced.
 
-As expected, $friendFirstName looks at you in disbelief. "Hans, you of course trust your insticts, but I don't." $friendFirstName replies.
+As expected, $friendFirstName looks at you in disbelief. "Hans, you of course trust your instincts, but I don't." $friendFirstName replies.
 
-You then think for a moment about what to say to dissuade him from meeting his unforuntate fate:
+You then think for a moment about what to say to dissuade him from meeting his unfortunate fate:
 
 [[Ask to hang out later tonight | Ask to Hang Out]]
 [[Ask to go with him to your place | Go With Him Now]]
@@ -77,7 +77,7 @@ Despite the stress and anxiety that overwhelms you, [[work | Getting Ready]] sti
 Work was for the most part, uneventful. Only a few customers ever showed up. For most of the day,
 you were left with your thoughts. 
 
-Despite you and $friendFirstName not being related in anyway and the troubsome last encounter you 
+Despite you and $friendFirstName not being related in anyway and the troublesome last encounter you 
 had with $friendFirstName, he is like a brother to you. Witness someone you care about gone is 
 a gut wrenching feeling. 
 
@@ -88,12 +88,12 @@ When 8 o'clock hit, you immediately closed your shop and [[head to the bar | To 
 since the distance from the bar to your shop isn't far from where you work.
 
 :: To The Bar
-On your way to the bar, you hear a lot of commotion going on near the convinence store 
+On your way to the bar, you hear a lot of commotion going on near the convenience store 
 on 14th street. You thus looked over and notice a familiar face going around yelling at those 
 that pass by. 
 
 As you got closer, you became completely shocked when you realized that the person causing all of the commotion is $friendFirstName.
-You then quickly ran over to the situation to talk with $friendFirstName and deescalte the situation.
+You then quickly ran over to the situation to talk with $friendFirstName and deescalate the situation.
 
 "$friendFirstName! Are you ok? What's wrong?" You shouted.
 
@@ -119,11 +119,11 @@ dau to ensure his safety.
 
 $friendFirstName hesitated for a bit and replies, "Ummm... I have plans-" 
 
-"Your free today? What a coincidence! I have some beer and other drinks at my place too. We can catch up." You brusted out.
+"Your free today? What a coincidence! I have some beer and other drinks at my place too. We can catch up." You bursted out.
 
 $friendFirstName let out a slight sigh and says, "Alright, fine. If it makes you stop acting bizarre."
 
-You then close the shop and procede to your [[place | Stop by Home]].
+You then close the shop and proceed to your [[place | Stop by Home]].
 
 <!-- Original Ignore Route -->
 :: Back Home
@@ -138,25 +138,25 @@ set in stone and fate exists. Also, what about the memory? Did you acquire some 
 no one to answer them. 
 
 You can't sleep. The constant thinking makes you more anxious. You got up from your bed, you grab some beer from 
-the fridge and watch the nightly news hosted by FOX. However, there is nothing serious being shown on FOX news at the momment. The bordom
+the fridge and watch the nightly news hosted by FOX. However, there is nothing serious being shown on FOX news at the moment. The boredom
 and the the feeling of buzz one gets after consuming several cold beers somehow puts your mind at ease and you slowly [[close your eyes | Fond Memories 1]] right on the 
 coach.
 
 
 
 <!-- Relive a memory to remember the good days -->
-<!-- Maybe if there is time. Have different memories based on the cards you choosen in the minigame. -->
+<!-- Maybe if there is time. Have different memories based on the cards you choose in the minigame. -->
 :: Fond Memories 1
 
-Its been 2 weeks since you arrived to the MCRD in San Diego. Its been grueling. The costant 
-screeming from you, your peers, and the drill sergeants, the back breaking exercising. You 
+Its been 2 weeks since you arrived to the MCRD in San Diego. Its been grueling. The constant 
+screaming from you, your peers, and the drill sergeants, the back breaking exercising. You 
 of course expected the extreme difficulty but yet today has been the worst day so far. 
 
 You went through the obstacle course more than a dozens times, and along with the 
-unbearable Californa heat you never felt worse. Once chow time came, you had to announce
-to the drill sergeants that your regement was coming into the cafeteria. Unforuntately, 
+unbearable California heat you never felt worse. Once chow time came, you had to announce
+to the drill sergeants that your regiment was coming into the cafeteria. Unfortunately, 
 you messed up the phrase. With the feelings of anxiety and nausea looming over you, 
-you proceded to throw up on the floor. 
+you proceeded to throw up on the floor. 
 
 Whats worse is that you then had to clean it up while also getting shouted at by 
 your drill sergeants getting constantly shouted at by the drill sergeants. You 
@@ -172,7 +172,7 @@ floors as well.
 
 "Here you go Hans Puker." $friendFirstName utters as he passes you the dish soap.
 
-You released a short but noticable sigh and replied with "Thanks."
+You released a short but noticeable sigh and replied with "Thanks."
 
 $friendFirstName laughs and says, "Just kicking your ass. Seriously though, it might suck now but eventually all things end, and
 bootcamp is no exception. Just got to keep your head up so as to not slow the others down." 
@@ -187,13 +187,13 @@ The sound of the alarm rises you up from your slumber. You instinctively get up 
 couch and turned off your alarm.
 
 It only took a few seconds for you to realize that you feel asleep on the couch with the television on.
-Shortly after, you started cleaning the mess up made last night. Suddenly, you heard a familar
-name coming from the [[news channel | Tragedy 1 Part 2]] being brodcasted to the television.
+Shortly after, you started cleaning the mess up made last night. Suddenly, you heard a familiar
+name coming from the [[news channel | Tragedy 1 Part 2]] being broadcasted to the television.
 
 :: Tragedy 1 Part 2
 
 "Last Night, a shooting took place near a convenience store on 14th which resulted in the death of 
-30 year old $friendFirstName $friendLastName. Witnesses told San Fransisco PD that $friendLastName
+30 year old $friendFirstName $friendLastName. Witnesses told San Francisco PD that $friendLastName
 was in a heat argument with the suspect. The situation escalated when the suspect 
 pulled out a gun and open fired on $friendLastName which wounded him severely. Shortly 
 after arriving at the hospital, $friendLastName was pronounced dead."

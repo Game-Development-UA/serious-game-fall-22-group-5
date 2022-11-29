@@ -12,27 +12,27 @@ You draw the $cardDrawn1 tarot card in the <u>upright</u> position!
 <<elseif $cardDrawn1 == "Empress">>\
     <img src="media/empress.png" style="width: 30%;" alt="Empress Tarot">
 
-    [["I draw the Empress card, this could signify " + $empressList.pluck() + "."|Correct]]
     [["I draw the Empress card, this could signify " + $empressListReversed.pluck() + "."|Partially]]
+    [["I draw the Empress card, this could signify " + $empressList.pluck() + "."|Correct]]
     [["I draw the Empress card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
 <<elseif $cardDrawn1 == "Judgement">>\
     <img src="media/judgement.png" style="width: 30%;" alt="Judgement Tarot">
 
+    [["I draw the Judgement card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
     [["I draw the Judgement card, this could signify " + $judgementList.pluck() + "."|Correct]]
     [["I draw the Judgement card, this could signify " + $judgementListReversed.pluck() + "."|Partially]]
-    [["I draw the Judgement card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
 <<elseif $cardDrawn1 == "Star">>\
     <img src="media/star.png" style="width: 30%;" alt="Star Tarot">
 
     [["I draw the Star card, this could signify " + $starList.pluck() + "."|Correct]]
-    [["I draw the Star card, this could signify " + $starListReversed.pluck() + "."|Partially]]
     [["I draw the Star card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+    [["I draw the Star card, this could signify " + $starListReversed.pluck() + "."|Partially]]
 <<elseif $cardDrawn1 == "Tower">>\
     <img src="media/tower.png" style="width: 30%;" alt="Tower Tarot">
     
-    [["I draw the Tower card, this could signify " + $towerList.pluck() + "."|Correct]]
     [["I draw the Tower card, this could signify " + $towerListReversed.pluck() + "."|Partially]]
     [["I draw the Tower card, this could signify " + $wrongList.pluck() + "."|Incorrect]]
+    [["I draw the Tower card, this could signify " + $towerList.pluck() + "."|Correct]]
 <</if>>\
 
 :: Correct
@@ -80,26 +80,26 @@ You draw the $cardDrawn2 tarot card in the <u>upright</u> position!
 <<if $cardDrawn2 == "Moon">>\
     <img src="media/moon.png" style="width: 30%;" alt="Lovers Tarot">
 
-    [["I draw the Moon card, this could signify " + $loversList.pluck() + "."|Correct 2]]
-    [["I draw the Moon card, this could signify " + $loversListReversed.pluck() + "."|Partially 2]]
     [["I draw the Moon card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+    [["I draw the Moon card, this could signify " + $moonList.pluck() + "."|Correct 2]]
+    [["I draw the Moon card, this could signify " + $moonListReversed.pluck() + "."|Partially 2]]
 <<elseif $cardDrawn2 == "World">>\
     <img src="media/world.png" style="width: 30%;" alt="Empress Tarot">
 
     [["I draw the World card, this could signify " + $worldList.pluck() + "."|Correct 2]]
-    [["I draw the World card, this could signify " + $worldListReversed.pluck() + "."|Partially 2]]
     [["I draw the World card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+    [["I draw the World card, this could signify " + $worldListReversed.pluck() + "."|Partially 2]]
 <<elseif $cardDrawn2 == "Fool">>\
     <img src="media/fool.png" style="width: 30%;" alt="Fool Tarot">
 
-    [["I draw the Fool card, this could signify " + $foolList.pluck() + "."|Correct 2]]
     [["I draw the Fool card, this could signify " + $foolListReversed.pluck() + "."|Partially 2]]
     [["I draw the Fool card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
+    [["I draw the Fool card, this could signify " + $foolList.pluck() + "."|Correct 2]]
 <<elseif $cardDrawn2 == "Sun">>\
     <img src="media/sun.png" style="width: 30%;" alt="Star Tarot">
 
-    [["I draw the Sun card, this could signify " + $sunList.pluck() + "."|Correct 2]]
     [["I draw the Sun card, this could signify " + $sunListReversed.pluck() + "."|Partially 2]]
+    [["I draw the Sun card, this could signify " + $sunList.pluck() + "."|Correct 2]]
     [["I draw the Sun card, this could signify " + $wrongList.pluck() + "."|Incorrect 2]]
 <<elseif $cardDrawn2 == "Chariot">>\
     <img src="media/chariot.png" style="width: 30%;" alt="Tower Tarot">
