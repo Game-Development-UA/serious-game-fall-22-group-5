@@ -1,14 +1,26 @@
-/* The body is everything displayed in the main text delivery area
+/* The body is everything displayed in the main text delivery area */
 body {
-	background: blue;
+	background: #24242A;
+	font-family: 'Syne', sans-serif;
 }
-*/
 
-/* This class is specific to the text in the passages
-.passage {
-    border: 1px solid red;
+/* This class is specific to the text in the passages*/
+.passage { 
+    text-align: center;
+	font-size: 12pt;
 }
-*/
+
+h1 {
+	font-family: 'Inter', sans-serif;
+	font-size: 30pt;
+}
+
+a {
+	font-family: 'Inter', sans-serif;
+	font-size: 14pt;
+	font-style: italic;
+	color: #ff3632;
+}
 
 /* This id is specific to the sidebar
 #ui-bar {
