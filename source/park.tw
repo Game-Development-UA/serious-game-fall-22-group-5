@@ -1,0 +1,394 @@
+::Park
+<<set $bitterness to 0>>
+You and $friendFirstName decide to head to the park. Breathe in some of that fresh air, take 
+in some of nature's eye candy. EXPERIENCE that lovely scenery.
+
+It's a lot less active today then you would've expected, people-wise, especially on such a 
+lovely day like today. The sun was beaming with a brilliant energy like you've never seen
+before, although maybe that's just because you spend all day cooped up in your little
+fortune-reading shop. Nevertheless, you don't really notice a lot of kids around you,
+which is honestly for the better. A wailing infant could really interfere with your ability
+to just soak in the atmosphere.
+
+On the nature-side of things, it's a whole different story. You almost feel like you're
+in the woods. You can see butterflies floating about, ducks swimming along, and hell, over
+yonder you can make out a pair of deer. The greenery was so green and the sky was so blue,
+you almost are convinced you'd gone colorblind.
+
+"Yup," you think to yourself. "This place is definitely a park." A beautiful park, at that,
+but it was still absolutely a park.
+
+[[Next|Next0]]
+
+::Next0
+You glance over at your friend. In contrast to the beauty of nature, your friend's whole
+vibe was off. They're clearly, at the very least, slightly uncomfrotable. I mean, of course they 
+are. After the [[shit|Backstory]] that went down. The current mood is... awkward.
+
+You try to break the ice by asking
+[[How their marriage is going|MarriageQ]]
+[[How one of your old friends is doing|FriendQ]]
+[[About their old aspiration of playing guitar|GuitarQ]]
+
+::Backstory
+You remember it as clear as if it had just happened yesterday. You and your friend were
+inseperable in high school, like peas in a pod. They were your plus one to everything, and
+you were to his. All group projects you two ever did, you did together. A party was not
+attended where, only one of you two were there. You two were attached at the hip
+
+You two were each others' personal confidants. There was basically a telepathic link between
+you two, because if you knew something, then $friendFirstName was bound to find out sooner or later.
+<<timed 3s>>
+That's why the knowledge that you'd be going to a different university stung so bad.
+
+[[Next|BackstoryNext0]]
+<</timed>>
+
+::BackstoryNext0
+It was all because of a girl you liked. What was her name? 
+
+Oh right.
+
+Kathy.
+
+It honestly didn't matter anyway. In like junior year of university after gathering up
+the courage to confess your feelings to her, she rejected you anyway.
+
+All that matters is that you chose to go out of state to follow her to Glaggleblorp
+University instead of staying with $friendFirstName in state at the Univeristy of
+Wogglemurphy.
+
+I mean, you tried to tell $friendFirstName that it was all about your degree and your major,
+since Glaggleborp had the most prestigious engineering course in the country (that was a
+lie) and that you just really wanted to look for internships and study hard (you spent nearly
+every day there partying and getting drunk), but it still felt like a stab in the back
+after all the time you two spent together in high school.
+
+But honestly, that was a you thing. You were willing to apologize for everything. After all,
+it's been years at this point. What you weren't willing to forget, was what happened after
+that. When you two were in the [[military|BackstoryNext1]]
+
+::BackstoryNext1
+Years later all that partying caught up to you and you found yourself in the military, and it
+just so happened that you and $friendFirstName were in the same platoon. You two noticed recognized each
+other right away, but never had the opportunity to speak with one another. The military regimen
+and routine was far too strict. 
+
+War broke out between you and some country that nobody cares about, for a resource that we cared
+way too much about to be doing this shit. Your platoon was one of the ones deployed on enemy
+territory. When advancing towards the enemy, your platoon found itself in a complete sense of
+disarray. The enemy was waiting for you to come, and they ambushed you.
+
+It was complete chaos after that. Explosions filled your direct line of sight and bullets
+filled your peripherals. You barely remember what happened after that, but you do know at one
+point you found yourself [[caught on an enemy trap|BackstoryNext2]]
+
+::BackstoryNext2
+You remembered the searing pain that coursed through your body when you fell into that pit of
+spikes. It rendered you almost unable to move at all, with nearly every part of your body being
+penetrated by sharp iron.
+
+Then you heard the sound of running in the distance, and warcries from the enemy soldiers' native 
+language. "Oh god," you thought to yourself. "This is the end."
+
+Then you saw $friendFirstName running by, obviously fleeing.
+
+[[Next|BackstoryNext3]]
+
+::BackstoryNext3
+<<set _fnCaps to $friendFirstName.toUpperCase()>>
+You cry out to them. "_fnCaps!"
+
+They turn around and notice you.
+
+"Hans..?" they say, really raspily. They've been running for so long.
+
+"_fnCaps! PLEASE! HELP!"
+
+[[Next|BackstoryNext4]]
+
+::BackstoryNext4
+They hesitated for a bit.
+
+Then the noise of the enemy hit a peak.
+
+Then they ran.
+
+$friendFirstName left you for dead.
+
+[[Next|BackstoryNext5]]
+
+::BackstoryNext5
+You couldn't believe it. Was that just the person you were to them? After all those years
+you spent together in high school, after all the stuff you two went through together. I guess
+they never really forgave you for leaving them to go to university out of state.
+
+You didn't know what to do. You ignored the searing pain of the spikes, your body was more
+experiencing an intense feeling of sadness and anger, like it was on fire.
+
+Then an enemy soldier ran in, and it was back to fear again.
+
+[[Next|BackstoryNext6]]
+
+::BackstoryNext6
+All of a sudden, you felt dizzy. Your brain experienced signals that you barely even could
+comprehend, much less recognize. Suddenly, you had a vision. The enemy soldier looked around,
+checking for other members of your platoon, and then you cried. The soldier noticed you from
+this, and shot you dead. At least, that was what your vision said. 
+
+But the key thing was, you could tell he didn't acknowledge your presence until he could tell
+you were alive.
+
+You played dead. The enemy soldier checked the room all stealth-like, to see if anybody else
+was there, then quickly ran out. Regardless of whether or not he actually thought you were dead,
+you were alive, and that was all that mattered.
+
+You mustered up all the power it took for you to crawl out of that trap. All of this new information
+filled your mind all at once, it was almost overwhelming in a sense. The fact that you almost
+died, your ex-best friend leaving you for dead, your newfound ability to literally READ THE
+FUCKING FUTURE, not only that, but tamper with it knowing the effects of your actions. It was way
+too much to take in, this in conjunction with the fact that you were bleeding out real hard.
+
+[[Next|BackstoryNext7]]
+
+::BackstoryNext7
+You limped your way back to the rest of your platoon, miraculously not encountering any enemies
+on your way there. A ceasefire must've happened or something. You didn't see $friendFirstName after that.
+All you know is that immediately after this, you left the military to put your fortune telling
+abilities to work and started your own tarot-card-reading business. 
+
+Of course, not after betting on a few horse races and buying your own place.
+
+But the feeling of betrayal still stung you. How could $friendFirstName do that? Leaving you for
+dead. If they had just helped you up and brought you to safety, the chance that you survived
+was significantly larger than them just leaving you there like that, but they only thought about
+their own hide. You only lived because you had this newfound ability to read the future. Not
+like either of you knew about it though.
+
+And that's why neither of you were ever willing to apologize to each other after all this time.
+Until now, that is. I mean it's been years, and you both were doing seemingly well for yourselves.
+I mean, your tarot card readings were actually accurate, and business was going well for you
+after your reputation as a good fortune teller spread more widely.
+
+[[But back to the present|OriginalQuestions]]
+
+::OriginalQuestions
+You sling your mind back to the present. You wanted to clear the uncomfortable feeling in the air.
+
+You try to break the ice by asking
+[[How their marriage is going|MarriageQ]]
+[[How one of your old friends is doing|FriendQ]]
+[[About their old aspiration of playing guitar|GuitarQ]]
+
+::MarriageQ
+"So, uh... how's the marriage going? Y'know, with Barbara," you ask $friendFirstName. You
+heard from another old friend in high school a while back that they got married to someone they
+met in univerisity.
+
+"Oh, Barbara? We got divorced a few years ago," they said. "I'm on my third wife at this point. 
+Annabeth, her name is."
+
+[[Congratulate about marriage|CongratsMarriage]]
+[[Inquire about Barbara|BarbaraQ]]
+
+::CongratsMarriage
+"Well, hey, congrats on getting THREE other people to date you," you laughed. "Still been
+single my entire life, ever since... "
+
+You stop the sentence there. You don't want to bring up Kathy.
+<<set $bitterness to $bitterness + 1>>
+<<if $bitterness gte 2>>Test!<<else>>Failed<</if>>
+[[Next|LottaParkEncounter1]]
+
+::BarbaraQ
+"Oh, well how's Barbara doing? I heard you guys were old flings back in the university
+days?" you queried.
+
+"Oh I dunno, probably sleeping with other people, having fun, probably enjoying life without
+having a spouse who works 40 hours a week to hold her back," $friendFirstName replied.
+
+Wow. You did not anticipate that level of self loathing. I mean sure, there was obvious
+sarcasm thrown in there, but the bitterness is palpable.
+
+"Well, I mean, you found happiness yourself, right?" you say, slightly nervously.
+
+"Yeah, but for how long? Our marriage is a wreck. We sleep in separate beds, we hardly look
+at or talk to each other anymore. She goes out all the time on money that I EARN."
+
+His eyes get more tense.
+
+"Everybody who I love or appreciate leaves me. It's all just a matter of time."
+
+Damn. You did not expect that. You don't say anything, since you're kind of in that camp
+yourself.
+
+<<set $bitterness to $bitterness + 4>>[[Next|LottaParkEncounter1]]
+
+::FriendQ
+"So... how's Miguel?" you inquire. Miguel was also one of your friends in your high school
+era friend trio. Of course, he was never as close to you or $friendFirstName as you two were to each
+other, but he was a good friend of both of you nonetheless. Miguel went to the same university
+as $friendFirstName.
+
+"Oh, him?" $friendFirstName replied. "I haven't talked to him in yeeeeears, man. I dunno what's
+up with him at this point. Ever since he took a high dive off that building."
+
+Whoa, what? 
+
+I mean, Miguel was kind of the wild card of the group. Of course he'd do something like that.
+
+[[Ask more about that|HighDiveQ]]
+[[Reminisce about old stuff Miguel did|OldStuff]]
+
+::HighDiveQ
+"What happened on the high dive?" you prodded.
+
+"Uhh...." $friendFirstName hesitated. "So y'know how Miguel likes to do really stupid shit? Well
+one time he was super drunk and did like a dare thing with his frat. He bet everyone in his frat
+$100 that he could jump off the 3rd floor of their fraternity building while doing a backflip.
+Spoilers, he landed on his head."
+
+Honestly the strangest part of that anecdote was that he had money to bet on things.
+
+"Sucks, because he was honestly my only friend in uni," they continued, very obviously taking
+a jab at you.
+
+<<set $bitterness to $bitterness + 2>> [[Next|LottaParkEncounter1]]
+
+::OldStuff
+"Well, I mean Miguel always had a penchant for doing really stupid stuff. Remember how he
+flooded the high school gym with goat blood?"
+
+$friendFirstName chuckled. "I know! It was up to my ankles! I couldn't get the red out of my
+socks!"
+
+"Or that time he was doing donuts in the parking lot and almost crashed his car into the
+principal's!" you say.
+
+It feels good to bring up an old friend's silly little antics. Even if he died doing one in
+the end.
+
+<<set $bitterness to $bitterness - 2>>[[Next|LottaParkEncounter1]]
+
+::GuitarQ
+"Hey, so how's the whole guitar thing comin? You the famous bass player of an insane rock
+band yet?" you ask. They really were nutty with the bass back in the day. They always went
+on about how they wanted to "make it big," and how a degree was only their backup plan.
+
+"Oh y'know," they pointed to themselves. "Recognize me on Oprah? Yeah, I'm a big deal."
+
+They were obviously joking, but it's nice to know that they look at their old aspirations
+and dreams with humor instead of regret. <<set $bitterness to $bitterness - 1>>
+
+[[Ask why haven't they made it big|FameYetQ]]
+[[Talk about old bass experiences|OldBass]]
+
+::FameYetQ
+"So... why haven't you made it big yet?" you prod jokingly.
+
+"Oh, well I mean... I was in a band at one point. But then my second wife Lisa got really
+sick of me playing bass around the house all the time so she smashed my guitar on the
+ground and broke it," they said, the smile fading from his face. "I felt really bad about it,
+and quit the band shortly after."
+
+Wow. That's really bad. You remember how much they LOVED that guitar, it was a gift from his
+dad on his 14th birthday, a dad who died shortly after giving it to him. That really sucks.
+
+[[Next|LottaParkEncounter1]]
+
+::OldBass
+"Well of course I've seen you on the covers of magazines and all that stuff," you say, playing
+along with the joke. "Bass is your natural god-given talent. Remember when you played bass for
+Gwen back at that one party in 11th grade?"
+
+"Oh c'mon," they say, smirking. "I'm not THAT good."
+
+"No you were! She was totally entranced by your hypnotic bass playing."
+
+They laugh. Honestly reminiscing on the past is making you feel pretty good at the moment.
+
+<<set $bitterness to $bitterness - 3>>[[Next|LottaParkEncounter1]]
+
+::LottaParkEncounter1
+You keep walking along the main park path, talking about your respective lives.
+
+All of a sudden, you see your first customer. Lotta Hart, you recall her name to be. Honestly,
+you completely forgot what fortune you gave her. 
+
+You choose to:
+[[Say hi|LottaHart]]
+[[Ignore her|IgnoreLotta]]
+
+::LottaHart
+"Hey, there's a customer I had today!" you say to $friendFirstName, pointing to her. "I read her fortune
+a while ago, before you came in."
+
+"Wow, what did you read her fortune to be?"
+
+You pause. "I'm... I'm not sure. I can barely remember what fortunes I give people. I just know
+her name was like 'Lotta Heart,' or something weird like that.
+
+[[Next|lh2]]
+::lh2
+<<if $lovers is true>>
+You go over to Lotta, clearly nervous. She has trouble interacting with birds, let alone
+people. Right away, from the moment she walked into your shop, you could tell she was a shy 
+person.
+
+Doesn't matter. You still want to say [[hi|lhInLove]], see how it's been going. I mean, she was a patron
+of your VERY prestigious tarot shop. You want to see how that little fortune you read for
+her is going.
+<<elseif $passion is true>>
+You go over to Lotta who is talking to her boyfriend.
+<</if>>
+
+::lhInLove
+You go over to her, $friendFirstName following close behind.
+
+"Hi... Lotta.. was it?" you say to her.
+
+"Oh, hi..." she said, nervously. "The fortune teller, right? Fancy running into you here,
+of all places..." she wouldn't meet your eyes.
+
+"Oh hey!", $friendFirstName bounds over to her. "Nice to meet you, Lotta," he chuckles.
+"This guy over here, Hans, read your fortune, right? Did those little tarot cards of his slip
+out of his fingers, knowing how absolutely sweaty this guy gets around women."
+
+"Uh.. no... he just read me that I would fall in love soon," she replied. 
+
+"Ohhh..." they say. "Well, honestly, anyone could've read that without a fancy schmancy deck
+of cards. From how nice you look, he probably just used context clues."
+
+Lotta blushes, and then perks up. She's probably not used to out-of-the-blue compliments like
+that. "W-well... I guess..."
+
+You take slight offense to $friendFirstName bashing your profession, but you let it slide. It
+was probably just their natural charisma taking the wheel. 
+
+$friendFirstName offers Lotta to join you and them on the little park [[walk|lhInLove2]]. She accepts.
+
+::lhInLove2
+After walking for a half hour with Lotta accompanying you two, you now feel like a third wheel.
+$friendFirstName is totally vibing with her in a way you knew all too well. They were crackin jokes,
+making references to obscure pieces of media that she understood, and honestly just being an
+all around charming fella. You could tell they were a totally different person when they were talking
+to someone else. They were just oblivious to that fact.
+
+It was also really easy to tell she was kind of falling for $friendFirstName right now. She blushed whenever
+they complimented her, she was super talkative to him, she even came up with a nickname for them
+instantly. It didn't take a detective to see that she had a giant crush on them.
+
+Well, sooner or later, she's going to ask him out.
+<<timed 4s>>
+Any second now
+<</timed>>
+<<timed 6s>>
+[[Aaaaaany second now.|lhInLove3]]
+<</timed>>
+
+::lhInLove3
+Okay, this is taking way too long. An hour has passed, and she's still way too shy to do anything
+or make a move at all.
+
+You pull $friendFirstName to the side.
+
