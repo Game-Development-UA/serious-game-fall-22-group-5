@@ -37,14 +37,19 @@ You draw the $cardDrawn1 tarot card in the <u>upright</u> position!
 
 :: Correct
 <<set $lovers to true>>
+<i>That felt like the correct reading, I guess all that studying paid off!</i>
+
 "I see happiness and romance in your future, all you need is patience.
 Wait a bit. Who knows how long? It might be tomorrow, it might be a year.
 Just know that soon, your soulmate will surely come to you."
 
 "Wow, you really think so?" she bounds. "Thank you!"
+
 [[Next|Second Tarot Reading]]
 
 :: Partially
+<i>Something about the reading feels a little off. Did I consider the orientation?</i>
+
 "Oh wow," you say, on a whim. "These cards being pulled specifically are rare. Love for
 you is very fleeting. Within the next few days you must confess your love to the
 person you love most, or you'll stay single for the rest of your life!"
@@ -64,6 +69,8 @@ Ah, to hell with it. It's not your problem anyway. <<set $passion to true>>
 [[Next|Second Tarot Reading]]
 
 :: Incorrect
+<i>I completely read that wrong, maybe I should read my books more carefully.</i>
+
 "Hmmm..." you say, "That card usually doesn't bode well romantically. It might signify a lack of love in the near future, maybe.
 It's hard to tell."
 
@@ -111,6 +118,8 @@ You draw the $cardDrawn2 tarot card in the <u>upright</u> position!
 
 :: Correct 2
 <<set $anger to true>>
+<i>That felt like the correct reading, I guess all that studying paid off!</i>
+
 He scoffs. You continue.
 
 "Big things are coming your way. BIIIIIG changes. It's not very clear
@@ -127,6 +136,8 @@ He storms off clearly not ready to accept the truth just yet, maybe he just need
 [[Proceed with Story|Friend Encounter]]
 
 :: Partially 2
+<i>Something about the reading feels a little off. Did I consider the orientation?</i>
+
 "This combination of cards... I think in your case it's best we take them a
 bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
 maybe even study up on some atlases. Just you wait. Good things will come
@@ -138,6 +149,7 @@ due to the large welt on his head.
 [[Proceed with Story|Friend Encounter]]
 
 :: Incorrect 2
+<i>I completely read that wrong, maybe I should read my books more carefully.</i>
 He stares at you as if you just grew a third eye.
 
 "What the hell did you just say to me!?"

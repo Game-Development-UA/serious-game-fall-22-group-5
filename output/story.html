@@ -108,7 +108,8 @@ body {
 
 /* This class is specific to the text in the passages*/
 .passage { 
-    text-align: center;
+	padding: 10px;
+    text-align: justify;
 	font-size: 12pt;
 }
 
@@ -1562,12 +1563,17 @@ You draw the $cardDrawn1 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
     [[&quot;I draw the Tower card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect]]
     [[&quot;I draw the Tower card, this could signify &quot; + $towerList.pluck() + &quot;.&quot;|Correct]]
 &lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="138" name="Correct" tags="" position="975,1725" size="100,100">&lt;&lt;set $lovers to true&gt;&gt;
+&lt;i&gt;That felt like the correct reading, I guess all that studying paid off!&lt;/i&gt;
+
 &quot;I see happiness and romance in your future, all you need is patience.
 Wait a bit. Who knows how long? It might be tomorrow, it might be a year.
 Just know that soon, your soulmate will surely come to you.&quot;
 
 &quot;Wow, you really think so?&quot; she bounds. &quot;Thank you!&quot;
-[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="139" name="Partially" tags="" position="1100,1725" size="100,100">&quot;Oh wow,&quot; you say, on a whim. &quot;These cards being pulled specifically are rare. Love for
+
+[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="139" name="Partially" tags="" position="1100,1725" size="100,100">&lt;i&gt;Something about the reading feels a little off. Did I consider the orientation?&lt;/i&gt;
+
+&quot;Oh wow,&quot; you say, on a whim. &quot;These cards being pulled specifically are rare. Love for
 you is very fleeting. Within the next few days you must confess your love to the
 person you love most, or you&#39;ll stay single for the rest of your life!&quot;
 
@@ -1583,7 +1589,9 @@ you is glad she finally has the drive to ask that person out. Then you remember
 you lied to her about the fortune.
 
 Ah, to hell with it. It&#39;s not your problem anyway. &lt;&lt;set $passion to true&gt;&gt;
-[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="140" name="Incorrect" tags="" position="1225,1725" size="100,100">&quot;Hmmm...&quot; you say, &quot;That card usually doesn&#39;t bode well romantically. It might signify a lack of love in the near future, maybe.
+[[Next|Second Tarot Reading]]</tw-passagedata><tw-passagedata pid="140" name="Incorrect" tags="" position="1225,1725" size="100,100">&lt;i&gt;I completely read that wrong, maybe I should read my books more carefully.&lt;/i&gt;
+
+&quot;Hmmm...&quot; you say, &quot;That card usually doesn&#39;t bode well romantically. It might signify a lack of love in the near future, maybe.
 It&#39;s hard to tell.&quot;
 
 &quot;Oh... really?&quot; the customer says. &quot;That sucks.&quot;
@@ -1624,6 +1632,8 @@ You draw the $cardDrawn2 tarot card in the &lt;u&gt;upright&lt;/u&gt; position!
     [[&quot;I draw the Chariot card, this could signify &quot; + $chariotListReversed.pluck() + &quot;.&quot;|Partially 2]]
     [[&quot;I draw the Chariot card, this could signify &quot; + $wrongList.pluck() + &quot;.&quot;|Incorrect 2]]
 &lt;&lt;/if&gt;&gt;\</tw-passagedata><tw-passagedata pid="142" name="Correct 2" tags="" position="225,1850" size="100,100">&lt;&lt;set $anger to true&gt;&gt;
+&lt;i&gt;That felt like the correct reading, I guess all that studying paid off!&lt;/i&gt;
+
 He scoffs. You continue.
 
 &quot;Big things are coming your way. BIIIIIG changes. It&#39;s not very clear
@@ -1637,7 +1647,9 @@ ear? I&#39;m FINE just the way I am. It&#39;s everybody else that&#39;s the prob
 the SYSTEM. It&#39;s my WIFE!&quot;
 
 He storms off clearly not ready to accept the truth just yet, maybe he just needs to process it for a while.
-[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="143" name="Partially 2" tags="" position="350,1850" size="100,100">&quot;This combination of cards... I think in your case it&#39;s best we take them a
+[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="143" name="Partially 2" tags="" position="350,1850" size="100,100">&lt;i&gt;Something about the reading feels a little off. Did I consider the orientation?&lt;/i&gt;
+
+&quot;This combination of cards... I think in your case it&#39;s best we take them a
 bit more on the nose. Watch more Judge Judy. Look at the moon more. Hey,
 maybe even study up on some atlases. Just you wait. Good things will come
 to you if you do.&quot;
@@ -1645,7 +1657,8 @@ to you if you do.&quot;
 &quot;...What?&quot; He&#39;s less angry, more confused. He walks out scratching his head,
 either because he&#39;s questioning the complete nonsense you just made up, or
 due to the large welt on his head.
-[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="144" name="Incorrect 2" tags="" position="475,1850" size="100,100">He stares at you as if you just grew a third eye.
+[[Proceed with Story|Friend Encounter]]</tw-passagedata><tw-passagedata pid="144" name="Incorrect 2" tags="" position="475,1850" size="100,100">&lt;i&gt;I completely read that wrong, maybe I should read my books more carefully.&lt;/i&gt;
+He stares at you as if you just grew a third eye.
 
 &quot;What the hell did you just say to me!?&quot;
 

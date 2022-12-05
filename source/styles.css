@@ -6,7 +6,8 @@ body {
 
 /* This class is specific to the text in the passages*/
 .passage { 
-    text-align: center;
+	padding: 10px;
+    text-align: justify;
 	font-size: 12pt;
 }
 
